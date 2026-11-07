@@ -262,6 +262,11 @@ Install: put this file in Scripts/ScriptUI Panels and the scanner next to it or 
 
         var exportButton = win.add("button", undefined, T("exportButton"));
         exportButton.enabled = false;
+        // The result of Export has its own short line under the button, so the scan verdict at the top stays visible.
+        // It is always present (a hidden statictext did not come back in After Effects), empty until an export happens.
+        var exportLine = win.add("statictext", undefined, " ");
+        exportLine.alignment = ["fill", "top"];
+        try { exportLine.preferredSize.height = 18; } catch (ignoredHeight) {}
         var lastReport = null;
 
         // Readability: bold lines coloured by outcome (OK green, WARN amber, BAD red, INFO grey). Display only.
@@ -328,8 +333,10 @@ Install: put this file in Scripts/ScriptUI Panels and the scanner next to it or 
             langButton.text = T("langButton");
             exportButton.text = T("exportButton");
             description.text = T("desc");
-            status.text = T(view.exportKey || view.statusKey);
-            paint(status, view.exportKey ? view.exportTone : view.tone, 13);
+            status.text = T(view.statusKey);
+            paint(status, view.tone, 13);
+            exportLine.text = view.exportKey ? T(view.exportKey) : " ";
+            if (view.exportKey) { paint(exportLine, view.exportTone, 12); }
             applyChips();
             applyResults();
             applyDetails();

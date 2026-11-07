@@ -21,7 +21,7 @@ Reconciled on 2026-11-06 from the files cited on each line. Nothing was tested, 
 
 **Remaining gates (NOT_RUN / BLOCKED / UNVALIDATED)**
 - Human evidence review: DONE 2026-11-07 (accepted; see Release state above). No longer a blocker.
-- Latest panel build (`b5893642...c756`), 2026-11-07 GL-02: docked and dock persistence after an owner restart, scan/Export OK, project revision unchanged, and details auto-opening with no composition are PASS_BOUNDED_NATIVE (`evidence/native-20261107-gl02-compact-panel/README.md`). Still NOT_RUN natively: red state (problems > 0; no genuine missing font available), Export from the closed compact layout, and the error/blocked path.
+- Latest panel build (`a754df3e...2903`; GL-02 below was run on the earlier `b5893642...c756`; U1 export-line change checked natively in `evidence/native-20261107-u1-export-line/README.md`), 2026-11-07 GL-02: docked and dock persistence after an owner restart, scan/Export OK, project revision unchanged, and details auto-opening with no composition are PASS_BOUNDED_NATIVE (`evidence/native-20261107-gl02-compact-panel/README.md`). Still NOT_RUN natively: red state (problems > 0; no genuine missing font available), Export from the closed compact layout, and the error/blocked path.
 - Rendered fallback identity, shaping and the F05 retained applied-gap branch: UNVALIDATED. Animated/expression text is skipped by design (`docs/BETA_LIMITATIONS.md`).
 - Fixture-builder guards AE-05/AE-06: native run NOT_RUN (`CHANGELOG.md`, Unreleased 2026-10-29).
 - Clean package rebuild from the final commit: NOT_RUN (`dist/AE-JP-Glyph-Font-Preflight-0.1.0-beta.1/BUILD_INFO.json`).
