@@ -1,0 +1,327 @@
+{
+  "main_count": 345,
+  "sandbox_count": 319,
+  "main_only": {
+    "AniMeVisionMB_EN": [
+      "FONT",
+      "AniMeVisionMB_EN",
+      "1",
+      "false",
+      "AniMe Vision - MB_EN",
+      "Regular",
+      "1.007",
+      "false",
+      "C:\\Users\\unn0w\\AppData\\Local\\Microsoft\\Windows\\Fonts\\AnimeVisionMbEn-Regular.ttf"
+    ],
+    "CascadiaCode-BoldItalic": [
+      "FONT",
+      "CascadiaCode-BoldItalic",
+      "65",
+      "false",
+      "Cascadia Code",
+      "Bold Italic",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaCode-ExtraLightItalic": [
+      "FONT",
+      "CascadiaCode-ExtraLightItalic",
+      "60",
+      "false",
+      "Cascadia Code",
+      "ExtraLight Italic",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaCode-Italic": [
+      "FONT",
+      "CascadiaCode-Italic",
+      "63",
+      "false",
+      "Cascadia Code",
+      "Italic",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaCode-LightItalic": [
+      "FONT",
+      "CascadiaCode-LightItalic",
+      "61",
+      "false",
+      "Cascadia Code",
+      "Light Italic",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaCode-Regular": [
+      "FONT",
+      "CascadiaCode-Regular",
+      "57",
+      "false",
+      "Cascadia Code",
+      "Regular",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaCode-SemiBoldItalic": [
+      "FONT",
+      "CascadiaCode-SemiBoldItalic",
+      "64",
+      "false",
+      "Cascadia Code",
+      "SemiBold Italic",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaCode-SemiLightItalic": [
+      "FONT",
+      "CascadiaCode-SemiLightItalic",
+      "62",
+      "false",
+      "Cascadia Code",
+      "SemiLight Italic",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaCodeRoman-Bold": [
+      "FONT",
+      "CascadiaCodeRoman-Bold",
+      "59",
+      "false",
+      "Cascadia Code",
+      "Bold",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaCodeRoman-ExtraLight": [
+      "FONT",
+      "CascadiaCodeRoman-ExtraLight",
+      "54",
+      "false",
+      "Cascadia Code",
+      "ExtraLight",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaCodeRoman-Light": [
+      "FONT",
+      "CascadiaCodeRoman-Light",
+      "55",
+      "false",
+      "Cascadia Code",
+      "Light",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaCodeRoman-SemiBold": [
+      "FONT",
+      "CascadiaCodeRoman-SemiBold",
+      "58",
+      "false",
+      "Cascadia Code",
+      "SemiBold",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaCodeRoman-SemiLight": [
+      "FONT",
+      "CascadiaCodeRoman-SemiLight",
+      "56",
+      "false",
+      "Cascadia Code",
+      "SemiLight",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaMono-BoldItalic": [
+      "FONT",
+      "CascadiaMono-BoldItalic",
+      "77",
+      "false",
+      "Cascadia Mono",
+      "Bold Italic",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaMono-ExtraLightItalic": [
+      "FONT",
+      "CascadiaMono-ExtraLightItalic",
+      "72",
+      "false",
+      "Cascadia Mono",
+      "ExtraLight Italic",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaMono-Italic": [
+      "FONT",
+      "CascadiaMono-Italic",
+      "75",
+      "false",
+      "Cascadia Mono",
+      "Italic",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaMono-LightItalic": [
+      "FONT",
+      "CascadiaMono-LightItalic",
+      "73",
+      "false",
+      "Cascadia Mono",
+      "Light Italic",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaMono-Regular": [
+      "FONT",
+      "CascadiaMono-Regular",
+      "69",
+      "false",
+      "Cascadia Mono",
+      "Regular",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaMono-SemiBoldItalic": [
+      "FONT",
+      "CascadiaMono-SemiBoldItalic",
+      "76",
+      "false",
+      "Cascadia Mono",
+      "SemiBold Italic",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaMono-SemiLightItalic": [
+      "FONT",
+      "CascadiaMono-SemiLightItalic",
+      "74",
+      "false",
+      "Cascadia Mono",
+      "SemiLight Italic",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaMonoRoman-Bold": [
+      "FONT",
+      "CascadiaMonoRoman-Bold",
+      "71",
+      "false",
+      "Cascadia Mono",
+      "Bold",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaMonoRoman-ExtraLight": [
+      "FONT",
+      "CascadiaMonoRoman-ExtraLight",
+      "66",
+      "false",
+      "Cascadia Mono",
+      "ExtraLight",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaMonoRoman-Light": [
+      "FONT",
+      "CascadiaMonoRoman-Light",
+      "67",
+      "false",
+      "Cascadia Mono",
+      "Light",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaMonoRoman-SemiBold": [
+      "FONT",
+      "CascadiaMonoRoman-SemiBold",
+      "70",
+      "false",
+      "Cascadia Mono",
+      "SemiBold",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "CascadiaMonoRoman-SemiLight": [
+      "FONT",
+      "CascadiaMonoRoman-SemiLight",
+      "68",
+      "false",
+      "Cascadia Mono",
+      "SemiLight",
+      "2407.024",
+      "false",
+      ""
+    ],
+    "Fixedsys": [
+      "FONT",
+      "Fixedsys",
+      "109",
+      "false",
+      "Fixedsys",
+      "Regular",
+      "",
+      "false",
+      ""
+    ]
+  },
+  "controls": {
+    "ArialMT": [
+      "FONT",
+      "ArialMT",
+      "6",
+      "false",
+      "Arial",
+      "Regular",
+      "7.06",
+      "false",
+      "C:\\Windows\\Fonts\\arial.ttf"
+    ],
+    "Meiryo": [
+      "FONT",
+      "Meiryo",
+      "266",
+      "false",
+      "Meiryo",
+      "Regular",
+      "6.51",
+      "true",
+      "C:\\Windows\\Fonts\\meiryo.ttc"
+    ],
+    "MS-Gothic": [
+      "FONT",
+      "MS-Gothic",
+      "239",
+      "false",
+      "MS Gothic",
+      "Regular",
+      "5.32",
+      "true",
+      "C:\\Windows\\Fonts\\msgothic.ttc"
+    ]
+  }
+}

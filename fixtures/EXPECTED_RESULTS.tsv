@@ -1,0 +1,15 @@
+fixture_id	fixture_name	input_or_setup	expected_result_before_native_run	native_status
+F01	GOOD_JP	日本語の字幕です。ABC 123 using a runtime-selected font whose hasGlyphsFor() reports support	No substitute-font finding; no font-coverage-gap finding for covered characters. Scope statement still required.	NOT RUN
+F02	MISSING_FONT_REFERENCE	欠落フォント with deliberately nonexistent PostScript name JPFP_Session1_MissingFont_PS__DO_NOT_INSTALL	Problem expected: AE should expose a substitute/missing font reference. Exact per-character behavior must be recorded.	NOT RUN
+F03	MIXED_FONTS	日本語 ABC with two intentionally applied fonts	Review needed: mixed font runs detected. Must NOT be auto-classified as an error.	NOT RUN
+F04	JP_LATIN_PUNCT	「日本語」—ABC・123！？	No issue within checked coverage if selected JP font reports glyphs for all characters; otherwise report the exact coverage gap.	NOT RUN
+F05	GLYPH_GAP_EXPERIMENT	A漢B; builder selects an installed font that supports ABC but reports no glyph for 漢, if one exists	Core experiment: must never be labelled safe silently. Record whether AE keeps the candidate font, auto-falls-back/reassigns the 漢 run, or exposes another state. Visual fallback identity is NOT assumed.	NOT RUN
+F06	EMPTY_TEXT	empty Source Text	Checked as empty; no character-level issue; report zero characters.	NOT RUN
+F07	SUPPLEMENTARY_CJK	𠀋 (U+2000B)	Review needed until UTF-16/CharacterRange indexing and hasGlyphsFor behavior are verified natively.	NOT RUN
+F08	COMBINING_DAKUTEN	は + U+3099 combining dakuten	Review needed; do not claim grapheme-level safety from code-unit checks.	NOT RUN
+F09	VARIATION_SEQUENCE	葛 + U+E0100 variation selector	Review needed; variation-sequence rendering/coverage semantics are outside verified Session 1 behavior.	NOT RUN
+F10	ANIMATED_SOURCE_TEXT	Source Text changes from 静的 to 動的	Not checked: animated Source Text explicitly skipped in initial scope.	NOT RUN
+F11	EXPRESSION_SOURCE_TEXT	Source Text expression returns 式で生成	Not checked: expression-driven Source Text explicitly skipped in initial scope.	NOT RUN
+F12	NON_TEXT_LAYER	solid layer	Not applicable; count as non-text, not as safe text.	NOT RUN
+L01	LARGE_100_TEXT	100 static text layers containing 日本語 N	Scanner should complete without project mutation; elapsed time is to be observed manually in Session 3 or later.	NOT RUN
+R01	REPEATED_SCAN	Run probe twice without editing project	Same findings/coverage expected; project revision should remain unchanged by each scan. Export files may differ by timestamp/path only.	NOT RUN

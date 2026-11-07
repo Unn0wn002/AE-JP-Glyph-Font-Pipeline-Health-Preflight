@@ -1,0 +1,15 @@
+FAILED AUTHORING ATTEMPT — NOT A GENUINE F02 FIXTURE
+Requested real installed PostScript name: CascadiaCode-Regular
+Font version: 2407.024; author FontObject ID 57, substitute=false
+Candidate absent by exact PS name in Sandbox inventory of 319 fonts.
+Candidate hasGlyphsFor(欠落フォント)=false.
+Persisted actual font on all six characters: Meiryo #292, substitute=false.
+Author: main Windows AYAKUMI_NOZOMI; AE 26.5x89/build89/en_US.
+OS: Windows 11 Pro 10.0.26300 x64; OS/UI en-US.
+Save time: Mon Oct 19 2026 14:59:32 GMT+0700 (Asia/Jakarta UTC+07:00).
+Source project SHA-256: 5f64f70c6fa639447435e5869120068feb6e32a755a4ea0a58491babdddd8007
+Failed attempt project: artifacts/native/F02-operator/F02-authoring-attempt.aep
+Failed attempt SHA-256: 6ff25c66e07821469f45d88437e652afddcab03e794cc616795a802923452fb8
+Fresh before/after-save character reads are in author-outcome.json.
+Other sampled F01/F03–F12/L01 composition properties matched before/after.
+No genuine-F02.aep or fixture-provenance.txt created. Do not use this file for missing-font acceptance.

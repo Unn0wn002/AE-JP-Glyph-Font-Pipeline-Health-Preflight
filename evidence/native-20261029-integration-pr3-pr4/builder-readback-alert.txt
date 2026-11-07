@@ -1,0 +1,23 @@
+Transcribed from the combined (#3 + #4) builder's completion alert, After Effects 26.5x89, 2026-10-29 18:47 WIB.
+Read from a screenshot after moving the dialog; transcription by Claude.
+
+Session 1 fixture setup finished. A fixture is usable ONLY if it says ACCEPTED (persisted readback confirmed).
+
+F01: ACCEPTED
+F02: NOT ACCEPTED - UNCONFIRMED missing font reference: fresh Source Text readback differs from the request (requested=JPFP_Session1_MissingFont_PS__DO_NOT_INSTALL, observed=BIZ-UDGothic)
+F03: ACCEPTED
+F04: ACCEPTED
+F05: ACCEPTED
+F06: ACCEPTED
+F07: ACCEPTED
+F08: NOT ACCEPTED - UNCONFIRMED whole-layer font: fresh Source Text readback differs from the request (requested=BIZ-UDGothic, observed=Meiryo)
+F09: ACCEPTED
+F10: ACCEPTED
+F11: ACCEPTED
+F12: ACCEPTED
+L01: ACCEPTED
+OPEN: ACCEPTED
+
+JP font: BIZ-UDGothic
+Latin font: ArialMT
+Glyph-gap candidate: ArialMT

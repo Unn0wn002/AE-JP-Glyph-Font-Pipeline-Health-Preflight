@@ -1,0 +1,1 @@
+User scoped exception, 2026-10-19: install only pinned Zen Kaku Gothic New Regular on main AYAKUMI_NOZOMI. Prior existing-font-only restriction superseded solely for this face. No font installation, activation, transfer or cache changes in Sandbox. No alternative fonts authorized.

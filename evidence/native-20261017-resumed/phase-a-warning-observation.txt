@@ -1,0 +1,2 @@
+Phase A log completed with COMP_OPEN_REQUESTED=NO; composition pane still (none); BIB warning visible immediately after script return and still present after fixed 10-second observation. Phase B conditional on no warning was not run. Native warning text from accessibility:
+				3049 text (settable, string) After Effects warning: Unknown BIB Error. Probable invalid access, CT, 0 ( 83 :: 3 ) Value: After Effects warning: Unknown BIB Error. Probable invalid access, CT, 0 ( 83 :: 3 )

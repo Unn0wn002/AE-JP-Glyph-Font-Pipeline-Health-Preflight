@@ -1,0 +1,282 @@
+{
+  "schema": "JPFP-NATIVE-EVALUATION-1",
+  "gate": "BLOCKED_NATIVE_VALIDATION",
+  "rows": [
+    {
+      "id": "F01",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 11 ms scanner; 41368 ms including dialogs",
+        "run2: 11 ms scanner; 37409 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F02",
+      "status": "BLOCKED",
+      "fixture_condition": "BLOCKED",
+      "blockers": [
+        "run1: F02 missing reference did not persist as substitute for all characters",
+        "run2: F02 missing reference did not persist as substitute for all characters"
+      ],
+      "mismatches": [],
+      "timing": [],
+      "observations": []
+    },
+    {
+      "id": "F03",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 11 ms scanner; 41368 ms including dialogs",
+        "run2: 11 ms scanner; 37409 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F04",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 11 ms scanner; 41368 ms including dialogs",
+        "run2: 11 ms scanner; 37409 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F05",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 11 ms scanner; 41368 ms including dialogs",
+        "run2: 11 ms scanner; 37409 ms including dialogs"
+      ],
+      "observations": [
+        "run1: OBSERVED_APPLIED_FONT_REASSIGNMENT: Fresh covered middle-character applied FontObject reassignment observed. Native retained applied-gap branch remains UNVALIDATED; exact rendered fallback and shaping remain unvalidated.",
+        "run2: OBSERVED_APPLIED_FONT_REASSIGNMENT: Fresh covered middle-character applied FontObject reassignment observed. Native retained applied-gap branch remains UNVALIDATED; exact rendered fallback and shaping remain unvalidated."
+      ]
+    },
+    {
+      "id": "F06",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 11 ms scanner; 41368 ms including dialogs",
+        "run2: 11 ms scanner; 37409 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F07",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 11 ms scanner; 41368 ms including dialogs",
+        "run2: 11 ms scanner; 37409 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F08",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 11 ms scanner; 41368 ms including dialogs",
+        "run2: 11 ms scanner; 37409 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F09",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 11 ms scanner; 41368 ms including dialogs",
+        "run2: 11 ms scanner; 37409 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F10",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 11 ms scanner; 41368 ms including dialogs",
+        "run2: 11 ms scanner; 37409 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F11",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 11 ms scanner; 41368 ms including dialogs",
+        "run2: 11 ms scanner; 37409 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F12",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 11 ms scanner; 41368 ms including dialogs",
+        "run2: 11 ms scanner; 37409 ms including dialogs"
+      ],
+      "observations": [
+        "run1: Wrapper derived kind label is NON_TEXT; authoritative raw SolidSource=true, TextLayer=false and null text group plus matching setup readback establish the solid condition. This diagnostic label discrepancy is not a product scanner failure.",
+        "run2: Wrapper derived kind label is NON_TEXT; authoritative raw SolidSource=true, TextLayer=false and null text group plus matching setup readback establish the solid condition. This diagnostic label discrepancy is not a product scanner failure."
+      ]
+    },
+    {
+      "id": "L01",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 143 ms scanner; 42582 ms including dialogs",
+        "run2: 129 ms scanner; 36352 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "R01",
+      "status": "BLOCKED",
+      "fixture_condition": "BLOCKED",
+      "blockers": [
+        "All F01–F12 fixture conditions must be independently established in both runs before full R01"
+      ],
+      "mismatches": [],
+      "timing": [],
+      "observations": []
+    }
+  ],
+  "repeatability_observations": {
+    "fixture": {
+      "substantive_report_equality": true,
+      "excluded_volatile_fields": [
+        "Generated (host local time)",
+        "Scan elapsed milliseconds"
+      ],
+      "before_state_equality_across_runs": true,
+      "after_state_equality_across_runs": true,
+      "before_after_state_equality": [
+        true,
+        true
+      ],
+      "scanner_elapsed_ms": [
+        11,
+        11
+      ],
+      "scanner_wall_ms_including_dialogs": [
+        41368,
+        37409
+      ],
+      "same_host": true,
+      "interpretation": "Observed repeatability only; does not override missing fixture conditions or the separately evaluated full R01 status."
+    },
+    "large": {
+      "substantive_report_equality": true,
+      "excluded_volatile_fields": [
+        "Generated (host local time)",
+        "Scan elapsed milliseconds"
+      ],
+      "before_state_equality_across_runs": true,
+      "after_state_equality_across_runs": true,
+      "before_after_state_equality": [
+        true,
+        true
+      ],
+      "scanner_elapsed_ms": [
+        143,
+        129
+      ],
+      "scanner_wall_ms_including_dialogs": [
+        42582,
+        36352
+      ],
+      "same_host": true,
+      "interpretation": "Observed repeatability only; does not override missing fixture conditions or the separately evaluated full R01 status."
+    }
+  },
+  "evidence": {
+    "fixture1": {
+      "state_directory": "evidence\\native-20261017-resumed\\20261017-205935-488",
+      "report": "evidence\\native-20261017-resumed\\aggregate-final-run1.txt",
+      "report_sha256": "eba39365cc875018a1d509dbdf430722b0404563ce4c3650b27cb9342d3eb39e",
+      "host": {
+        "version": "26.5x89",
+        "buildName": "26.5x89",
+        "buildNumber": 89,
+        "locale": "en_US",
+        "os": "Windows/64 10.0  "
+      }
+    },
+    "fixture2": {
+      "state_directory": "evidence\\native-20261017-resumed\\20261017-210024-370",
+      "report": "evidence\\native-20261017-resumed\\aggregate-final-run2.txt",
+      "report_sha256": "07c85ad6ab5f056b12770884612e6e2cd44117d55355cdf0c31eb4bf7e8aaa3d",
+      "host": {
+        "version": "26.5x89",
+        "buildName": "26.5x89",
+        "buildNumber": 89,
+        "locale": "en_US",
+        "os": "Windows/64 10.0  "
+      }
+    },
+    "large1": {
+      "state_directory": "evidence\\native-20261017-resumed\\20261017-210119-787",
+      "report": "evidence\\native-20261017-resumed\\large-final-run1.txt",
+      "report_sha256": "58122aaa771854e80f276863b3649a3bce6a3b3ff37218b3fe319f536560f9db",
+      "host": {
+        "version": "26.5x89",
+        "buildName": "26.5x89",
+        "buildNumber": 89,
+        "locale": "en_US",
+        "os": "Windows/64 10.0  "
+      }
+    },
+    "large2": {
+      "state_directory": "evidence\\native-20261017-resumed\\20261017-210212-326",
+      "report": "evidence\\native-20261017-resumed\\large-final-run2.txt",
+      "report_sha256": "fcfa61150ce5960481460d5cd44548ee589251824151da0576a401da70dab8b6",
+      "host": {
+        "version": "26.5x89",
+        "buildName": "26.5x89",
+        "buildNumber": 89,
+        "locale": "en_US",
+        "os": "Windows/64 10.0  "
+      }
+    }
+  },
+  "limitations": [
+    "Offline evidence evaluation; human review of setup provenance, warnings, responsiveness and source hashes remains required.",
+    "Native coverage does not establish rendered fallback or shaping correctness.",
+    "If wrapper project.file is UNKNOWN/UNAVAILABLE, the saved path is unobserved; equality does not prove all unobserved state invariance."
+  ]
+}

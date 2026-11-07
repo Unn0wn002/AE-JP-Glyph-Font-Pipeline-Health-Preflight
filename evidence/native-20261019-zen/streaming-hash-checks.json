@@ -1,0 +1,34 @@
+[
+  {
+    "bytes": 0,
+    "pass": true
+  },
+  {
+    "bytes": 1,
+    "pass": true
+  },
+  {
+    "bytes": 55,
+    "pass": true
+  },
+  {
+    "bytes": 56,
+    "pass": true
+  },
+  {
+    "bytes": 64,
+    "pass": true
+  },
+  {
+    "bytes": 65,
+    "pass": true
+  },
+  {
+    "bytes": 1000,
+    "pass": true
+  },
+  {
+    "bytes": 2221449,
+    "pass": true
+  }
+]

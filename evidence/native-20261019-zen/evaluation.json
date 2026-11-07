@@ -1,0 +1,281 @@
+{
+  "schema": "JPFP-NATIVE-EVALUATION-1",
+  "gate": "NATIVE_MATRIX_PASS_PENDING_REVIEW",
+  "rows": [
+    {
+      "id": "F01",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 13 ms scanner; 49520 ms including dialogs",
+        "run2: 12 ms scanner; 60856 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F02",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 13 ms scanner; 49520 ms including dialogs",
+        "run2: 12 ms scanner; 60856 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F03",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 13 ms scanner; 49520 ms including dialogs",
+        "run2: 12 ms scanner; 60856 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F04",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 13 ms scanner; 49520 ms including dialogs",
+        "run2: 12 ms scanner; 60856 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F05",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 13 ms scanner; 49520 ms including dialogs",
+        "run2: 12 ms scanner; 60856 ms including dialogs"
+      ],
+      "observations": [
+        "run1: OBSERVED_APPLIED_FONT_REASSIGNMENT: Preserved saved reassignment with fresh candidate API and A/B/middle readback. Native retained applied-gap, exact rendered-fallback identity and shaping remain UNVALIDATED.",
+        "run2: OBSERVED_APPLIED_FONT_REASSIGNMENT: Preserved saved reassignment with fresh candidate API and A/B/middle readback. Native retained applied-gap, exact rendered-fallback identity and shaping remain UNVALIDATED."
+      ]
+    },
+    {
+      "id": "F06",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 13 ms scanner; 49520 ms including dialogs",
+        "run2: 12 ms scanner; 60856 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F07",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 13 ms scanner; 49520 ms including dialogs",
+        "run2: 12 ms scanner; 60856 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F08",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 13 ms scanner; 49520 ms including dialogs",
+        "run2: 12 ms scanner; 60856 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F09",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 13 ms scanner; 49520 ms including dialogs",
+        "run2: 12 ms scanner; 60856 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F10",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 13 ms scanner; 49520 ms including dialogs",
+        "run2: 12 ms scanner; 60856 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F11",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 13 ms scanner; 49520 ms including dialogs",
+        "run2: 12 ms scanner; 60856 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F12",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 13 ms scanner; 49520 ms including dialogs",
+        "run2: 12 ms scanner; 60856 ms including dialogs"
+      ],
+      "observations": [
+        "run1: Wrapper derived kind label is NON_TEXT; authoritative raw SolidSource=true, TextLayer=false and null text group plus matching setup readback establish the solid condition. This diagnostic label discrepancy is not a product scanner failure.",
+        "run2: Wrapper derived kind label is NON_TEXT; authoritative raw SolidSource=true, TextLayer=false and null text group plus matching setup readback establish the solid condition. This diagnostic label discrepancy is not a product scanner failure."
+      ]
+    },
+    {
+      "id": "L01",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 279 ms scanner; 8790914 ms including dialogs",
+        "run2: 163 ms scanner; 69860 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "R01",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [],
+      "observations": []
+    }
+  ],
+  "genuine_binding_sha256": "bec9792c4130e2680354a4524027cbbc3ec00373497a12c66c956c37667c0533",
+  "repeatability_observations": {
+    "fixture": {
+      "substantive_report_equality": true,
+      "excluded_volatile_fields": [
+        "Generated (host local time)",
+        "Scan elapsed milliseconds"
+      ],
+      "before_state_equality_across_runs": true,
+      "after_state_equality_across_runs": true,
+      "before_after_state_equality": [
+        true,
+        true
+      ],
+      "scanner_elapsed_ms": [
+        13,
+        12
+      ],
+      "scanner_wall_ms_including_dialogs": [
+        49520,
+        60856
+      ],
+      "same_host": true,
+      "interpretation": "Observed repeatability only; does not override missing fixture conditions or the separately evaluated full R01 status."
+    },
+    "large": {
+      "substantive_report_equality": true,
+      "excluded_volatile_fields": [
+        "Generated (host local time)",
+        "Scan elapsed milliseconds"
+      ],
+      "before_state_equality_across_runs": true,
+      "after_state_equality_across_runs": true,
+      "before_after_state_equality": [
+        true,
+        true
+      ],
+      "scanner_elapsed_ms": [
+        279,
+        163
+      ],
+      "scanner_wall_ms_including_dialogs": [
+        8790914,
+        69860
+      ],
+      "same_host": true,
+      "interpretation": "Observed repeatability only; does not override missing fixture conditions or the separately evaluated full R01 status."
+    }
+  },
+  "evidence": {
+    "fixture1": {
+      "state_directory": "evidence\\native-20261019-zen\\20261019-165617-631",
+      "report": "evidence\\native-20261019-zen\\aggregate-run1.txt",
+      "report_sha256": "4a35c89f224aac1ff182b49beda8c40b504751b97015ff2639a4ba8d055d76a2",
+      "host": {
+        "version": "26.5x89",
+        "buildName": "26.5x89",
+        "buildNumber": 89,
+        "locale": "en_US",
+        "os": "Windows/64 10.0  "
+      }
+    },
+    "fixture2": {
+      "state_directory": "evidence\\native-20261019-zen\\20261019-165707-356",
+      "report": "evidence\\native-20261019-zen\\aggregate-run2.txt",
+      "report_sha256": "1e06f95fd97cc5e3ab344e8ca6ff0c352652f725cf20ee35eaaa88e7f71053c0",
+      "host": {
+        "version": "26.5x89",
+        "buildName": "26.5x89",
+        "buildNumber": 89,
+        "locale": "en_US",
+        "os": "Windows/64 10.0  "
+      }
+    },
+    "large1": {
+      "state_directory": "evidence\\native-20261019-zen\\20261019-165808-609",
+      "report": "evidence\\native-20261019-zen\\large-run1.txt",
+      "report_sha256": "64e1cc2f1a903cb8d6699164566862f5faaeaed2a9d5f91d7cdcaabd3cc13221",
+      "host": {
+        "version": "26.5x89",
+        "buildName": "26.5x89",
+        "buildNumber": 89,
+        "locale": "en_US",
+        "os": "Windows/64 10.0  "
+      }
+    },
+    "large2": {
+      "state_directory": "evidence\\native-20261019-zen\\20261019-192441-845",
+      "report": "evidence\\native-20261019-zen\\large-run2.txt",
+      "report_sha256": "522c59365234b92a8c7e9491f058766801433a053de6bd6a7066e0804f91ed81",
+      "host": {
+        "version": "26.5x89",
+        "buildName": "26.5x89",
+        "buildNumber": 89,
+        "locale": "en_US",
+        "os": "Windows/64 10.0  "
+      }
+    }
+  },
+  "limitations": [
+    "Offline evidence evaluation; human review of setup provenance, warnings, responsiveness and source hashes remains required.",
+    "Native coverage does not establish rendered fallback or shaping correctness.",
+    "If wrapper project.file is UNKNOWN/UNAVAILABLE, the saved path is unobserved; equality does not prove all unobserved state invariance."
+  ]
+}

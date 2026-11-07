@@ -1,0 +1,33 @@
+{
+  "schema": "JPFP-GENUINE-F02-PROVENANCE-1",
+  "authoring": {
+    "computer": "AYAKUMI_NOZOMI",
+    "os": "Windows/64 10.0  ",
+    "version": "26.5x89",
+    "buildName": "26.5x89",
+    "buildNumber": 89,
+    "locale": "en_US"
+  },
+  "os": "Windows 11 Pro 10.0.26300 x64; OS/UI en-US",
+  "sourceProject": "evidence/native-20261017-resumed/JPFP_BETA_VERIFIED_EXCEPT_F02.aep",
+  "sourceProjectSHA256": "5f64f70c6fa639447435e5869120068feb6e32a755a4ea0a58491babdddd8007",
+  "saveTime": "Mon Oct 19 2026 16:35:34 GMT+0700",
+  "timezone": "Asia/Jakarta UTC+07:00",
+  "font": {
+    "postScriptName": "ZenKakuGothicNew-Regular",
+    "fontID": 346,
+    "version": "1.002",
+    "location": "C:\\Users\\unn0w\\AppData\\Local\\Microsoft\\Windows\\Fonts\\ZenKakuGothicNew-Regular.ttf",
+    "isSubstitute": false,
+    "allSixCoverage": true
+  },
+  "fontSource": "https://github.com/googlefonts/zen-kakugothic/blob/2705757e17e42954f3acbdf921ac0ae24d1270cd/fonts/ttf/ZenKakuGothicNew-Regular.ttf",
+  "fontFileSHA256": "b840cd07a67d89cacca44249ae49aa99ee7640eb5ce623be8d8983d6aabac801",
+  "installationScope": "per-user HKCU; LocalAppData/Microsoft/Windows/Fonts; Windows Font Viewer Install; no consent prompt appeared",
+  "projectSHA256": "af3b1bd641a0955f63230f44b7e53987cddccd7099bffb832718f1ea7aa21306",
+  "compositionID": 1,
+  "layerID": 14,
+  "verification": "Six fresh character reads after assignment and after save-close-reopen; exact PS, substitute=false, glyph=true. Other sampled composition states equal excluding F02 font metadata.",
+  "authorEvidence": "evidence/native-20261019-zen/main-author-outcome.json",
+  "authorization": "AUTHORIZATION.txt scoped user exception; one Regular face on AYAKUMI_NOZOMI only"
+}

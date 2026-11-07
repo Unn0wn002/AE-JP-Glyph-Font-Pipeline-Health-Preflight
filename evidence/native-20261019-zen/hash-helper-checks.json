@@ -1,0 +1,43 @@
+{
+  "tests": [
+    {
+      "bytes": 0,
+      "pass": true
+    },
+    {
+      "bytes": 1,
+      "pass": true
+    },
+    {
+      "bytes": 3,
+      "pass": true
+    },
+    {
+      "bytes": 55,
+      "pass": true
+    },
+    {
+      "bytes": 56,
+      "pass": true
+    },
+    {
+      "bytes": 63,
+      "pass": true
+    },
+    {
+      "bytes": 64,
+      "pass": true
+    },
+    {
+      "bytes": 65,
+      "pass": true
+    },
+    {
+      "bytes": 1000,
+      "pass": true
+    }
+  ],
+  "aepBytes": 2221449,
+  "aepSHA256": "af3b1bd641a0955f63230f44b7e53987cddccd7099bffb832718f1ea7aa21306",
+  "aepNativeCompatibleAlgorithmMatches": true
+}

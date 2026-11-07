@@ -1,0 +1,364 @@
+{
+  "schema": "JPFP-NATIVE-OBSERVATION-SUPPLEMENT-1",
+  "gate": "BLOCKED_NATIVE_VALIDATION",
+  "production_source_sha256_observed_now": "f93d221898e6dc75985e2fa5b7ffbde2850c2ebc39da889b21592c5f58d8156e",
+  "expected_frozen_four_run_sha256": "f93d221898e6dc75985e2fa5b7ffbde2850c2ebc39da889b21592c5f58d8156e",
+  "current_source_hash_matches_frozen_expected": true,
+  "setup_log": "evidence\\native-20261017-resumed\\fixture-setup-attempt2.txt",
+  "setup_log_sha256": "a46b675102e3dbed7933d0c97f3b236df05a26f5d0f852b114fc08b9cdb0180d",
+  "evaluator_sha256": "693f79eafad6a82aed5b1ad4ee1e04b2cc104bf7f7b0e6d50a63733b4a4ae849",
+  "runs": {
+    "fixture1": {
+      "directory": "evidence\\native-20261017-resumed\\20261017-205935-488",
+      "report": "evidence\\native-20261017-resumed\\aggregate-final-run1.txt",
+      "hashes": {
+        "report_sha256": "eba39365cc875018a1d509dbdf430722b0404563ce4c3650b27cb9342d3eb39e",
+        "before_sha256": "af2c1f5450427a213f1c2887f5f3fad5acd414971207e9e2fd6f6e191e28d3f3",
+        "after_sha256": "9abd34747a635fc0008798166aabdbe967b1d0dc8100d375de15efa94af46f62",
+        "comparison_sha256": "f61e1a04fdb2db41f55c87288ad41a0c2dc564a5c6bf2e0511f9c88b8c0aa524",
+        "run_sha256": "5b14dd5cb2477e4944e72c73fc56232ac48ca685d6a8c732578044385f6332a3"
+      },
+      "host": {
+        "version": "26.5x89",
+        "buildName": "26.5x89",
+        "buildNumber": 89,
+        "locale": "en_US",
+        "os": "Windows/64 10.0  "
+      },
+      "scanner_elapsed_ms": 11,
+      "wrapper_scanner_wall_ms_including_dialogs": 41368,
+      "wrapper_total_wall_ms": 41553,
+      "before_snapshot_elapsed_ms": 16,
+      "after_snapshot_elapsed_ms": 17,
+      "coverage": {
+        "Characters examined": 52,
+        "Characters coverage verified": 51,
+        "Characters coverage verified present": 51,
+        "Characters coverage verified absent": 0,
+        "Characters coverage skipped": 1,
+        "Characters coverage failed": 0
+      },
+      "findings": {
+        "Problems": 0,
+        "Review needed": 5,
+        "Not checked findings": 4
+      },
+      "comp_id": 1,
+      "comp_name": "JPFP_BETA_FIXTURES__DISPOSABLE",
+      "revision_before": 1186,
+      "revision_after": 1186,
+      "sampled_state_equal_recomputed": true,
+      "wrapper_state_equal": true,
+      "sampling_truncated": false,
+      "before_unknown_observations": [],
+      "after_unknown_observations": [],
+      "global_report_or_wrapper_mismatches": [],
+      "project_file_before": {
+        "status": "OK",
+        "value": "C:\\Users\\unn0w\\Downloads\\Management Project\\AE JP Glyph & Font-Pipeline Health Preflight\\repository\\evidence\\native-20261017-resumed\\JPFP_BETA_VERIFIED_EXCEPT_F02.aep"
+      },
+      "project_file_after": {
+        "status": "OK",
+        "value": "C:\\Users\\unn0w\\Downloads\\Management Project\\AE JP Glyph & Font-Pipeline Health Preflight\\repository\\evidence\\native-20261017-resumed\\JPFP_BETA_VERIFIED_EXCEPT_F02.aep"
+      },
+      "project_dirty_before": {
+        "status": "OK",
+        "value": false
+      },
+      "project_dirty_after": {
+        "status": "OK",
+        "value": false
+      }
+    },
+    "fixture2": {
+      "directory": "evidence\\native-20261017-resumed\\20261017-210024-370",
+      "report": "evidence\\native-20261017-resumed\\aggregate-final-run2.txt",
+      "hashes": {
+        "report_sha256": "07c85ad6ab5f056b12770884612e6e2cd44117d55355cdf0c31eb4bf7e8aaa3d",
+        "before_sha256": "155122c434820b6c636d9af321231fe85e813bd2610123bfae7d2eb9fafb3931",
+        "after_sha256": "c1711de0eb8a13b9669d940d923a15cb58428c275a5f8d3134273d0f843e4e5b",
+        "comparison_sha256": "cfc579c30252877728a1901f7bd5782117c1cd6f5e177b90c1239e52cbfa10d0",
+        "run_sha256": "82fc996f9af315754cc6e30b470a8c8ce01d34a1238c392363bc204f90ac247f"
+      },
+      "host": {
+        "version": "26.5x89",
+        "buildName": "26.5x89",
+        "buildNumber": 89,
+        "locale": "en_US",
+        "os": "Windows/64 10.0  "
+      },
+      "scanner_elapsed_ms": 11,
+      "wrapper_scanner_wall_ms_including_dialogs": 37409,
+      "wrapper_total_wall_ms": 37589,
+      "before_snapshot_elapsed_ms": 15,
+      "after_snapshot_elapsed_ms": 20,
+      "coverage": {
+        "Characters examined": 52,
+        "Characters coverage verified": 51,
+        "Characters coverage verified present": 51,
+        "Characters coverage verified absent": 0,
+        "Characters coverage skipped": 1,
+        "Characters coverage failed": 0
+      },
+      "findings": {
+        "Problems": 0,
+        "Review needed": 5,
+        "Not checked findings": 4
+      },
+      "comp_id": 1,
+      "comp_name": "JPFP_BETA_FIXTURES__DISPOSABLE",
+      "revision_before": 1186,
+      "revision_after": 1186,
+      "sampled_state_equal_recomputed": true,
+      "wrapper_state_equal": true,
+      "sampling_truncated": false,
+      "before_unknown_observations": [],
+      "after_unknown_observations": [],
+      "global_report_or_wrapper_mismatches": [],
+      "project_file_before": {
+        "status": "OK",
+        "value": "C:\\Users\\unn0w\\Downloads\\Management Project\\AE JP Glyph & Font-Pipeline Health Preflight\\repository\\evidence\\native-20261017-resumed\\JPFP_BETA_VERIFIED_EXCEPT_F02.aep"
+      },
+      "project_file_after": {
+        "status": "OK",
+        "value": "C:\\Users\\unn0w\\Downloads\\Management Project\\AE JP Glyph & Font-Pipeline Health Preflight\\repository\\evidence\\native-20261017-resumed\\JPFP_BETA_VERIFIED_EXCEPT_F02.aep"
+      },
+      "project_dirty_before": {
+        "status": "OK",
+        "value": false
+      },
+      "project_dirty_after": {
+        "status": "OK",
+        "value": false
+      }
+    },
+    "large1": {
+      "directory": "evidence\\native-20261017-resumed\\20261017-210119-787",
+      "report": "evidence\\native-20261017-resumed\\large-final-run1.txt",
+      "hashes": {
+        "report_sha256": "58122aaa771854e80f276863b3649a3bce6a3b3ff37218b3fe319f536560f9db",
+        "before_sha256": "58610835152d5bc86d9e87f7331416fc50e810e65e01b454f6625c4fc698b1c2",
+        "after_sha256": "da9109b937332fb515092833d99015af6f48660b2f5883bcd1aa759343b43b3e",
+        "comparison_sha256": "6fb6e2e87be11d93f52747ccc2f167811fa94b3248d3d8c985a9a6d2b11de29f",
+        "run_sha256": "0a8b9be1743ef095382330514238f33a623f91c72067b9846981e6f10a067db9"
+      },
+      "host": {
+        "version": "26.5x89",
+        "buildName": "26.5x89",
+        "buildNumber": 89,
+        "locale": "en_US",
+        "os": "Windows/64 10.0  "
+      },
+      "scanner_elapsed_ms": 143,
+      "wrapper_scanner_wall_ms_including_dialogs": 42582,
+      "wrapper_total_wall_ms": 44134,
+      "before_snapshot_elapsed_ms": 132,
+      "after_snapshot_elapsed_ms": 212,
+      "coverage": {
+        "Characters examined": 592,
+        "Characters coverage verified": 592,
+        "Characters coverage verified present": 592,
+        "Characters coverage verified absent": 0,
+        "Characters coverage skipped": 0,
+        "Characters coverage failed": 0
+      },
+      "findings": {
+        "Problems": 0,
+        "Review needed": 0,
+        "Not checked findings": 0
+      },
+      "comp_id": 26,
+      "comp_name": "JPFP_BETA_L01__DISPOSABLE",
+      "revision_before": 1186,
+      "revision_after": 1186,
+      "sampled_state_equal_recomputed": true,
+      "wrapper_state_equal": true,
+      "sampling_truncated": false,
+      "before_unknown_observations": [],
+      "after_unknown_observations": [],
+      "global_report_or_wrapper_mismatches": [],
+      "project_file_before": {
+        "status": "OK",
+        "value": "C:\\Users\\unn0w\\Downloads\\Management Project\\AE JP Glyph & Font-Pipeline Health Preflight\\repository\\evidence\\native-20261017-resumed\\JPFP_BETA_VERIFIED_EXCEPT_F02.aep"
+      },
+      "project_file_after": {
+        "status": "OK",
+        "value": "C:\\Users\\unn0w\\Downloads\\Management Project\\AE JP Glyph & Font-Pipeline Health Preflight\\repository\\evidence\\native-20261017-resumed\\JPFP_BETA_VERIFIED_EXCEPT_F02.aep"
+      },
+      "project_dirty_before": {
+        "status": "OK",
+        "value": false
+      },
+      "project_dirty_after": {
+        "status": "OK",
+        "value": false
+      }
+    },
+    "large2": {
+      "directory": "evidence\\native-20261017-resumed\\20261017-210212-326",
+      "report": "evidence\\native-20261017-resumed\\large-final-run2.txt",
+      "hashes": {
+        "report_sha256": "fcfa61150ce5960481460d5cd44548ee589251824151da0576a401da70dab8b6",
+        "before_sha256": "5abff240c9e9c65ce4b21413c9a49cd34b183723272b4b10d2b399011c767d69",
+        "after_sha256": "96ab195cf4732e90ced16168acd9c523e44bde278cb58a84b1da3020b68263e9",
+        "comparison_sha256": "888e5fc56dab0359454420d3ec369b79b9296463b220216d4c9943bc401141c8",
+        "run_sha256": "621b263d0c4ef1d35d5ab9d19767b1115e2a8c1f813bfe2e6cd554d3426e0136"
+      },
+      "host": {
+        "version": "26.5x89",
+        "buildName": "26.5x89",
+        "buildNumber": 89,
+        "locale": "en_US",
+        "os": "Windows/64 10.0  "
+      },
+      "scanner_elapsed_ms": 129,
+      "wrapper_scanner_wall_ms_including_dialogs": 36352,
+      "wrapper_total_wall_ms": 38006,
+      "before_snapshot_elapsed_ms": 188,
+      "after_snapshot_elapsed_ms": 239,
+      "coverage": {
+        "Characters examined": 592,
+        "Characters coverage verified": 592,
+        "Characters coverage verified present": 592,
+        "Characters coverage verified absent": 0,
+        "Characters coverage skipped": 0,
+        "Characters coverage failed": 0
+      },
+      "findings": {
+        "Problems": 0,
+        "Review needed": 0,
+        "Not checked findings": 0
+      },
+      "comp_id": 26,
+      "comp_name": "JPFP_BETA_L01__DISPOSABLE",
+      "revision_before": 1186,
+      "revision_after": 1186,
+      "sampled_state_equal_recomputed": true,
+      "wrapper_state_equal": true,
+      "sampling_truncated": false,
+      "before_unknown_observations": [],
+      "after_unknown_observations": [],
+      "global_report_or_wrapper_mismatches": [],
+      "project_file_before": {
+        "status": "OK",
+        "value": "C:\\Users\\unn0w\\Downloads\\Management Project\\AE JP Glyph & Font-Pipeline Health Preflight\\repository\\evidence\\native-20261017-resumed\\JPFP_BETA_VERIFIED_EXCEPT_F02.aep"
+      },
+      "project_file_after": {
+        "status": "OK",
+        "value": "C:\\Users\\unn0w\\Downloads\\Management Project\\AE JP Glyph & Font-Pipeline Health Preflight\\repository\\evidence\\native-20261017-resumed\\JPFP_BETA_VERIFIED_EXCEPT_F02.aep"
+      },
+      "project_dirty_before": {
+        "status": "OK",
+        "value": false
+      },
+      "project_dirty_after": {
+        "status": "OK",
+        "value": false
+      }
+    }
+  },
+  "repeat_observations": {
+    "fixture": {
+      "substantive_report_equality": true,
+      "excluded_volatile_fields": [
+        "Generated (host local time)",
+        "Scan elapsed milliseconds"
+      ],
+      "before_state_equality_across_runs": true,
+      "after_state_equality_across_runs": true,
+      "same_host": true,
+      "interpretation": "Observed semantic repeatability on these established/observed layers; full required R01 remains BLOCKED while F02 substitute condition is not established."
+    },
+    "large": {
+      "substantive_report_equality": true,
+      "excluded_volatile_fields": [
+        "Generated (host local time)",
+        "Scan elapsed milliseconds"
+      ],
+      "before_state_equality_across_runs": true,
+      "after_state_equality_across_runs": true,
+      "same_host": true,
+      "interpretation": "Observed semantic repeatability on these established/observed layers; full required R01 remains BLOCKED while F02 substitute condition is not established."
+    }
+  },
+  "cancelled_run_observations": {
+    "directory": "evidence\\native-20261017-resumed\\20261017-210309-246",
+    "hashes": {
+      "before_sha256": "b99844a9dee347cfc0f5694ec2d4a49df5e9a4ed423ab58753e145bf25f9dd01",
+      "after_sha256": "5e8b13a3086fc427a65df665ffd1069d765a4ae185747b3b32f28b853ef8b4c3",
+      "comparison_sha256": "2aa9286982bf12b94aa74e56cf8a33e9865a3bbfe1cc0fcc82ad2a5bc4b10b66",
+      "run_sha256": "8095f9b886fc370e91342919e720e24cec275c558852b6bdd71e089c35f94d36"
+    },
+    "state_equal_recomputed": true,
+    "wrapper_revision_unchanged": {
+      "status": "OK",
+      "value": true
+    },
+    "scanner_evaluation": {
+      "status": "OK"
+    },
+    "sampling_truncated": false,
+    "timings": {
+      "scannerWallMsIncludingDialogs": 22278,
+      "totalWallMs": 23994
+    },
+    "export_status": "CANCELLED observed in separate operator evidence; no successful report expected for this run",
+    "export_status_provenance": "Parent native operator report; wrapper does not intercept or independently serialize the export dialog result."
+  },
+  "limitations": [
+    "All observed comparisons concern sampled state and these reports; unobserved properties/rendering/shaping are outside scope.",
+    "All final before/after project.file observations are known saved disposable-project paths; no UNKNOWN observations were found in the sampled before/after state. Known sampled state does not imply all unobserved project state was checked.",
+    "F12 derived diagnostic kind label NON_TEXT disagrees with raw SolidSource=true; raw TextLayer=false, null text group and matching setup layer ID establish the solid condition. No product failure inferred.",
+    "F05 verified reassignment outcome does not validate the native retained applied-gap branch or exact rendered fallback.",
+    "No full R01 PASS while F02 controlled missing-reference substitute condition remains unestablished."
+  ],
+  "evaluation_json_sha256": "7a64d7b21b859cdb9422b9977d4c12ee3c9a0b42f73482d7bbbaa19f72cc6199",
+  "repeat_observations_reproducible_from_cli": {
+    "fixture": {
+      "substantive_report_equality": true,
+      "excluded_volatile_fields": [
+        "Generated (host local time)",
+        "Scan elapsed milliseconds"
+      ],
+      "before_state_equality_across_runs": true,
+      "after_state_equality_across_runs": true,
+      "before_after_state_equality": [
+        true,
+        true
+      ],
+      "scanner_elapsed_ms": [
+        11,
+        11
+      ],
+      "scanner_wall_ms_including_dialogs": [
+        41368,
+        37409
+      ],
+      "same_host": true,
+      "interpretation": "Observed repeatability only; does not override missing fixture conditions or the separately evaluated full R01 status."
+    },
+    "large": {
+      "substantive_report_equality": true,
+      "excluded_volatile_fields": [
+        "Generated (host local time)",
+        "Scan elapsed milliseconds"
+      ],
+      "before_state_equality_across_runs": true,
+      "after_state_equality_across_runs": true,
+      "before_after_state_equality": [
+        true,
+        true
+      ],
+      "scanner_elapsed_ms": [
+        143,
+        129
+      ],
+      "scanner_wall_ms_including_dialogs": [
+        42582,
+        36352
+      ],
+      "same_host": true,
+      "interpretation": "Observed repeatability only; does not override missing fixture conditions or the separately evaluated full R01 status."
+    }
+  }
+}

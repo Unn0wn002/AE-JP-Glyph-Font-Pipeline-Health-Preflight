@@ -1,0 +1,2 @@
+﻿3b7f2b29c50f7729792a0fe163ae74e53ce531268885f3a8415a308fa9b84f5a  C:\Program Files\Adobe\Adobe After Effects 2026\Support Files\Scripts\ScriptUI Panels\JPFP_Session1_Panel.jsx
+f93d221898e6dc75985e2fa5b7ffbde2850c2ebc39da889b21592c5f58d8156e  C:\Program Files\Adobe\Adobe After Effects 2026\Support Files\Scripts\ScriptUI Panels\JPFP\JPFP_Session1_Probe.jsx

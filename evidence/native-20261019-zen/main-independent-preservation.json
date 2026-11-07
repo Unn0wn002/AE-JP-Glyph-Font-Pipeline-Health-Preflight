@@ -1,0 +1,20 @@
+{
+  "otherSampledCompositionStateEqual": true,
+  "excluded": "Only F02 current.characters (applied font identity and coverage); raw input snapshots retained independently",
+  "sourceSHA256": "5f64f70c6fa639447435e5869120068feb6e32a755a4ea0a58491babdddd8007",
+  "genuineProjectSHA256": "af3b1bd641a0955f63230f44b7e53987cddccd7099bffb832718f1ea7aa21306",
+  "frozenSources": [
+    {
+      "path": "src/JPFP_Session1_Probe.jsx",
+      "sha256": "f93d221898e6dc75985e2fa5b7ffbde2850c2ebc39da889b21592c5f58d8156e"
+    },
+    {
+      "path": "fixtures/JPFP_Session1_CreateFixtures.jsx",
+      "sha256": "1dc804f545b4f4e19435996e0d3328e2c7c1c6baa1405b39495ab29be06099ea"
+    },
+    {
+      "path": "diagnostics/beta/JPFP_Beta_Scan_With_State.jsx",
+      "sha256": "e3d794cb8e4a079237bea754220569672f0dc6a04b3d0d648e1b3215567adf21"
+    }
+  ]
+}

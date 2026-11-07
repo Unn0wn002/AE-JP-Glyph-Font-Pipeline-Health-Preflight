@@ -1,0 +1,13 @@
+{
+  "static": "PASS",
+  "behavioral_mock": "PASS 74/74",
+  "package_tests": "PASS 3/3",
+  "new_jsx_parse": "PASS 2/2",
+  "prior_manifest_integrity": "PASS 61 files (53 resumed + 8 dual-host)",
+  "raw_F02_F10_F11_checks": "PASS property checks only, not native acceptance",
+  "sampled_composition_preservation": "PASS both compositions exactly equal before/after",
+  "frozen_production_builder_wrapper": "PASS",
+  "budget_consistency": "PASS cumulative3861 + remaining3339 = 7200 seconds",
+  "whitespace": "PASS",
+  "native_acceptance": "NOT_RUN; F02 authoring condition failed"
+}

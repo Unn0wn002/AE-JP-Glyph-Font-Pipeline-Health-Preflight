@@ -1,0 +1,15 @@
+id	status	fixture_condition	blockers	mismatches	timing	observations
+F01	PASS	VERIFIED			run1: 11 ms scanner; 41368 ms including dialogs; run2: 11 ms scanner; 37409 ms including dialogs	
+F02	BLOCKED	BLOCKED	run1: F02 missing reference did not persist as substitute for all characters; run2: F02 missing reference did not persist as substitute for all characters			
+F03	PASS	VERIFIED			run1: 11 ms scanner; 41368 ms including dialogs; run2: 11 ms scanner; 37409 ms including dialogs	
+F04	PASS	VERIFIED			run1: 11 ms scanner; 41368 ms including dialogs; run2: 11 ms scanner; 37409 ms including dialogs	
+F05	PASS	VERIFIED			run1: 11 ms scanner; 41368 ms including dialogs; run2: 11 ms scanner; 37409 ms including dialogs	run1: OBSERVED_APPLIED_FONT_REASSIGNMENT: Fresh covered middle-character applied FontObject reassignment observed. Native retained applied-gap branch remains UNVALIDATED; exact rendered fallback and shaping remain unvalidated.; run2: OBSERVED_APPLIED_FONT_REASSIGNMENT: Fresh covered middle-character applied FontObject reassignment observed. Native retained applied-gap branch remains UNVALIDATED; exact rendered fallback and shaping remain unvalidated.
+F06	PASS	VERIFIED			run1: 11 ms scanner; 41368 ms including dialogs; run2: 11 ms scanner; 37409 ms including dialogs	
+F07	PASS	VERIFIED			run1: 11 ms scanner; 41368 ms including dialogs; run2: 11 ms scanner; 37409 ms including dialogs	
+F08	PASS	VERIFIED			run1: 11 ms scanner; 41368 ms including dialogs; run2: 11 ms scanner; 37409 ms including dialogs	
+F09	PASS	VERIFIED			run1: 11 ms scanner; 41368 ms including dialogs; run2: 11 ms scanner; 37409 ms including dialogs	
+F10	PASS	VERIFIED			run1: 11 ms scanner; 41368 ms including dialogs; run2: 11 ms scanner; 37409 ms including dialogs	
+F11	PASS	VERIFIED			run1: 11 ms scanner; 41368 ms including dialogs; run2: 11 ms scanner; 37409 ms including dialogs	
+F12	PASS	VERIFIED			run1: 11 ms scanner; 41368 ms including dialogs; run2: 11 ms scanner; 37409 ms including dialogs	run1: Wrapper derived kind label is NON_TEXT; authoritative raw SolidSource=true, TextLayer=false and null text group plus matching setup readback establish the solid condition. This diagnostic label discrepancy is not a product scanner failure.; run2: Wrapper derived kind label is NON_TEXT; authoritative raw SolidSource=true, TextLayer=false and null text group plus matching setup readback establish the solid condition. This diagnostic label discrepancy is not a product scanner failure.
+L01	PASS	VERIFIED			run1: 143 ms scanner; 42582 ms including dialogs; run2: 129 ms scanner; 36352 ms including dialogs	
+R01	BLOCKED	BLOCKED	All F01–F12 fixture conditions must be independently established in both runs before full R01			

@@ -1,0 +1,24 @@
+{
+  "schema": "JPFP-GENUINE-BINDING-1",
+  "postScriptName": "ZenKakuGothicNew-Regular",
+  "provenance": {
+    "path": "fixture-provenance.txt",
+    "sha256": "c7c7d12a3cac3e1c852adc2dbf460765ce2ea8ba7b6e756d952cd4aff302d7a1"
+  },
+  "author": {
+    "path": "main-author-outcome.json",
+    "sha256": "fac92da24dd8e1c9c0de3958f82a004e122ad101667e665a073d302269a18998"
+  },
+  "validation": {
+    "path": "sandbox-preflight.json",
+    "sha256": "39722cbf14949cb211111c710a7f415cd6d7495a076cd86d49b221a1f61686ac"
+  },
+  "state": {
+    "path": "sandbox-all-compositions.json",
+    "sha256": "19813a302baeb3455bbf4c966c56904e653fb2317a9c8fff6fff437274e07748"
+  },
+  "transfer": {
+    "path": "transfer-preflight.json",
+    "sha256": "bcf655adffe6171981b09a5e7b6d598327fff65a68b9654c6b55a8140ac9a878"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "static": "PASS",
+  "behavioral_mock_regressions": "PASS 74/74",
+  "package_regressions": "PASS 3/3",
+  "whitespace": "PASS",
+  "executed_probe_source_syntax": "PASS 2/2",
+  "prior_evidence_manifest": "PASS 53 files",
+  "frozen_sources": "PASS scanner, baseline builder, state wrapper",
+  "budget_and_row_consistency": "PASS",
+  "native_acceptance": "NOT_RUN_THIS_CONTINUATION"
+}
