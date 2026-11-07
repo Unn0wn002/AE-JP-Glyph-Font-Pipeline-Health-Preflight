@@ -1,0 +1,517 @@
+Window: "TopLevelWindow", App: AfterFX.exe.
+	0 window TopLevelWindow Secondary Actions: Raise
+		10954 dialog (disabled) Executing Script JPFP_Beta_Scan_With_State.jsx... Secondary Actions: Raise
+			10955 dialog Script Alert Secondary Actions: Raise
+				10956 button OK ID: 2
+				10957 image ID: 20
+				10958 text JP Font and Glyph Preflight — Static-text Beta Composition / コンポ: JPFP_BETA_FIXTURES__DISPOSABLE Static text layers checked: 9 Problems: 0; review needed: 5; not checked: 4 Coverage verified/skipped/failed: 51/1/0 Project revision unchanged: true Export: FAILED Report write failed: Character conversion error. The selected file may be incomplete. Coverage is not rendered fallback or shaping correctness. UNKNOWN/NOT_CHECKED/FAILED never means PASS. ID: 65535
+				10959 title bar (settable, string) Value: Script Alert
+					10960 button Close
+			10961 pane OS_ViewContainer
+				10962 progress bar (settable, string) ProgressBar Value: 100%
+				10962 text
+				10962 text (settable, string) Script execution time 0 minutes 16 seconds. Value: Script execution time 0 minutes 16 seconds.
+				10962 button Cancel
+			10963 title bar (settable, string) Value: Executing Script JPFP_Beta_Scan_With_State.jsx...
+				10964 button Close
+		1 pane WorkspaceFrame
+			2 pane TabPanelContainer
+				3 pane AE Project
+					4 pane OS_ViewContainer
+						5 edit (settable, string) OS_EditText
+							6 edit (settable, string) Search ID: 1
+					7 scroll bar (settable, string) UI_ScrollBar Value: 0
+						10965 thumb UI_ScrollThumb
+					7 scroll bar (settable, string) UI_ScrollBar Value: 0
+						10966 thumb UI_ScrollThumb
+			10 tab UI_TabsContainer
+				10967 tab item (selectable) Project
+					10968 button Close
+					10969 button Panel options menu
+					10970 combo box (settable, string) Value: Project
+					10971 button Toggle Viewer Lock
+				10972 tab item (selectable) [F03] VERIFIED_FIXTURE_CANDIDATE
+					10973 button Close
+					10974 button Panel options menu
+					10975 combo box (settable, string) Value: [F03] VERIFIED_FIXTURE_CANDIDATE
+					10976 text (settable, string) Effect Controls Value: Effect Controls
+					10977 button Toggle Viewer Lock
+			10 combo box (settable, string) Select tab Value: Project
+				8631 list item (selectable) Project
+				8632 list item (selectable) Effect Controls [F03] VERIFIED_FIXTURE_CANDIDATE
+			10 button UI_PictureButton
+		17 pane WorkspaceFrame
+			18 pane TabPanelContainer
+				19 pane AE Composition
+					8633 pane OS_ViewContainer
+					20 combo box (settable, string) Magnification percentage popup Value: (20%)
+						21 list item (selectable) Fit
+						22 list item (selectable) Fit up to 100%
+						23 list item (selectable)
+						24 list item (selectable) 1.5%
+						25 list item (selectable) 3.1%
+						26 list item (selectable) 6.25%
+						27 list item (selectable) 12.5%
+						28 list item (selectable) 25%
+						29 list item (selectable) 33.3%
+						30 list item (selectable) 50%
+						31 list item (selectable) 100%
+						32 list item (selectable) 200%
+						33 list item (selectable) 400%
+						34 list item (selectable) 800%
+						35 list item (selectable) 1600%
+						36 list item (selectable) 3200%
+						37 list item (selectable) 6400%
+					20 button Choose grid and guide options Alt-click to toggle Title/Action Safe
+					20 button 0:00:00:00
+					20 button Take Snapshot
+					20 button Show Snapshot Alt-click to show difference with current frame
+					20 button Copy Frame to Clipboard
+					20 button Show Channel and Color Management Settings Alt-click to show Alpha
+					20 button (settable, string) Region of Interest Alt-click to reset Value: Disabled
+					20 button (settable, string) Toggle Transparency Grid Value: Disabled
+					20 edit (settable, string) Magnification percentage. Hold Alt while zooming to toggle centering behavior. See Preferences > Previews > Magnification for more options. Value: 20
+					20 text (settable, string) % Value: %
+					20 button Reset Exposure
+					20 edit (settable, string) Adjust Exposure Value: +0.0
+					20 button (settable, string) Toggle Mask and Shape Path Visibility Value: Disabled
+					20 combo box (settable, string) Resolution/Down Sample Factor Popup Value: (Quarter)
+						21 list item (selectable) Auto
+						22 list item (selectable)
+						23 list item (selectable) Full
+						24 list item (selectable) Half
+						25 list item (selectable) Third
+						26 list item (selectable) Quarter
+						27 list item (selectable)
+						28 list item (selectable) Custom...
+					20 button Fast Previews
+					20 custom UI_ControlView
+					20 custom UI_ControlView
+					20 custom UI_ControlView
+					20 custom UI_ControlView
+					20 custom UI_ControlView
+					20 custom UI_ControlView
+					20 custom UI_ControlView
+					20 button Extended Viewer
+					20 button 3D Ground Plane
+					20 button (settable, string) Draft 3D Value: Disabled
+					20 button (settable, string) JPFP_BETA_FIXTURES__DISPOSABLE Value: Disabled
+					20 button …
+					20 button …
+			38 tab UI_TabsContainer
+				10978 tab item (selectable) JPFP_BETA_FIXTURES__DISPOSABLE
+					10979 button Close
+					10980 button Panel options menu
+					10981 combo box (settable, string) Value: JPFP_BETA_FIXTURES__DISPOSABLE
+					10982 text (settable, string) Composition Value: Composition
+					10983 button Toggle Viewer Lock
+			38 button UI_PictureButton
+		45 pane WorkspaceFrame
+			46 pane TabPanelContainer
+				47 pane AE Layer
+					48 combo box (settable, string) Magnification percentage popup Value: (100%)
+						49 list item (selectable) Fit
+						50 list item (selectable) Fit up to 100%
+						51 list item (selectable)
+						52 list item (selectable) 1.5%
+						53 list item (selectable) 3.1%
+						54 list item (selectable) 6.25%
+						55 list item (selectable) 12.5%
+						56 list item (selectable) 25%
+						57 list item (selectable) 33.3%
+						58 list item (selectable) 50%
+						59 list item (selectable) 100%
+						60 list item (selectable) 200%
+						61 list item (selectable) 400%
+						62 list item (selectable) 800%
+						63 list item (selectable) 1600%
+						64 list item (selectable) 3200%
+						65 list item (selectable) 6400%
+					48 button Choose grid and guide options Alt-click to toggle Title/Action Safe
+					48 button 0:00:00:00
+					48 button Take Snapshot
+					48 button Show Snapshot Alt-click to show difference with current frame
+					48 button Copy Frame to Clipboard
+					48 button Show Channel and Color Management Settings Alt-click to show Alpha
+					48 button (settable, string) Region of Interest Alt-click to reset Value: Disabled
+					48 button (settable, string) Toggle Transparency Grid Value: Disabled
+					48 edit (settable, string) Magnification percentage. Hold Alt while zooming to toggle centering behavior. See Preferences > Previews > Magnification for more options. Value: 100
+					48 text (settable, string) % Value: %
+					48 button Reset Exposure
+					48 edit (settable, string) Adjust Exposure Value: +0.0
+					48 button Comp Button: Brings forward the comp related to this window.
+					48 button 0:00:00:00
+					48 button (settable, string) Toggle Refine Edge X-ray (Alt+X) Value: Disabled
+					48 text
+					48 text
+					48 button (settable, string) Toggle Alpha (Alt+4) Value: Disabled
+					48 button (settable, string) Toggle Alpha Boundary (Alt+5) Value: Disabled
+					48 button (settable, string) Toggle Alpha Overlay (Alt+6) Value: Disabled
+					48 text
+					48 button Alpha Boundary/Overlay Color
+					48 edit (settable, string) Alpha Boundary/Overlay Opacity Value: 100
+					48 text
+					48 image UI_Divider
+					48 text
+					48 button Set IN point to current time
+					48 text (settable, string) 0:00:00:00 Value: 0:00:00:00
+					48 button Set OUT point to current time
+					48 text (settable, string) 0:00:00:29 Value: 0:00:00:29
+					48 text (settable, string) ∆ 0:00:01:00 Value: ∆ 0:00:01:00
+					48 text (settable, string) View: Value: View:
+					48 text
+					48 combo box (settable, string) Choose effect or layer controls to edit. Value: Choose effect or layer controls to edit.
+					48 text
+					48 check box Render
+					48 text
+					48 button (settable, string) Freeze Value: Disabled
+					48 text
+					48 button Create a new composition from one or more imported footage files
+					48 button Create a new composition
+					48 image
+					48 text (settable, string) Tip of the Day Value: Tip of the Day
+					48 text (settable, string) You can do basic math in property fields using the "+", "-", "*", and "/" characters. To double the scale of a layer you can just add "*2" after the current value. This works for all numeric properties in the Timeline and the Properties panel. — Matthew Law Value: You can do basic math in property fields using the "+", "-", "*", and "/" characters. To double the scale of a layer you can just add "*2" after the current value. This works for all numeric properties in the Timeline and the Properties panel. — Matthew Law
+			66 tab UI_TabsContainer
+				10984 tab item (selectable) (none)
+					10985 button Close
+					10986 button Panel options menu
+					10987 combo box (settable, string) Value: (none)
+					10988 text (settable, string) Layer Value: Layer
+					10989 button Toggle Viewer Lock
+			66 button UI_PictureButton
+		73 pane WorkspaceFrame
+			74 pane TabPanelContainer
+				75 pane AE Timeline
+					76 pane OS_ViewContainer
+						77 edit (settable, string) OS_EditText
+							78 edit (settable, string) Search ID: 1
+					79 scroll bar (settable, string) UI_ScrollBar Value: 0
+						10990 thumb UI_ScrollThumb
+					79 button Choose which properties are shown in the graph editor
+					79 button Choose graph type and options
+					79 button (settable, string) Show Transform Box when multiple keys are selected Value: Disabled
+					79 button (settable, string) Snap Value: Disabled
+					79 button (settable, string) Auto-zoom graph height Value: Disabled
+					79 button Fit selection to view
+					79 button Fit all graphs to view
+					79 button (settable, string) Separate Dimensions Value: Disabled
+					79 button Edit selected keyframes
+					79 button Convert selected keyframes to Hold
+					79 button Convert selected keyframes to Linear
+					79 button Convert selected keyframes to Auto Bezier
+					79 button Easy Ease
+					79 button Easy Ease In
+					79 button Easy Ease Out
+					79 scroll bar (settable, string) UI_ScrollBar Value: 0
+						10991 thumb UI_ScrollThumb
+			82 tab UI_TabsContainer
+				10992 tab item (selectable) JPFP_BETA_FIXTURES__DISPOSABLE
+					10993 button Close
+					10994 button Panel options menu
+					10995 combo box (settable, string) Value: JPFP_BETA_FIXTURES__DISPOSABLE
+					10996 button Toggle Viewer Lock
+			82 button UI_PictureButton
+		87 pane WorkspaceFrame
+			88 pane TabPanelContainer
+				89 pane AEGP_TimePal
+					90 button First Frame
+					90 button Previous Frame
+					90 button Play/Stop
+					90 button Next Frame
+					90 button Last Frame
+					90 image UI_Divider
+					90 text (settable, string) Shortcut Value: Shortcut
+					90 combo box (settable, string) Choose preview shortcut. Preview options apply to the chosen shortcut. Value: Spacebar
+						91 list item (selectable) Spacebar
+						92 list item (selectable) Shift+Spacebar
+						93 list item (selectable) Numpad 0
+						94 list item (selectable) Shift+Numpad 0
+						95 list item (selectable) Alt+Numpad 0
+						96 list item (selectable) Numpad .
+						97 list item (selectable) Alt+Numpad .
+					90 button Reset preview options to default for all shortcuts; Alt-Click to reset to classic defaults.
+					90 text (settable, string) Include: Value: Include:
+					90 button (settable, string) Play video in preview. Value: Disabled
+					90 button (settable, string) Play audio in preview. Value: Disabled
+					90 button (settable, string) Show overlays and layer controls (such as guides, handles, and masks) in preview. Choose which layer controls to show in the View > View Options dialog. Value: Disabled
+					90 image UI_Divider
+					90 button Click to change loop options (play once, loop).
+					90 check box Cache Before Playback
+					90 text (settable, string) Range Value: Range
+					90 combo box (settable, string) Select preview range. Value: Work Area Extended By Current Time
+						91 list item (selectable) Work Area
+						92 list item (selectable) Work Area Extended By Current Time
+						93 list item (selectable) Entire Duration
+						94 list item (selectable)
+						95 list item (selectable) Play Around Current Time...
+					90 text (settable, string) Play From Value: Play From
+					90 combo box (settable, string) Choose whether playback begins at start of range or current time. Value: Current Time
+						91 list item (selectable) Start Of Range
+						92 list item (selectable) Current Time
+					90 text (settable, string) Frame Rate Value: Frame Rate
+					90 combo box (settable, string) Choose playback frame rate. Adjusts the speed of playback. Value: (30)
+						91 list item (selectable) Auto
+						92 list item (selectable)
+						93 list item (selectable) 15
+						94 list item (selectable) 24
+						95 list item (selectable) 25
+						96 list item (selectable) 29.97
+						97 list item (selectable) 30
+						98 list item (selectable) 59.94
+						99 list item (selectable) 60
+						100 list item (selectable) 120
+					90 text (settable, string) Skip Value: Skip
+					90 combo box (settable, string) Select a number of frames to skip rendering and playback in order to increase playback performance. Value: 0
+						91 list item (selectable) 0
+						92 list item (selectable) 1
+						93 list item (selectable) 2
+						94 list item (selectable) 5
+					90 text (settable, string) Resolution Value: Resolution
+					90 combo box (settable, string) Choose preview resolution. Overrides current composition settings. Value: Auto
+						91 list item (selectable) Auto
+						92 list item (selectable)
+						93 list item (selectable) Full
+						94 list item (selectable) Half
+						95 list item (selectable) Third
+						96 list item (selectable) Quarter
+						97 list item (selectable)
+						98 list item (selectable) Custom...
+					90 check box Full Screen
+					90 image UI_Divider
+					90 text (settable, string) On (Spacebar) Stop: Value: On (Spacebar) Stop:
+					90 check box If caching, play cached frames
+					90 check box Move time to preview time
+			101 tab UI_TabsContainer
+				10997 tab item (selectable) Preview
+					10998 button Close
+					10999 button Panel options menu
+					11000 combo box (settable, string) Value: Preview
+					11001 button Toggle Viewer Lock
+			101 button UI_PictureButton
+		105 pane StackedWorkspaceFrame
+			106 pane FrameChildContainer
+				107 pane FrameChild
+					108 pane TabPanelContainer
+						109 pane AEGP_PaintPal
+							110 button Click to open brush tip selector
+							110 button Eyedropper
+							110 button (settable, string) Clone Preset - Alt+click duplicates current preset Value: Disabled
+							110 button (settable, string) Clone Preset - Alt+click duplicates current preset Value: Disabled
+							110 button (settable, string) Clone Preset - Alt+click duplicates current preset Value: Disabled
+							110 button (settable, string) Clone Preset - Alt+click duplicates current preset Value: Disabled
+							110 button (settable, string) Clone Preset - Alt+click duplicates current preset Value: Disabled
+							110 button Reset clone source offset to zero
+							110 button (settable, string) Use difference mode in the clone source overlay Value: Disabled
+					111 tab UI_TabsContainer
+						11002 tab item (selectable) Paint
+							11003 button Close
+							11004 button Panel options menu
+							11005 combo box (settable, string) Value: Paint
+							11006 button Toggle Viewer Lock
+					111 button UI_PictureButton
+				115 pane FrameChild
+					116 pane TabPanelContainer
+						117 pane AEGP_BrushPalette
+					118 tab UI_TabsContainer
+						11007 tab item (selectable) Brushes
+							11008 button Close
+							11009 button Panel options menu
+							11010 combo box (settable, string) Value: Brushes
+							11011 button Toggle Viewer Lock
+					118 button UI_PictureButton
+				122 pane FrameChild
+					123 tab UI_TabsContainer
+						11012 tab item (selectable) Effects & Presets
+							11013 button Close
+							11014 button Panel options menu
+							11015 combo box (settable, string) Value: Effects & Presets
+							11016 button Toggle Viewer Lock
+					123 button UI_PictureButton
+				126 pane FrameChild
+					127 tab UI_TabsContainer
+						11017 tab item (selectable) Audio
+							11018 button Close
+							11019 button Panel options menu
+							11020 combo box (settable, string) Value: Audio
+							11021 button Toggle Viewer Lock
+					127 button UI_PictureButton
+				130 pane FrameChild
+					131 tab UI_TabsContainer
+						11022 tab item (selectable) Align
+							11023 button Close
+							11024 button Panel options menu
+							11025 combo box (settable, string) Value: Align
+							11026 button Toggle Viewer Lock
+					131 button UI_PictureButton
+				134 pane FrameChild
+					135 pane TabPanelContainer
+						136 pane AEGP_PropertiesPal
+							137 tree
+								11027 tree item (selectable, settable, string) Value: 0
+								11028 tree item (selectable, settable, string) Value: 0
+								11029 tree item (selectable, settable, string) Value: 0
+								11030 tree item (selectable, settable, string) Value: 0
+								11031 tree item (selectable, settable, string) Value: 0
+								11032 tree item (selectable, settable, string) Value: 0
+								11033 tree item (selectable, settable, string) Value: 0
+								11034 tree item (selectable, settable, string) Value: 0
+								11035 tree item (selectable, settable, string) Value: 0
+								11036 tree item (selectable, settable, string) Value: 0
+								11037 tree item (selectable, settable, string) Value: 0
+								11038 tree item (selectable, settable, string) Value: 0
+								11039 tree item (selectable, settable, string) Value: 0
+								11040 tree item (selectable, settable, string) Value: 0
+								11041 tree item (selectable, settable, string) Value: 0
+								11042 tree item (selectable, settable, string) Value: 0
+								11043 tree item (selectable, settable, string) Value: 0
+								11044 tree item (selectable, settable, string) Value: 0
+					138 tab UI_TabsContainer
+						11045 tab item (selectable) Properties: [F03] VERIFIED_FIXTURE_CANDIDATE
+							11046 button Close
+							11047 button Panel options menu
+							11048 combo box (settable, string) Value: Properties: [F03] VERIFIED_FIXTURE_CANDIDATE
+							11049 button Toggle Viewer Lock
+					138 button UI_PictureButton
+			142 scroll bar (settable, string) UI_ScrollBar Value: 0
+				11050 thumb UI_ScrollThumb
+		144 pane TablessWorkspaceFrame
+			145 pane ToolsTab
+				146 button UI_PictureButton
+				146 button Home
+				146 image UI_Divider
+				146 button (settable, string) Selection Tool (V) Value: Disabled
+				146 button (settable, string) Hand Tool (H) Value: Disabled
+				146 button (settable, string) Zoom Tool (Z) Value: Disabled
+				146 image UI_Divider
+				146 button (settable, string) Orbit Around Cursor Tool: Orbit around the cursor hit point (1, Shift+1) Value: Disabled
+				146 button (settable, string) Pan Under Cursor Tool: Pan speed changes relative to the cursor hit point (2, Shift+2) Value: Disabled
+				146 button (settable, string) Dolly Towards Cursor Tool: Dolly towards the cursor hit point and away from the center of the composition (3, Shift+3) Value: Disabled
+				146 image UI_Divider
+				146 button (settable, string) Rotation Tool (W) Value: Disabled
+				146 button (settable, string) Pan Behind (Anchor Point) Tool (Y) Value: Disabled
+				146 image UI_Divider
+				146 button (settable, string) Rectangle Tool (Q) Value: Disabled
+				146 button (settable, string) Cube Tool (Shift+D) Value: Disabled
+				146 button (settable, string) Pen Tool (G) Value: Disabled
+				146 button (settable, string) Horizontal Type Tool (Ctrl+T) Value: Disabled
+				146 image UI_Divider
+				146 button (settable, string) Brush Tool (Ctrl+B) Value: Disabled
+				146 button (settable, string) Clone Stamp Tool (Ctrl+B) Value: Disabled
+				146 button (settable, string) Eraser Tool (Ctrl+B) Value: Disabled
+				146 image UI_Divider
+				146 button (settable, string) Object Matte Tool: Hover over object; click or drag to select; Alt‑click or Alt‑drag to deselect. (Alt+W) Value: Disabled
+				146 image UI_Divider
+				146 button (settable, string) Puppet Position Pin Tool (Ctrl+P) Value: Disabled
+				146 custom WorkspaceSwitcherBar
+					11051 tab UI_TabsContainer
+						11052 tab item (selectable) Default
+							11053 button Close
+							11054 button Panel options menu
+							11055 combo box (settable, string) Value: Default
+							11056 button Toggle Viewer Lock
+						11057 tab item (selectable) Review
+							11058 button Close
+							11059 button Panel options menu
+							11060 combo box (settable, string) Value: Review
+							11061 button Toggle Viewer Lock
+						11062 tab item (selectable) Learn
+							11063 button Close
+							11064 button Panel options menu
+							11065 combo box (settable, string) Value: Learn
+							11066 button Toggle Viewer Lock
+						11067 tab item (selectable) Small Screen
+							11068 button Close
+							11069 button Panel options menu
+							11070 combo box (settable, string) Value: Small Screen
+							11071 button Toggle Viewer Lock
+						11072 tab item (selectable) Standard
+							11073 button Close
+							11074 button Panel options menu
+							11075 combo box (settable, string) Value: Standard
+							11076 button Toggle Viewer Lock
+						11077 tab item (selectable) Libraries
+							11078 button Close
+							11079 button Panel options menu
+							11080 combo box (settable, string) Value: Libraries
+							11081 button Toggle Viewer Lock
+					11082 combo box (settable, string) Select tab
+						11083 list item (selectable) All Panels
+						11084 list item (selectable) Animation
+						11085 list item (selectable) Essential Graphics
+						11086 list item (selectable) Color
+						11087 list item (selectable) Effects
+						11088 list item (selectable) Minimal
+						11089 list item (selectable) Paint
+						11090 list item (selectable) Text
+						11091 list item (selectable) Motion Tracking
+						11092 list item (selectable)
+						11093 list item (selectable) Edit Workspaces...
+					11094 button UI_PictureButton
+					11095 button UI_Button
+				146 button UI_PictureButton
+				146 button UI_PictureButton
+				146 button UI_PictureButton
+				146 button (settable, string) Local Axis Mode Value: Disabled
+				146 button (settable, string) World Axis Mode Value: Disabled
+				146 button (settable, string) View Axis Mode Value: Disabled
+				146 button (settable, string) Free Form Value: Disabled
+				146 button (settable, string) Constrain horizontally Value: Disabled
+				146 button (settable, string) Constrain vertically Value: Disabled
+				146 button (settable, string) Universal Value: Disabled
+				146 button (settable, string) Position Value: Disabled
+				146 button (settable, string) Scale Value: Disabled
+				146 button (settable, string) Rotation Value: Disabled
+				146 image UI_Divider
+				146 check box Snapping
+				146 button (settable, string) Snap along edges extending beyond layer boundaries Value: Disabled
+				146 button (settable, string) Snap to and show features inside collapsed compositions and text layers Value: Disabled
+				146 link Record Options
+				146 button (settable, string) Tool Creates Shape Value: Disabled
+				146 button (settable, string) Tool Creates Mask Value: Disabled
+				146 link Fill:
+				146 button Fill Color: Alt-click to cycle through fill type options
+				146 link Stroke:
+				146 button Stroke Color: Alt-click to cycle through stroke type options
+				146 button add property button
+				146 button (settable, string) UI_PictureButton Value: Disabled
+				146 button (settable, string) Rectangle Value: Disabled
+				146 button (settable, string) Lasso Value: Disabled
+			174 image
+		175 title bar (settable, string) Value: Adobe After Effects 2026 - C:\Users\unn0w\Downloa ... sitory\evidence\native-20261017-resumed\JPFP_BETA_VERIFIED_EXCEPT_F02.aep
+			176 menu bar System ID: MenuBar
+				177 menu item System
+			178 button Minimize
+			179 button Maximize
+			180 button Close
+		181 menu bar Application ID: MenuBar
+			182 menu item File
+			183 menu item Edit
+			184 menu item Composition
+			185 menu item Layer
+			186 menu item Effect
+			187 menu item Animation
+			188 menu item View
+			189 menu item Window
+			190 menu item Help
+		10955 dialog Script Alert Secondary Actions: Raise
+			10956 button OK ID: 2
+			10957 image ID: 20
+			10958 text JP Font and Glyph Preflight — Static-text Beta Composition / コンポ: JPFP_BETA_FIXTURES__DISPOSABLE Static text layers checked: 9 Problems: 0; review needed: 5; not checked: 4 Coverage verified/skipped/failed: 51/1/0 Project revision unchanged: true Export: FAILED Report write failed: Character conversion error. The selected file may be incomplete. Coverage is not rendered fallback or shaping correctness. UNKNOWN/NOT_CHECKED/FAILED never means PASS. ID: 65535
+			10959 title bar (settable, string) Value: Script Alert
+				10960 button Close
+		10954 dialog (disabled) Executing Script JPFP_Beta_Scan_With_State.jsx... Secondary Actions: Raise
+			10955 dialog Script Alert Secondary Actions: Raise
+				10956 button OK ID: 2
+				10957 image ID: 20
+				10958 text JP Font and Glyph Preflight — Static-text Beta Composition / コンポ: JPFP_BETA_FIXTURES__DISPOSABLE Static text layers checked: 9 Problems: 0; review needed: 5; not checked: 4 Coverage verified/skipped/failed: 51/1/0 Project revision unchanged: true Export: FAILED Report write failed: Character conversion error. The selected file may be incomplete. Coverage is not rendered fallback or shaping correctness. UNKNOWN/NOT_CHECKED/FAILED never means PASS. ID: 65535
+				10959 title bar (settable, string) Value: Script Alert
+					10960 button Close
+			10961 pane OS_ViewContainer
+				10962 progress bar (settable, string) ProgressBar Value: 100%
+				10962 text
+				10962 text (settable, string) Script execution time 0 minutes 16 seconds. Value: Script execution time 0 minutes 16 seconds.
+				10962 button Cancel
+			10963 title bar (settable, string) Value: Executing Script JPFP_Beta_Scan_With_State.jsx...
+				10964 button Close
+
+The focused UI element is 10954 dialog (disabled) Executing Script JPFP_Beta_Scan_With_State.jsx... Secondary Actions: Raise.

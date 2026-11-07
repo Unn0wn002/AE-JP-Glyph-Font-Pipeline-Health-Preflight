@@ -1,0 +1,6 @@
+function sha256Binary(s){
+var k=[],h=[],p=2,n=0;while(n<64){var prime=true;for(var j=2;j*j<=p;j++){if(p%j===0){prime=false;break;}}if(prime){if(n<8)h[n]=(Math.sqrt(p)%1*4294967296)|0;k[n]=(Math.pow(p,1/3)%1*4294967296)|0;n++;}p++;}
+var w=[],len=s.length;for(var i=0;i<len;i++)w[i>>2]=(w[i>>2]||0)|((s.charCodeAt(i)&255)<<(24-(i%4)*8));w[len>>2]=(w[len>>2]||0)|(128<<(24-(len%4)*8));var total=(((len+8)>>6)+1)*16;for(var i=0;i<total;i++)if(w[i]===undefined)w[i]=0;w[total-2]=Math.floor(len/536870912);w[total-1]=(len*8)|0;
+function r(x,n){return (x>>>n)|(x<<(32-n));}for(var off=0;off<total;off+=16){var a=h.slice(0),v=[];for(var t=0;t<64;t++){if(t<16)v[t]=w[off+t];else{var x=v[t-15],y=v[t-2];v[t]=(v[t-16]+(r(x,7)^r(x,18)^(x>>>3))+v[t-7]+(r(y,17)^r(y,19)^(y>>>10)))|0;}var e=a[4],z=a[0],t1=(a[7]+(r(e,6)^r(e,11)^r(e,25))+((e&a[5])^(~e&a[6]))+k[t]+v[t])|0,t2=((r(z,2)^r(z,13)^r(z,22))+((z&a[1])^(z&a[2])^(a[1]&a[2])))|0;a=[(t1+t2)|0,a[0],a[1],a[2],(a[3]+t1)|0,a[4],a[5],a[6]];}for(var q=0;q<8;q++)h[q]=(h[q]+a[q])|0;}
+var out='';for(var i=0;i<8;i++){var x=(h[i]>>>0).toString(16);while(x.length<8)x='0'+x;out+=x;}return out;}
+function hashFile(file){file.encoding='BINARY';if(!file.open('r'))throw Error('hash open failed '+file.fsName);var s=file.read();file.close();return sha256Binary(s);}

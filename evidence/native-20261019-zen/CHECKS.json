@@ -1,0 +1,91 @@
+{
+  "checkedAt": "2026-10-19T12:46:21.196Z",
+  "static": "PASS",
+  "behavioral": {
+    "command": "node tests/behavioral_regressions.cjs",
+    "passed": 74,
+    "total": 74
+  },
+  "unittest": {
+    "command": "python -m unittest discover -s tests -p 'test_*.py' -v",
+    "passed": 10,
+    "total": 10
+  },
+  "commandCorrection": "Initial closeout behavioral invocation used nonexistent tests/session1_behavioral_checks.js (MODULE_NOT_FOUND); corrected to workflow command tests/behavioral_regressions.cjs, 74/74 PASS.",
+  "integrity": {
+    "priorManifests": [
+      {
+        "directory": "native-20261017-resumed",
+        "entries": 53,
+        "pass": true
+      },
+      {
+        "directory": "native-20261019-dual-host",
+        "entries": 8,
+        "pass": true
+      },
+      {
+        "directory": "native-20261019-resumed",
+        "entries": 15,
+        "pass": true
+      }
+    ],
+    "frozen": [
+      {
+        "path": "src/JPFP_Session1_Probe.jsx",
+        "sha256": "f93d221898e6dc75985e2fa5b7ffbde2850c2ebc39da889b21592c5f58d8156e",
+        "pass": true
+      },
+      {
+        "path": "fixtures/JPFP_Session1_CreateFixtures.jsx",
+        "sha256": "1dc804f545b4f4e19435996e0d3328e2c7c1c6baa1405b39495ab29be06099ea",
+        "pass": true
+      },
+      {
+        "path": "diagnostics/beta/JPFP_Beta_Scan_With_State.jsx",
+        "sha256": "e3d794cb8e4a079237bea754220569672f0dc6a04b3d0d648e1b3215567adf21",
+        "pass": true
+      },
+      {
+        "path": "evidence/native-20261017-resumed/JPFP_BETA_VERIFIED_EXCEPT_F02.aep",
+        "sha256": "5f64f70c6fa639447435e5869120068feb6e32a755a4ea0a58491babdddd8007",
+        "pass": true
+      },
+      {
+        "path": "artifacts/native/F02-operator/F02-authoring-attempt.aep",
+        "sha256": "6ff25c66e07821469f45d88437e652afddcab03e794cc616795a802923452fb8",
+        "pass": true
+      },
+      {
+        "path": "artifacts/native/F02-operator/genuine-F02.aep",
+        "sha256": "af3b1bd641a0955f63230f44b7e53987cddccd7099bffb832718f1ea7aa21306",
+        "pass": true
+      },
+      {
+        "path": "artifacts/native/F02-font-main-only/ZenKakuGothicNew-Regular.ttf",
+        "sha256": "b840cd07a67d89cacca44249ae49aa99ee7640eb5ce623be8d8983d6aabac801",
+        "pass": true
+      }
+    ],
+    "artifacts": [],
+    "parses": [
+      "author-approved-zen.jsx",
+      "hash-exported-evidence.jsx",
+      "run-four-scans.jsx",
+      "sandbox-preflight-fast.jsx",
+      "sandbox-preflight.jsx",
+      "sha256-binary.js"
+    ]
+  },
+  "originSHA256": {
+    "entries": 26,
+    "allMatch": true
+  },
+  "native": {
+    "rows": 14,
+    "allPass": true,
+    "gate": "NATIVE_MATRIX_PASS_PENDING_REVIEW"
+  },
+  "package": "Package regression tests passed. Final archive must be rebuilt from final clean committed head; adjacent BUILD_INFO records source binding.",
+  "scope": "Repository checks do not replace human evidence review. Native investigation stopped; remaining699 seconds."
+}

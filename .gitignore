@@ -1,0 +1,14 @@
+# Project 9-A local/generated evidence
+*.aep
+*.aepx
+*.aet
+*.aetx
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+artifacts/
+reports/
+dist/
+__pycache__/
+*.pyc

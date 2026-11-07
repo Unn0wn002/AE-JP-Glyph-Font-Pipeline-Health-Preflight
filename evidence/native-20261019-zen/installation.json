@@ -1,0 +1,18 @@
+{
+  "observedAt": "2026-10-19T16:40:12.8702490+07:00",
+  "computer": "AYAKUMI_NOZOMI",
+  "os": {
+    "Caption": "Microsoft Windows 11 Pro",
+    "Version": "10.0.26300",
+    "BuildNumber": "26300",
+    "OSArchitecture": "64-bit"
+  },
+  "culture": "en-US",
+  "uiCulture": "en-US",
+  "registryScope": "HKCU",
+  "fontRegistration": "C:\\Users\\unn0w\\AppData\\Local\\Microsoft\\Windows\\Fonts\\ZenKakuGothicNew-Regular.ttf",
+  "installedFileSHA256": "b840cd07a67d89cacca44249ae49aa99ee7640eb5ce623be8d8983d6aabac801",
+  "downloadedFileSHA256": "b840cd07a67d89cacca44249ae49aa99ee7640eb5ce623be8d8983d6aabac801",
+  "source": "https://github.com/googlefonts/zen-kakugothic/blob/2705757e17e42954f3acbdf921ac0ae24d1270cd/fonts/ttf/ZenKakuGothicNew-Regular.ttf",
+  "installAction": "Native Windows Font Viewer Install; one Regular face; no OS consent dialog observed"
+}

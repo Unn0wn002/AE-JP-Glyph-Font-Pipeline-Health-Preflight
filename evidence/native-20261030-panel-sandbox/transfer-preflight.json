@@ -1,0 +1,55 @@
+{
+ "method": "Sandbox received original and unsaved disposable returned to main; SHA-256 computed on returned bytes",
+ "transport": "Windows Sandbox mapped folder (read/write) instead of Explorer copy; hashes computed on host bytes after the Sandbox closed",
+ "receivedOriginalSHA256": "af3b1bd641a0955f63230f44b7e53987cddccd7099bffb832718f1ea7aa21306",
+ "receivedWorkSHA256": "af3b1bd641a0955f63230f44b7e53987cddccd7099bffb832718f1ea7aa21306",
+ "provenanceProjectSHA256": "af3b1bd641a0955f63230f44b7e53987cddccd7099bffb832718f1ea7aa21306",
+ "sourceFilesMatchReturned": true,
+ "files": [
+  {
+   "path": "panel-install\\JPFP\\JPFP_Session1_Probe.jsx",
+   "senderSHA256": "f93d221898e6dc75985e2fa5b7ffbde2850c2ebc39da889b21592c5f58d8156e",
+   "returnedSHA256": "f93d221898e6dc75985e2fa5b7ffbde2850c2ebc39da889b21592c5f58d8156e"
+  },
+  {
+   "path": "panel-install\\JPFP_Session1_Panel.jsx",
+   "senderSHA256": "3b7f2b29c50f7729792a0fe163ae74e53ce531268885f3a8415a308fa9b84f5a",
+   "returnedSHA256": "3b7f2b29c50f7729792a0fe163ae74e53ce531268885f3a8415a308fa9b84f5a"
+  },
+  {
+   "path": "run\\F02ZEN\\diagnostics\\beta\\JPFP_Panel_State_After.jsx",
+   "senderSHA256": "d8b33001671eeed2329d9026e8987d359032792df6bf4fa04108169fa0025c33",
+   "returnedSHA256": "d8b33001671eeed2329d9026e8987d359032792df6bf4fa04108169fa0025c33"
+  },
+  {
+   "path": "run\\F02ZEN\\diagnostics\\beta\\JPFP_Panel_State_Before_fixture.jsx",
+   "senderSHA256": "54f8280f6e7cda62096aefefea56fda4a998af46872e98214effd6e611d56a3b",
+   "returnedSHA256": "54f8280f6e7cda62096aefefea56fda4a998af46872e98214effd6e611d56a3b"
+  },
+  {
+   "path": "run\\F02ZEN\\diagnostics\\beta\\JPFP_Panel_State_Before_large.jsx",
+   "senderSHA256": "30e94e24c9d231f7fa8e777112057a09775c4816794f6a9ace1ae0cc138bc6cd",
+   "returnedSHA256": "30e94e24c9d231f7fa8e777112057a09775c4816794f6a9ace1ae0cc138bc6cd"
+  },
+  {
+   "path": "run\\F02ZEN\\fixture-provenance.txt",
+   "senderSHA256": "c7c7d12a3cac3e1c852adc2dbf460765ce2ea8ba7b6e756d952cd4aff302d7a1",
+   "returnedSHA256": "c7c7d12a3cac3e1c852adc2dbf460765ce2ea8ba7b6e756d952cd4aff302d7a1"
+  },
+  {
+   "path": "run\\F02ZEN\\genuine-F02.aep",
+   "senderSHA256": "af3b1bd641a0955f63230f44b7e53987cddccd7099bffb832718f1ea7aa21306",
+   "returnedSHA256": "af3b1bd641a0955f63230f44b7e53987cddccd7099bffb832718f1ea7aa21306"
+  },
+  {
+   "path": "run\\F02ZEN\\src\\JPFP_Session1_Probe.jsx",
+   "senderSHA256": "f93d221898e6dc75985e2fa5b7ffbde2850c2ebc39da889b21592c5f58d8156e",
+   "returnedSHA256": "f93d221898e6dc75985e2fa5b7ffbde2850c2ebc39da889b21592c5f58d8156e"
+  },
+  {
+   "path": "run\\scripts\\sandbox-preflight-fast.jsx",
+   "senderSHA256": "3e32f391feeecd4d2e5ae4ffcfb11e3554ad6118a316cad5f36c107d964bd868",
+   "returnedSHA256": "3e32f391feeecd4d2e5ae4ffcfb11e3554ad6118a316cad5f36c107d964bd868"
+  }
+ ]
+}

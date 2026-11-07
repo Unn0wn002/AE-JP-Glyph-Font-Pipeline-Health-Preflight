@@ -1,0 +1,14 @@
+NATIVE ASCII CONTROL; mutating fixture setup, not scanner validation
+AE version	26.5x89
+AE build	89
+AE build name	26.5x89
+Locale	en_US
+OS	Windows/64 10.0  
+Project items before	0
+Revision before	1
+Actual Source Text	ABC 123
+Layer count	1
+Result	PASS
+Project items after	1
+Revision after	32
+Elapsed ms	35

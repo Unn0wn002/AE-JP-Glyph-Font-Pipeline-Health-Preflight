@@ -1,0 +1,18 @@
+{
+  "capturedAt": "2026-10-19T14:39:51.2969743+07:00",
+  "hostRole": "MAIN_WINDOWS_AUTHORING",
+  "os": {
+    "Caption": "Microsoft Windows 11 Pro",
+    "Version": "10.0.26300",
+    "BuildNumber": "26300",
+    "OSArchitecture": "64-bit"
+  },
+  "culture": "en-US",
+  "uiCulture": "en-US",
+  "timeZone": "SE Asia Standard Time",
+  "branch": "beta/static-preflight-20261017",
+  "startingHead": "68900a9b96dc5f7b941f53601d73dd1b5b013cf4",
+  "scannerSHA256": "f93d221898e6dc75985e2fa5b7ffbde2850c2ebc39da889b21592c5f58d8156e",
+  "baselineBuilderSHA256": "1dc804f545b4f4e19435996e0d3328e2c7c1c6baa1405b39495ab29be06099ea",
+  "wrapperSHA256": "e3d794cb8e4a079237bea754220569672f0dc6a04b3d0d648e1b3215567adf21"
+}

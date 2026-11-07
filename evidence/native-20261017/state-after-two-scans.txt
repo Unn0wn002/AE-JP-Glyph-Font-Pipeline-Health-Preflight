@@ -1,0 +1,2 @@
+Observed native accessibility transcript; matches before-state in OBSERVATIONS.md
+9171 text JPFP native state (read-only; not a complete fixture validation) AE version = 26.5x89 AE build name = 26.5x89 AE build number = 89 Locale = en_US OS = Windows/64 10.0 Project items = 1 Project revision = 32 Project file = UNSAVED_DISPOSABLE Composition = JPFP_BETA_ASCII_SMOKE__DISPOSABLE Composition ID = 1 Layer count = 1 Time = 0 Layer 1 ID/name = 13 / ABC 123 Source Text = ABC 123 Keys/expression = 0 / false Font at [0,1) = TimesNewRomanPSMT #236 substitute=false ID: 65535

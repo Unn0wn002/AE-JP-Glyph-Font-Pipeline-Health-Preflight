@@ -1,0 +1,107 @@
+{
+  "schema": "JPFP-DUAL-HOST-RECOVERY-1",
+  "starting_commit": "68900a9b96dc5f7b941f53601d73dd1b5b013cf4",
+  "branch": "beta/static-preflight-20261017",
+  "initial_checkout_clean": true,
+  "pr_number": 1,
+  "pr_open": true,
+  "pr_draft": true,
+  "applicable_agents_files": [],
+  "main_windows": {
+    "role": "AUTHORING",
+    "native_access": "VERIFIED_LAUNCHED",
+    "host": "AYAKUMI_NOZOMI",
+    "ae_version": "26.5x89",
+    "ae_build_name": "26.5x89",
+    "ae_build_number": 89,
+    "ae_locale": "en_US",
+    "os": "Microsoft Windows 11 Pro 10.0.26300 64-bit",
+    "os_culture": "en-US",
+    "os_ui_culture": "en-US",
+    "inventory_fonts": 345,
+    "inventory": "main-host-inventory.txt",
+    "project_items": 0
+  },
+  "sandbox": {
+    "role": "MISSING_FONT_VALIDATION",
+    "session": "existing Windows Sandbox, kept open",
+    "native_access": "VERIFIED_LIVE_AE_AND_SCRIPT_EXECUTION",
+    "ae_about_version": "26.5.0",
+    "ae_build_number": 89,
+    "ae_script_version": "NOT_RETAINED",
+    "ae_locale": "NOT_VERIFIED",
+    "os_build": "NOT_VERIFIED",
+    "os_locale": "NOT_VERIFIED",
+    "project": "Untitled Project.aep, visually empty",
+    "inventory": "NOT_RETAINED_PERMISSION_DENIED",
+    "preference_change": "User said let me enable it first; completion not yet confirmed"
+  },
+  "transfer": {
+    "method": "Explorer Ctrl+C / Ctrl+V clipboard file transfer",
+    "inbound": "VERIFIED: sandbox-probe.jsx visible on Sandbox Desktop, 1.60 KB; executed via File > Scripts > Run Script File",
+    "outbound": "NOT_YET_VERIFIED",
+    "font_files_transferred": false,
+    "source_probe_sha256": "3c9568ba2157b760bba1200e60673458d12f1a332170c2eda5c15bff9f793b5c",
+    "sandbox_probe_hash": "NOT_VERIFIED",
+    "evidence_preserved_on_main": [
+      "sandbox-write-permission-denied.png",
+      "sandbox-ae-about.png",
+      "main-host-inventory.txt",
+      "main-host-os.json"
+    ]
+  },
+  "blocker": {
+    "action": "sandbox probe evidence file write",
+    "message": "Unable to execute script at line 14. Permission denied (is Preferences > Scripting & Expressions > Allow Scripts to Write Files and Access Network enabled?)",
+    "manual_action": "In Sandbox AE, manually enable Edit > Preferences > Scripting & Expressions > Allow Scripts to Write Files and Access Network, then confirm. Keep Sandbox open.",
+    "setting_changed_by_agent": false
+  },
+  "probe_note": "Raw row fontActivation is misnamed: the executed expression reads fontsWithDefaultDesignAxes (variable font list), not automatic font activation. No activation state is established by that row. Preserve raw evidence unchanged.",
+  "font_selection": "NOT_RUN: cross-host absence/control availability not established",
+  "genuine_fixture_created": false,
+  "fixture_sha256": null,
+  "fixture_font_identity": null,
+  "fixture_authoring_mutations": 0,
+  "new_scanner_executions": 0,
+  "diagnostic_evaluator_bindings_adapted": false,
+  "native_acceptance": "NOT_RUN_THIS_CONTINUATION",
+  "retained_pass_rows": [
+    "F01",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "L01"
+  ],
+  "retained_blocked_rows": [
+    "F02",
+    "R01"
+  ],
+  "gate": "BLOCKED_NATIVE_VALIDATION",
+  "f05_limits": [
+    "native retained applied-gap UNVALIDATED",
+    "exact rendered fallback UNVALIDATED",
+    "shaping UNVALIDATED"
+  ],
+  "budget": {
+    "previous_charged_seconds": 2781,
+    "new_conservative_charge_seconds": 360,
+    "cumulative_charged_seconds": 3141,
+    "remaining_seconds": 4059,
+    "remaining": "67m39s",
+    "native_interval_local": "2026-10-19 14:33:18 through approximately 14:38:45 WIB",
+    "note": "Six-minute conservative charge. Human wait for the manual preference action and subsequent repository documentation/checks/packaging excluded. Resume accounting at the next native action."
+  },
+  "prior_evidence_manifest_verified_files": 53,
+  "source_hashes": {
+    "src/JPFP_Session1_Probe.jsx": "f93d221898e6dc75985e2fa5b7ffbde2850c2ebc39da889b21592c5f58d8156e",
+    "fixtures/JPFP_Session1_CreateFixtures.jsx": "1dc804f545b4f4e19435996e0d3328e2c7c1c6baa1405b39495ab29be06099ea",
+    "diagnostics/beta/JPFP_Beta_Scan_With_State.jsx": "e3d794cb8e4a079237bea754220569672f0dc6a04b3d0d648e1b3215567adf21"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "F01": {
+    "layerID": 13,
+    "text": "日本語の字幕です。ABC 123",
+    "characters": 16
+  },
+  "F02": {
+    "layerID": 14,
+    "text": "欠落フォント",
+    "characters": 6
+  },
+  "F03": {
+    "layerID": 138,
+    "text": "日本語 ABC",
+    "characters": 7
+  },
+  "F04": {
+    "layerID": 15,
+    "text": "「日本語」—ABC・123！？",
+    "characters": 15
+  },
+  "F05": {
+    "layerID": 16,
+    "text": "A漢B",
+    "characters": 3,
+    "branch": "OBSERVED_APPLIED_FONT_REASSIGNMENT"
+  },
+  "F06": {
+    "layerID": 17,
+    "text": "",
+    "characters": 0
+  },
+  "F07": {
+    "layerID": 18,
+    "text": "𠀋",
+    "characters": 1
+  },
+  "F08": {
+    "layerID": 19,
+    "text": "ば",
+    "characters": 2
+  },
+  "F09": {
+    "layerID": 20,
+    "text": "葛󠄀",
+    "characters": 2
+  },
+  "F10": "two keys 0/1 seconds, 静的/動的; expression false",
+  "F11": "expression true; keys0; error empty; 式で生成",
+  "F12": {
+    "layerID": 25,
+    "solid": true,
+    "textLayer": false,
+    "textGroup": "null"
+  },
+  "L01": {
+    "compID": 26,
+    "layers": 100,
+    "codepoints": 592
+  },
+  "aggregate": {
+    "compID": 1,
+    "layers": 12,
+    "static": 9,
+    "codepoints": 52
+  },
+  "status": "ALL_PREREQUISITE_RAW_CONDITIONS_VERIFIED_NOT_SCANNER_ACCEPTANCE"
+}

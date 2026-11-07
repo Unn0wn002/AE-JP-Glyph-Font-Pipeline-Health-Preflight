@@ -1,0 +1,28 @@
+JPFP-F02-READONLY-REFERENCE-1
+Generated host local	Sat Oct 17 2026 21:04:28 GMT+0700	OK
+AE version	26.5x89	OK
+AE build	89	OK
+AE locale	en_US	OK
+OS	Windows/64 10.0  	OK
+Project file	C:\\Users\\unn0w\\Downloads\\Management Project\\AE JP Glyph & Font-Pipeline Health Preflight\\repository\\evidence\\native-20261017-resumed\\JPFP_BETA_VERIFIED_EXCEPT_F02.aep	OK
+Project revision before	1186	OK
+Project item count	4	OK
+Target	compID	1	comp	JPFP_BETA_FIXTURES__DISPOSABLE	layer	[F02] VERIFIED_FIXTURE_CANDIDATE	requestedMissingPS	JPFP_Session1_MissingFont_PS__DO_NOT_INSTALL
+app.fonts.missingOrSubstitutedFonts read	OK
+app.fonts.missingOrSubstitutedFonts count	1
+MISSING_OR_SUBSTITUTED_REFERENCE 0	postScriptName	JPFP_Session1_MissingFont_PS__DO_NOT_INSTALL	fontID	347	isSubstitute	true
+F02 layer ID	14	OK
+F02 layer index	11	OK
+F02 expressionEnabled	false	OK
+F02 numKeys	0	OK
+F02 fresh text	\u6B20\u843D\u30D5\u30A9\u30F3\u30C8	OK
+F02 fresh TextDocument.font	Meiryo	OK
+F02 CHAR	0	1	\u6B20	PS	Meiryo	id	292	isSubstitute	false
+F02 CHAR	1	2	\u843D	PS	Meiryo	id	292	isSubstitute	false
+F02 CHAR	2	3	\u30D5	PS	Meiryo	id	292	isSubstitute	false
+F02 CHAR	3	4	\u30A9	PS	Meiryo	id	292	isSubstitute	false
+F02 CHAR	4	5	\u30F3	PS	Meiryo	id	292	isSubstitute	false
+F02 CHAR	5	6	\u30C8	PS	Meiryo	id	292	isSubstitute	false
+F02 condition	MISSING_REFERENCE_NOT_ESTABLISHED	Observation only; no scanner test PASS inferred
+Project revision after	1186	OK
+Project revision unchanged	true

@@ -1,0 +1,117 @@
+{
+  "schema": "JPFP-GENUINE-FIXTURE-INTAKE-1",
+  "baseline_commit": "f2292223e57cee72cbc9b5beee6c8e06bbe21b98",
+  "branch": "beta/static-preflight-20261017",
+  "pr_number": 1,
+  "pr_state": "open",
+  "pr_draft": true,
+  "local_head_matches_remote_pr_head": true,
+  "initial_working_tree_clean": true,
+  "scope": "This project workspace, expected repository operator paths, current task attachments, and Windows app discovery; no other machine or account was accessed.",
+  "observed_time_anchors_local": [
+    "2026-10-19T12:56:36+07:00",
+    "2026-10-19T12:57:21+07:00"
+  ],
+  "timezone": "Asia/Jakarta",
+  "time_limit_note": "Anchors cover the clocked portion of intake. Conservative 120-second charge also covers preceding unclocked inventory; later integrity/documentation/CI/package work is not native investigation.",
+  "required_inputs": [
+    {
+      "path": "artifacts/native/F02-operator/genuine-F02.aep",
+      "exists": false
+    },
+    {
+      "path": "artifacts/native/F02-operator/fixture-provenance.txt",
+      "exists": false
+    }
+  ],
+  "operator_provided_project_available": false,
+  "attachment_types": [
+    "pull_request"
+  ],
+  "ae_discovery": {
+    "method": "Windows computer-use sky.list_apps plus local AfterFX process inventory",
+    "display_name": "Adobe After Effects 2026",
+    "listed_as_installed": true,
+    "is_running": false,
+    "open_window_count": 0,
+    "fresh_native_access": "NOT_VERIFIED",
+    "fresh_build": "NOT_VERIFIED",
+    "separate_authoring_environment_available": false,
+    "limitation": "No separate authoring surface was available in inspected app inventory/task context. Installed application discovery does not prove launchability, host build or an unavailable-font condition. AE was not launched because required fixture input was absent."
+  },
+  "native_execution_count": 0,
+  "fixture_setup_attempt_count": 0,
+  "diagnostic_or_evaluator_adaptation_count": 0,
+  "new_acceptance_evaluation_count": 0,
+  "frozen_source_sha256": {
+    "src/JPFP_Session1_Probe.jsx": "f93d221898e6dc75985e2fa5b7ffbde2850c2ebc39da889b21592c5f58d8156e",
+    "fixtures/JPFP_Session1_CreateFixtures.jsx": "1dc804f545b4f4e19435996e0d3328e2c7c1c6baa1405b39495ab29be06099ea"
+  },
+  "scanner_sha256": "f93d221898e6dc75985e2fa5b7ffbde2850c2ebc39da889b21592c5f58d8156e",
+  "aep_files": [
+    {
+      "path": "evidence/native-20261017-resumed/JPFP_ASCII_CONTROL_PRESERVED.aep",
+      "bytes": 82359,
+      "sha256": "cf43be43a9c1529cfbbfc5344ec2eb0d98b11c30d6e22d7ef432e74985200d05",
+      "matches_prior_intake": true
+    },
+    {
+      "path": "evidence/native-20261017-resumed/JPFP_ASCII_FRESH_PROCESS_11424.aep",
+      "bytes": 82359,
+      "sha256": "5b50b9a4f43529a85a8fce1deca3af89d58dc164f430525b56cac2b67440b5af",
+      "matches_prior_intake": true
+    },
+    {
+      "path": "evidence/native-20261017-resumed/JPFP_ASCII_FRESH_PROCESS_33428.aep",
+      "bytes": 81479,
+      "sha256": "66845eef0947c3a5eafdb79d8a8f46ae15285be6dcdabcaad6cf689e3b1ca034",
+      "matches_prior_intake": true
+    },
+    {
+      "path": "evidence/native-20261017-resumed/JPFP_BETA_VERIFIED_EXCEPT_F02.aep",
+      "bytes": 2219869,
+      "sha256": "5f64f70c6fa639447435e5869120068feb6e32a755a4ea0a58491babdddd8007",
+      "matches_prior_intake": true
+    },
+    {
+      "path": "evidence/native-20261017-resumed/JPFP_PARTIAL_STRING_FIXTURES.aep",
+      "bytes": 216167,
+      "sha256": "c9f1845e942d64c64a5dcda5a2419c69f09e0ca356d77f9945fa154d2f8c55f4",
+      "matches_prior_intake": true
+    },
+    {
+      "path": "evidence/native-20261017-resumed/JPFP_PHASE_A_BIB_PRE_DISPLAY.aep",
+      "bytes": 79415,
+      "sha256": "7b11faa27563245fb208c5f2fb6d8e9c7839fd34ceffaa329f3a163cb9c8682e",
+      "matches_prior_intake": true
+    }
+  ],
+  "prior_intake": "evidence/native-20261017-fixture-intake/INTAKE.json",
+  "f02_status": "BLOCKED",
+  "r01_status": "BLOCKED",
+  "overall_gate": "BLOCKED_NATIVE_VALIDATION",
+  "previous_native_pass_rows": 12,
+  "new_native_pass_rows": 0,
+  "retained_pass_rows": [
+    "F01",
+    "F03",
+    "F04",
+    "F05",
+    "F06",
+    "F07",
+    "F08",
+    "F09",
+    "F10",
+    "F11",
+    "F12",
+    "L01"
+  ],
+  "f05_retained_applied_gap_status": "UNVALIDATED",
+  "f05_rendered_fallback_identity_status": "UNVALIDATED",
+  "f05_shaping_status": "UNVALIDATED",
+  "additional_budget_charge_seconds": 120,
+  "cumulative_budget_charge_seconds": 2781,
+  "remaining_budget_seconds": 4419,
+  "reason": "Required genuine saved missing-reference project and authoring provenance are absent. Stop native execution; retain all prior evidence.",
+  "next_action": "Operator provides artifacts/native/F02-operator/genuine-F02.aep and fixture-provenance.txt as specified in docs/NATIVE_BETA_VALIDATION.md; then bind evidence tooling to the real declared identity and independently establish all conditions before scanning."
+}

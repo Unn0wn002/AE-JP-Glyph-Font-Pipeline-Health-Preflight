@@ -1,0 +1,75 @@
+PASS static applied fonts: explicit character identity, offsets and reconciled coverage
+PASS applied-font glyph absence is verified absence with a located problem
+PASS CharacterRange.fontObject getter failure cannot fall back to a healthy base font
+PASS CharacterRange.fontObject absent cannot fall back to baseFont
+PASS CharacterRange call failure cannot fall back to baseFont
+PASS null CharacterRange result cannot fall back to baseFont
+PASS CharacterRange API accessor failure is caught and unknown
+PASS unavailable CharacterRange API is explicitly skipped
+PASS baseFont getter failure never blocks independently verified per-character font
+PASS glyph API accessor failure is FAILED with verified identity
+PASS unavailable glyph API is NOT_CHECKED
+PASS throwing glyph query is FAILED
+PASS nonboolean glyph return cannot become verified coverage
+PASS font identity getters failing together prevent verified coverage
+PASS unavailable font identity is UNKNOWN even when a FontObject exists
+PASS invalid font identifier types cannot become verified identity
+PASS invalid display metadata is explicitly UNKNOWN without invalidating a valid font ID
+PASS fontID getter failure is explicit while other identifier remains usable
+PASS postScriptName getter failure is explicit while other identifier remains usable
+PASS substitute getter failure is UNKNOWN and cannot report false
+PASS missing substitute API is explicitly UNKNOWN
+PASS substitute-font true produces located problem findings
+PASS intentional mixed fonts are review findings, without invented errors
+PASS intermittent fontID failure on the same applied font never invents mixed runs
+PASS distinct PostScript names without unique fontIDs keep mixed classification unknown
+PASS expressionEnabled skips Source Text without even reading its value
+PASS expressionEnabled getter failure never assumes static text
+PASS expressionEnabled API absent never assumes static text
+PASS numKeys skips Source Text without even reading its value
+PASS numKeys getter failure never assumes static text
+PASS numKeys API absent never assumes static text
+PASS invalid expressionEnabled value false cannot assume static text
+PASS invalid expressionEnabled value 0 cannot assume static text
+PASS invalid numKeys value 0 cannot assume static text
+PASS invalid numKeys value NaN cannot assume static text
+PASS invalid numKeys value -1 cannot assume static text
+PASS invalid numKeys value 0.5 cannot assume static text
+PASS layer property getter failure is not silently classed non-text
+PASS nested Source Text property getter failure is explicit
+PASS undefined text-property group is unknown rather than non-text
+PASS null text-property group on known TextLayer is unknown rather than non-text
+PASS Source Text value read failure is explicit
+PASS Source Text text getter failure never stringifies a document into characters
+PASS unavailable or invalid Source Text text value undefined never becomes characters
+PASS unavailable or invalid Source Text text value null never becomes characters
+PASS unavailable or invalid Source Text text value [object Object] never becomes characters
+PASS empty text is explicit and has no invented character coverage
+PASS non-text layers are not applicable and never read text
+PASS Unicode supplementary, combining, variation, ZWJ and lone surrogate remain reviewable
+PASS report escapes tab/newline/control text without corrupting character rows
+PASS comp.id getter failure is explicitly UNKNOWN in located report rows
+PASS comp.name getter failure is explicitly UNKNOWN in located report rows
+PASS layer.id getter failure is explicitly UNKNOWN in located report rows
+PASS layer.name getter failure is explicitly UNKNOWN in located report rows
+PASS layer location uses composition enumeration even if layer.index getter fails
+PASS throwing project revision never claims unchanged
+PASS absent project revision never claims unchanged
+PASS invalid project revision [object Object] cannot claim unchanged
+PASS invalid project revision NaN cannot claim unchanged
+PASS invalid project revision 77 cannot claim unchanged
+PASS changed project revision is reported false
+PASS unavailable app.fonts does not invalidate independent character observations
+PASS active-composition scanning does not read project-wide app.fonts
+PASS project-wide missingOrSubstitutedFonts is outside active-composition scope
+PASS export cancellation is CANCELLED with no write
+PASS export dialog throws is FAILED
+PASS export open throws is FAILED
+PASS export write throws is FAILED
+PASS export close throws is FAILED
+PASS export openResult false is FAILED
+PASS export writeResult false is FAILED
+PASS export closeResult false is FAILED
+PASS repeat scan has stable observations and leaves project read-only
+BEHAVIORAL_REGRESSIONS: PASS (73/73)
+Mock-host evidence only; native fixture conditions, UI, rendered fallback and shaping remain unvalidated.

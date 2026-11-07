@@ -1,0 +1,330 @@
+JPFP-HOST-FONT-INVENTORY-1
+Time	Mon Oct 19 2026 14:55:43 GMT+0700
+timezoneOffsetMinutes	-420
+AE	26.5x89	26.5x89	89	en_US
+OS	Windows/64 10.0  
+computerName	3E6B83F9-7F9C-4
+userName	WDAGUtilityAccount
+scriptFile	~/Desktop/sandbox-probe-v2.jsx
+projectItems	0
+freezeSyncSubstitutedFonts	false
+fontServerRevision	3
+FONT	ANIMEVISIONMB_ENREGULAR-Regular	1	false	ANIME VISION - MB_EN REGULAR	Regular	1.007	false	
+FONT	ArialNarrow	2	false	Arial	Narrow	2.40	false	C:\Windows\Fonts\ARIALN.TTF
+FONT	ArialNarrow-Italic	3	false	Arial	Narrow Italic	2.40	false	C:\Windows\Fonts\ARIALNI.TTF
+FONT	ArialNarrow-Bold	4	false	Arial	Narrow Bold	2.40	false	C:\Windows\Fonts\ARIALNB.TTF
+FONT	ArialNarrow-BoldItalic	5	false	Arial	Narrow Bold Italic	2.40	false	C:\Windows\Fonts\ARIALNBI.TTF
+FONT	ArialMT	6	false	Arial	Regular	7.06	false	C:\Windows\Fonts\arial.ttf
+FONT	Arial-ItalicMT	7	false	Arial	Italic	7.06	false	C:\Windows\Fonts\ariali.ttf
+FONT	Arial-BoldMT	8	false	Arial	Bold	7.06	false	C:\Windows\Fonts\arialbd.ttf
+FONT	Arial-BoldItalicMT	9	false	Arial	Bold Italic	7.06	false	C:\Windows\Fonts\arialbi.ttf
+FONT	Arial-Black	10	false	Arial	Black	5.23	false	C:\Windows\Fonts\ariblk.ttf
+FONT	Bahnschrift-LightCondensed	11	false	Bahnschrift	Light Condensed	2.07	false	C:\Windows\Fonts\bahnschrift.ttf
+FONT	Bahnschrift-LightSemiCondensed	12	false	Bahnschrift	Light SemiCondensed	2.07	false	C:\Windows\Fonts\bahnschrift.ttf
+FONT	Bahnschrift-Light	13	false	Bahnschrift	Light	2.07	false	C:\Windows\Fonts\bahnschrift.ttf
+FONT	Bahnschrift-SemiLightCondensed	14	false	Bahnschrift	SemiLight Condensed	2.07	false	C:\Windows\Fonts\bahnschrift.ttf
+FONT	Bahnschrift-SemiLightSemiCondensed	15	false	Bahnschrift	SemiLight SemiCondensed	2.07	false	C:\Windows\Fonts\bahnschrift.ttf
+FONT	Bahnschrift-SemiLight	16	false	Bahnschrift	SemiLight	2.07	false	C:\Windows\Fonts\bahnschrift.ttf
+FONT	Bahnschrift-Condensed	17	false	Bahnschrift	Condensed	2.07	false	C:\Windows\Fonts\bahnschrift.ttf
+FONT	Bahnschrift-SemiCondensed	18	false	Bahnschrift	SemiCondensed	2.07	false	C:\Windows\Fonts\bahnschrift.ttf
+FONT	Bahnschrift	19	false	Bahnschrift	Regular	2.07	false	C:\Windows\Fonts\bahnschrift.ttf
+FONT	Bahnschrift-SemiBoldCondensed	20	false	Bahnschrift	SemiBold Condensed	2.07	false	C:\Windows\Fonts\bahnschrift.ttf
+FONT	Bahnschrift-SemiBoldSemiCondensed	21	false	Bahnschrift	SemiBold SemiCondensed	2.07	false	C:\Windows\Fonts\bahnschrift.ttf
+FONT	Bahnschrift-SemiBold	22	false	Bahnschrift	SemiBold	2.07	false	C:\Windows\Fonts\bahnschrift.ttf
+FONT	Bahnschrift-BoldCondensed	23	false	Bahnschrift	Bold Condensed	2.07	false	C:\Windows\Fonts\bahnschrift.ttf
+FONT	Bahnschrift-BoldSemiCondensed	24	false	Bahnschrift	Bold SemiCondensed	2.07	false	C:\Windows\Fonts\bahnschrift.ttf
+FONT	Bahnschrift-Bold	25	false	Bahnschrift	Bold	2.07	false	C:\Windows\Fonts\bahnschrift.ttf
+FONT	BookAntiqua	26	false	Book Antiqua	Regular	2.35	false	C:\Windows\Fonts\BKANT.TTF
+FONT	BookAntiqua-Italic	27	false	Book Antiqua	Italic	2.35	false	C:\Windows\Fonts\ANTQUAI.TTF
+FONT	BookAntiqua-Bold	28	false	Book Antiqua	Bold	2.35	false	C:\Windows\Fonts\ANTQUAB.TTF
+FONT	BookAntiqua-BoldItalic	29	false	Book Antiqua	Bold Italic	2.35	false	C:\Windows\Fonts\ANTQUABI.TTF
+FONT	BookmanOldStyle	30	false	Bookman Old Style	Regular	2.35	false	C:\Windows\Fonts\BOOKOS.TTF
+FONT	BookmanOldStyle-Italic	31	false	Bookman Old Style	Italic	2.36	false	C:\Windows\Fonts\BOOKOSI.TTF
+FONT	BookmanOldStyle-Bold	32	false	Bookman Old Style	Bold	2.35	false	C:\Windows\Fonts\BOOKOSB.TTF
+FONT	BookmanOldStyle-BoldItalic	33	false	Bookman Old Style	Bold Italic	2.35	false	C:\Windows\Fonts\BOOKOSBI.TTF
+FONT	BookshelfSymbolSeven	34	false	Bookshelf Symbol 7	Regular	1.03	false	C:\Windows\Fonts\BSSYM7.TTF
+FONT	BradleyHandITC	35	false	Bradley Hand ITC	Regular	1.05	false	C:\Windows\Fonts\BRADHITC.TTF
+FONT	Calibri-Light	36	false	Calibri	Light	6.27	false	C:\Windows\Fonts\calibril.ttf
+FONT	Calibri-LightItalic	37	false	Calibri	Light Italic	6.27	false	C:\Windows\Fonts\calibrili.ttf
+FONT	Calibri	38	false	Calibri	Regular	6.27	false	C:\Windows\Fonts\calibri.ttf
+FONT	Calibri-Italic	39	false	Calibri	Italic	6.27	false	C:\Windows\Fonts\calibrii.ttf
+FONT	Calibri-Bold	40	false	Calibri	Bold	6.27	false	C:\Windows\Fonts\calibrib.ttf
+FONT	Calibri-BoldItalic	41	false	Calibri	Bold Italic	6.27	false	C:\Windows\Fonts\calibriz.ttf
+FONT	Cambria	42	false	Cambria	Regular	6.99	false	C:\Windows\Fonts\cambria.ttc
+FONT	Cambria-Italic	43	false	Cambria	Italic	6.98	false	C:\Windows\Fonts\cambriai.ttf
+FONT	Cambria-Bold	44	false	Cambria	Bold	6.98	false	C:\Windows\Fonts\cambriab.ttf
+FONT	Cambria-BoldItalic	45	false	Cambria	Bold Italic	6.98	false	C:\Windows\Fonts\cambriaz.ttf
+FONT	CambriaMath	46	false	Cambria Math	Regular	6.99	false	C:\Windows\Fonts\cambria.ttc
+FONT	Candara-Light	47	false	Candara	Light	5.64	false	C:\Windows\Fonts\candaral.ttf
+FONT	Candara	48	false	Candara	Regular	5.64	false	C:\Windows\Fonts\candara.ttf
+FONT	Candara-Italic	49	false	Candara	Italic	5.64	false	C:\Windows\Fonts\candarai.ttf
+FONT	Candara-LightItalic	50	false	Candara	Light Italic	5.64	false	C:\Windows\Fonts\candarali.ttf
+FONT	Candara-Bold	51	false	Candara	Bold	5.64	false	C:\Windows\Fonts\candarab.ttf
+FONT	Candara-BoldItalic	52	false	Candara	Bold Italic	5.64	false	C:\Windows\Fonts\candaraz.ttf
+FONT	Century	53	false	Century	Regular	1.20	false	C:\Windows\Fonts\CENTURY.TTF
+FONT	CenturyGothic	54	false	Century Gothic	Regular	2.35	false	C:\Windows\Fonts\GOTHIC.TTF
+FONT	CenturyGothic-Italic	55	false	Century Gothic	Italic	2.35	false	C:\Windows\Fonts\GOTHICI.TTF
+FONT	CenturyGothic-Bold	56	false	Century Gothic	Bold	2.35	false	C:\Windows\Fonts\GOTHICB.TTF
+FONT	CenturyGothic-BoldItalic	57	false	Century Gothic	Bold Italic	2.35	false	C:\Windows\Fonts\GOTHICBI.TTF
+FONT	ComicSansMS	58	false	Comic Sans MS	Regular	5.15	false	C:\Windows\Fonts\comic.ttf
+FONT	ComicSansMS-Italic	59	false	Comic Sans MS	Italic	5.15	false	C:\Windows\Fonts\comici.ttf
+FONT	ComicSansMS-Bold	60	false	Comic Sans MS	Bold	5.15	false	C:\Windows\Fonts\comicbd.ttf
+FONT	ComicSansMS-BoldItalic	61	false	Comic Sans MS	Bold Italic	5.15	false	C:\Windows\Fonts\comicz.ttf
+FONT	Consolas	62	false	Consolas	Regular	7.01	false	C:\Windows\Fonts\consola.ttf
+FONT	Consolas-Italic	63	false	Consolas	Italic	7.01	false	C:\Windows\Fonts\consolai.ttf
+FONT	Consolas-Bold	64	false	Consolas	Bold	7.01	false	C:\Windows\Fonts\consolab.ttf
+FONT	Consolas-BoldItalic	65	false	Consolas	Bold Italic	7.01	false	C:\Windows\Fonts\consolaz.ttf
+FONT	Constantia	66	false	Constantia	Regular	5.93	false	C:\Windows\Fonts\constan.ttf
+FONT	Constantia-Italic	67	false	Constantia	Italic	5.93	false	C:\Windows\Fonts\constani.ttf
+FONT	Constantia-Bold	68	false	Constantia	Bold	5.93	false	C:\Windows\Fonts\constanb.ttf
+FONT	Constantia-BoldItalic	69	false	Constantia	Bold Italic	5.93	false	C:\Windows\Fonts\constanz.ttf
+FONT	CorbelLight	70	false	Corbel	Light	6.01	false	C:\Windows\Fonts\corbell.ttf
+FONT	CorbelLight-Italic	71	false	Corbel	Light Italic	6.01	false	C:\Windows\Fonts\corbelli.ttf
+FONT	Corbel	72	false	Corbel	Regular	6.01	false	C:\Windows\Fonts\corbel.ttf
+FONT	Corbel-Italic	73	false	Corbel	Italic	6.01	false	C:\Windows\Fonts\corbeli.ttf
+FONT	Corbel-Bold	74	false	Corbel	Bold	6.01	false	C:\Windows\Fonts\corbelb.ttf
+FONT	Corbel-BoldItalic	75	false	Corbel	Bold Italic	6.01	false	C:\Windows\Fonts\corbelz.ttf
+FONT	Courier	77	false	Courier	Regular		false	
+FONT	CourierNewPSMT	78	false	Courier New	Regular	6.95	false	C:\Windows\Fonts\cour.ttf
+FONT	CourierNewPS-ItalicMT	79	false	Courier New	Italic	6.95	false	C:\Windows\Fonts\couri.ttf
+FONT	CourierNewPS-BoldMT	80	false	Courier New	Bold	6.95	false	C:\Windows\Fonts\courbd.ttf
+FONT	CourierNewPS-BoldItalicMT	81	false	Courier New	Bold Italic	6.95	false	C:\Windows\Fonts\courbi.ttf
+FONT	Ebrima	82	false	Ebrima	Regular	5.20	false	C:\Windows\Fonts\ebrima.ttf
+FONT	Ebrima-Bold	83	false	Ebrima	Bold	5.20	false	C:\Windows\Fonts\ebrimabd.ttf
+FONT	FranklinGothic-Medium	84	false	Franklin Gothic Medium	Regular	5.02	false	C:\Windows\Fonts\framd.ttf
+FONT	FranklinGothic-MediumItalic	85	false	Franklin Gothic Medium	Italic	5.01	false	C:\Windows\Fonts\framdit.ttf
+FONT	FreestyleScript-Regular	86	false	Freestyle Script	Regular	1.05	false	C:\Windows\Fonts\FREESCPT.TTF
+FONT	FrenchScriptMT	87	false	French Script MT	Regular	1.02	false	C:\Windows\Fonts\FRSCRIPT.TTF
+FONT	Gabriola	88	false	Gabriola	Regular	5.93	false	C:\Windows\Fonts\Gabriola.ttf
+FONT	Gadugi	89	false	Gadugi	Regular	1.13	false	C:\Windows\Fonts\gadugi.ttf
+FONT	Gadugi-Bold	90	false	Gadugi	Bold	1.13	false	C:\Windows\Fonts\gadugib.ttf
+FONT	Garamond	91	false	Garamond	Regular	2.40	false	C:\Windows\Fonts\GARA.TTF
+FONT	Garamond-Italic	92	false	Garamond	Italic	2.40	false	C:\Windows\Fonts\GARAIT.TTF
+FONT	Garamond-Bold	93	false	Garamond	Bold	2.40	false	C:\Windows\Fonts\GARABD.TTF
+FONT	Georgia	94	false	Georgia	Regular	5.59	false	C:\Windows\Fonts\georgia.ttf
+FONT	Georgia-Italic	95	false	Georgia	Italic	5.59	false	C:\Windows\Fonts\georgiai.ttf
+FONT	Georgia-Bold	96	false	Georgia	Bold	5.59	false	C:\Windows\Fonts\georgiab.ttf
+FONT	Georgia-BoldItalic	97	false	Georgia	Bold Italic	5.59	false	C:\Windows\Fonts\georgiaz.ttf
+FONT	Impact	98	false	Impact	Regular	5.11	false	C:\Windows\Fonts\impact.ttf
+FONT	InkFree	99	false	Ink Free	Regular	2.00	false	C:\Windows\Fonts\Inkfree.ttf
+FONT	JavaneseText	100	false	Javanese Text	Regular	1.10	false	C:\Windows\Fonts\javatext.ttf
+FONT	JuiceITC-Regular	101	false	Juice ITC	Regular	1.05	false	C:\Windows\Fonts\JUICE___.TTF
+FONT	KristenITC-Regular	102	false	Kristen ITC	Regular	1.05	false	C:\Windows\Fonts\ITCKRIST.TTF
+FONT	LucidaConsole	103	false	Lucida Console	Regular	5.01	false	C:\Windows\Fonts\lucon.TTF
+FONT	LucidaHandwriting-Italic	104	false	Lucida Handwriting	Italic	1.67	false	C:\Windows\Fonts\LHANDW.TTF
+FONT	LucidaSansUnicode	105	false	Lucida Sans Unicode	Regular	5.01	false	C:\Windows\Fonts\l_10646.ttf
+FONT	Marlett	106	false	Marlett	Regular	5.01	false	
+FONT	Microsoft-Himalaya	107	false	Microsoft Himalaya	Regular	5.23	false	C:\Windows\Fonts\himalaya.ttf
+FONT	MicrosoftNewTaiLue	108	false	Microsoft New Tai Lue	Regular	5.99	false	C:\Windows\Fonts\ntailu.ttf
+FONT	MicrosoftNewTaiLue-Bold	109	false	Microsoft New Tai Lue	Bold	5.99	false	C:\Windows\Fonts\ntailub.ttf
+FONT	MicrosoftPhagsPa	110	false	Microsoft PhagsPa	Regular	6.00	false	C:\Windows\Fonts\phagspa.ttf
+FONT	MicrosoftPhagsPa-Bold	111	false	Microsoft PhagsPa	Bold	6.00	false	C:\Windows\Fonts\phagspab.ttf
+FONT	MicrosoftSansSerif	112	false	Microsoft Sans Serif	Regular	7.04	false	C:\Windows\Fonts\micross.ttf
+FONT	MicrosoftTaiLe	113	false	Microsoft Tai Le	Regular	6.00	false	C:\Windows\Fonts\taile.ttf
+FONT	MicrosoftTaiLe-Bold	114	false	Microsoft Tai Le	Bold	6.00	false	C:\Windows\Fonts\taileb.ttf
+FONT	Microsoft-Yi-Baiti	115	false	Microsoft Yi Baiti	Regular	6.00	false	C:\Windows\Fonts\msyi.ttf
+FONT	Mistral	116	false	Mistral	Regular	2.10	false	C:\Windows\Fonts\MISTRAL.TTF
+FONT	MongolianBaiti	117	false	Mongolian Baiti	Regular	5.54	false	C:\Windows\Fonts\monbaiti.ttf
+FONT	MonotypeCorsiva	76	false	Monotype Corsiva	Regular	2.35	false	C:\Windows\Fonts\MTCORSVA.TTF
+FONT	MSReferenceSansSerif	118	false	MS Reference Sans Serif	Regular	2.00	false	C:\Windows\Fonts\REFSAN.TTF
+FONT	MSReferenceSpecialty	119	false	MS Reference Specialty	Regular	1.00	false	C:\Windows\Fonts\REFSPCL.TTF
+FONT	MS Sans Serif	120	false	MS Sans Serif	Regular		false	
+FONT	MS Serif	121	false	MS Serif	Regular		false	
+FONT	MT-Extra	122	false	MT Extra	Regular	3.01	false	C:\Windows\Fonts\MTEXTRA.TTF
+FONT	MVBoli	123	false	MV Boli	Regular	6.85	false	C:\Windows\Fonts\mvboli.ttf
+FONT	PalatinoLinotype-Roman	124	false	Palatino Linotype	Regular	5.03	false	C:\Windows\Fonts\pala.ttf
+FONT	PalatinoLinotype-Italic	125	false	Palatino Linotype	Italic	5.03	false	C:\Windows\Fonts\palai.ttf
+FONT	PalatinoLinotype-Bold	126	false	Palatino Linotype	Bold	5.03	false	C:\Windows\Fonts\palab.ttf
+FONT	PalatinoLinotype-BoldItalic	127	false	Palatino Linotype	Bold Italic	5.03	false	C:\Windows\Fonts\palabi.ttf
+FONT	Papyrus-Regular	128	false	Papyrus	Regular	1.11	false	C:\Windows\Fonts\PAPYRUS.TTF
+FONT	Pristina-Regular	129	false	Pristina	Regular	1.05	false	C:\Windows\Fonts\PRISTINA.TTF
+FONT	SansSerifCollection	130	false	Sans Serif Collection	Regular	1.02	false	C:\Windows\Fonts\SansSerifCollection.ttf
+FONT	SegoeFluentIcons	131	false	Segoe Fluent Icons	Regular	1.54	false	C:\Windows\Fonts\SegoeIcons.ttf
+FONT	SegoeMDL2Assets	132	false	Segoe MDL2 Assets	Regular	1.86	false	C:\Windows\Fonts\segmdl2.ttf
+FONT	SegoePrint	133	false	Segoe Print	Regular	5.04	false	C:\Windows\Fonts\segoepr.ttf
+FONT	SegoePrint-Bold	134	false	Segoe Print	Bold	5.04	false	C:\Windows\Fonts\segoeprb.ttf
+FONT	SegoeScript	135	false	Segoe Script	Regular	5.03	false	C:\Windows\Fonts\segoesc.ttf
+FONT	SegoeScript-Bold	136	false	Segoe Script	Bold	5.03	false	C:\Windows\Fonts\segoescb.ttf
+FONT	SegoeUI-Light	137	false	Segoe UI	Light	5.72	false	C:\Windows\Fonts\segoeuil.ttf
+FONT	SegoeUI-LightItalic	138	false	Segoe UI	Light Italic	5.72	false	C:\Windows\Fonts\seguili.ttf
+FONT	SegoeUI-Semilight	139	false	Segoe UI	Semilight	5.72	false	C:\Windows\Fonts\segoeuisl.ttf
+FONT	SegoeUI-SemilightItalic	140	false	Segoe UI	Semilight Italic	5.72	false	C:\Windows\Fonts\seguisli.ttf
+FONT	SegoeUI	141	false	Segoe UI	Regular	5.72	false	C:\Windows\Fonts\segoeui.ttf
+FONT	SegoeUI-Italic	142	false	Segoe UI	Italic	5.72	false	C:\Windows\Fonts\segoeuii.ttf
+FONT	SegoeUI-Semibold	143	false	Segoe UI	Semibold	5.72	false	C:\Windows\Fonts\seguisb.ttf
+FONT	SegoeUI-SemiboldItalic	144	false	Segoe UI	Semibold Italic	5.72	false	C:\Windows\Fonts\seguisbi.ttf
+FONT	SegoeUI-Bold	145	false	Segoe UI	Bold	5.72	false	C:\Windows\Fonts\segoeuib.ttf
+FONT	SegoeUI-BoldItalic	146	false	Segoe UI	Bold Italic	5.72	false	C:\Windows\Fonts\segoeuiz.ttf
+FONT	SegoeUIBlack	147	false	Segoe UI	Black	5.72	false	C:\Windows\Fonts\seguibl.ttf
+FONT	SegoeUIBlack-Italic	148	false	Segoe UI	Black Italic	5.72	false	C:\Windows\Fonts\seguibli.ttf
+FONT	SegoeUIHistoric	149	false	Segoe UI Historic	Regular	1.09	false	C:\Windows\Fonts\seguihis.ttf
+FONT	SegoeUISymbol	150	false	Segoe UI Symbol	Regular	6.24	false	C:\Windows\Fonts\seguisym.ttf
+FONT	SegoeUIVariable-LightSmall	151	false	Segoe UI Variable	Light Small	2.03	false	C:\Windows\Fonts\SegUIVar.ttf
+FONT	SegoeUIVariable-SemilightSmall	152	false	Segoe UI Variable	Semilight Small	2.03	false	C:\Windows\Fonts\SegUIVar.ttf
+FONT	SegoeUIVariable-RegularSmall	153	false	Segoe UI Variable	Regular Small	2.03	false	C:\Windows\Fonts\SegUIVar.ttf
+FONT	SegoeUIVariable-SemiboldSmall	154	false	Segoe UI Variable	Semibold Small	2.03	false	C:\Windows\Fonts\SegUIVar.ttf
+FONT	SegoeUIVariable-BoldSmall	155	false	Segoe UI Variable	Bold Small	2.03	false	C:\Windows\Fonts\SegUIVar.ttf
+FONT	SegoeUIVariable-LightText	156	false	Segoe UI Variable	Light Text	2.03	false	C:\Windows\Fonts\SegUIVar.ttf
+FONT	SegoeUIVariable-SemilightText	157	false	Segoe UI Variable	Semilight Text	2.03	false	C:\Windows\Fonts\SegUIVar.ttf
+FONT	SegoeUIVariable	158	false	Segoe UI Variable	Regular	2.03	false	C:\Windows\Fonts\SegUIVar.ttf
+FONT	SegoeUIVariable-SemiboldText	159	false	Segoe UI Variable	Semibold Text	2.03	false	C:\Windows\Fonts\SegUIVar.ttf
+FONT	SegoeUIVariable-BoldText	160	false	Segoe UI Variable	Bold Text	2.03	false	C:\Windows\Fonts\SegUIVar.ttf
+FONT	SegoeUIVariable-LightDisplay	161	false	Segoe UI Variable	Light Display	2.03	false	C:\Windows\Fonts\SegUIVar.ttf
+FONT	SegoeUIVariable-SemilightDisplay	162	false	Segoe UI Variable	Semilight Display	2.03	false	C:\Windows\Fonts\SegUIVar.ttf
+FONT	SegoeUIVariable-RegularDisplay	163	false	Segoe UI Variable	Regular Display	2.03	false	C:\Windows\Fonts\SegUIVar.ttf
+FONT	SegoeUIVariable-SemiboldDisplay	164	false	Segoe UI Variable	Semibold Display	2.03	false	C:\Windows\Fonts\SegUIVar.ttf
+FONT	SegoeUIVariable-BoldDisplay	165	false	Segoe UI Variable	Bold Display	2.03	false	C:\Windows\Fonts\SegUIVar.ttf
+FONT	Sitka-Small	166	false	Sitka	Small	2.01	false	C:\Windows\Fonts\SitkaVF.ttf
+FONT	Sitka-SmallSemibold	167	false	Sitka	Small Semibold	2.01	false	C:\Windows\Fonts\SitkaVF.ttf
+FONT	Sitka-SmallBold	168	false	Sitka	Small Bold	2.01	false	C:\Windows\Fonts\SitkaVF.ttf
+FONT	SitkaText	169	false	Sitka	Text	2.01	false	C:\Windows\Fonts\SitkaVF.ttf
+FONT	Sitka-TextSemibold	170	false	Sitka	Text Semibold	2.01	false	C:\Windows\Fonts\SitkaVF.ttf
+FONT	Sitka-TextBold	171	false	Sitka	Text Bold	2.01	false	C:\Windows\Fonts\SitkaVF.ttf
+FONT	Sitka-Subheading	172	false	Sitka	Subheading	2.01	false	C:\Windows\Fonts\SitkaVF.ttf
+FONT	Sitka-SubheadingSemibold	173	false	Sitka	Subheading Semibold	2.01	false	C:\Windows\Fonts\SitkaVF.ttf
+FONT	Sitka-SubheadingBold	174	false	Sitka	Subheading Bold	2.01	false	C:\Windows\Fonts\SitkaVF.ttf
+FONT	Sitka-Heading	175	false	Sitka	Heading	2.01	false	C:\Windows\Fonts\SitkaVF.ttf
+FONT	Sitka-HeadingSemibold	176	false	Sitka	Heading Semibold	2.01	false	C:\Windows\Fonts\SitkaVF.ttf
+FONT	Sitka-HeadingBold	177	false	Sitka	Heading Bold	2.01	false	C:\Windows\Fonts\SitkaVF.ttf
+FONT	Sitka-Display	178	false	Sitka	Display	2.01	false	C:\Windows\Fonts\SitkaVF.ttf
+FONT	Sitka-DisplaySemibold	179	false	Sitka	Display Semibold	2.01	false	C:\Windows\Fonts\SitkaVF.ttf
+FONT	Sitka-DisplayBold	180	false	Sitka	Display Bold	2.01	false	C:\Windows\Fonts\SitkaVF.ttf
+FONT	Sitka-Banner	181	false	Sitka	Banner	2.01	false	C:\Windows\Fonts\SitkaVF.ttf
+FONT	Sitka-BannerSemibold	182	false	Sitka	Banner Semibold	2.01	false	C:\Windows\Fonts\SitkaVF.ttf
+FONT	Sitka-BannerBold	183	false	Sitka	Banner Bold	2.01	false	C:\Windows\Fonts\SitkaVF.ttf
+FONT	Sitka-SmallItalic	184	false	Sitka	Small Italic	2.01	false	C:\Windows\Fonts\SitkaVF-Italic.ttf
+FONT	Sitka-SmallSemiboldItalic	185	false	Sitka	Small Semibold Italic	2.01	false	C:\Windows\Fonts\SitkaVF-Italic.ttf
+FONT	Sitka-SmallBoldItalic	186	false	Sitka	Small Bold Italic	2.01	false	C:\Windows\Fonts\SitkaVF-Italic.ttf
+FONT	SitkaTextItalic	187	false	Sitka	Text Italic	2.01	false	C:\Windows\Fonts\SitkaVF-Italic.ttf
+FONT	Sitka-TextSemiboldItalic	188	false	Sitka	Text Semibold Italic	2.01	false	C:\Windows\Fonts\SitkaVF-Italic.ttf
+FONT	Sitka-TextBoldItalic	189	false	Sitka	Text Bold Italic	2.01	false	C:\Windows\Fonts\SitkaVF-Italic.ttf
+FONT	Sitka-SubheadingItalic	190	false	Sitka	Subheading Italic	2.01	false	C:\Windows\Fonts\SitkaVF-Italic.ttf
+FONT	Sitka-SubheadingSemiboldItalic	191	false	Sitka	Subheading Semibold Italic	2.01	false	C:\Windows\Fonts\SitkaVF-Italic.ttf
+FONT	Sitka-SubheadingBoldItalic	192	false	Sitka	Subheading Bold Italic	2.01	false	C:\Windows\Fonts\SitkaVF-Italic.ttf
+FONT	Sitka-HeadingItalic	193	false	Sitka	Heading Italic	2.01	false	C:\Windows\Fonts\SitkaVF-Italic.ttf
+FONT	Sitka-HeadingSemiboldItalic	194	false	Sitka	Heading Semibold Italic	2.01	false	C:\Windows\Fonts\SitkaVF-Italic.ttf
+FONT	Sitka-HeadingBoldItalic	195	false	Sitka	Heading Bold Italic	2.01	false	C:\Windows\Fonts\SitkaVF-Italic.ttf
+FONT	Sitka-DisplayItalic	196	false	Sitka	Display Italic	2.01	false	C:\Windows\Fonts\SitkaVF-Italic.ttf
+FONT	Sitka-DisplaySemiboldItalic	197	false	Sitka	Display Semibold Italic	2.01	false	C:\Windows\Fonts\SitkaVF-Italic.ttf
+FONT	Sitka-DisplayBoldItalic	198	false	Sitka	Display Bold Italic	2.01	false	C:\Windows\Fonts\SitkaVF-Italic.ttf
+FONT	Sitka-BannerItalic	199	false	Sitka	Banner Italic	2.01	false	C:\Windows\Fonts\SitkaVF-Italic.ttf
+FONT	Sitka-BannerSemiboldItalic	200	false	Sitka	Banner Semibold Italic	2.01	false	C:\Windows\Fonts\SitkaVF-Italic.ttf
+FONT	Sitka-BannerBoldItalic	201	false	Sitka	Banner Bold Italic	2.01	false	C:\Windows\Fonts\SitkaVF-Italic.ttf
+FONT	Small Fonts	202	false	Small Fonts	Regular		false	
+FONT	Sylfaen	203	false	Sylfaen	Regular	5.08	false	C:\Windows\Fonts\sylfaen.ttf
+FONT	SymbolMT	204	false	Symbol	Regular	5.01	false	C:\Windows\Fonts\symbol.ttf
+FONT	System	205	false	System	Bold 		false	
+FONT	Tahoma	206	false	Tahoma	Regular	7.05	false	C:\Windows\Fonts\tahoma.ttf
+FONT	Tahoma-Bold	207	false	Tahoma	Bold	7.05	false	C:\Windows\Fonts\tahomabd.ttf
+FONT	TempusSansITC	208	false	Tempus Sans ITC	Regular	1.05	false	C:\Windows\Fonts\TEMPSITC.TTF
+FONT	Terminal	209	false	Terminal	Regular		false	
+FONT	TimesNewRomanPSMT	210	false	Times New Roman	Regular	7.12	false	C:\Windows\Fonts\times.ttf
+FONT	TimesNewRomanPS-ItalicMT	211	false	Times New Roman	Italic	7.12	false	C:\Windows\Fonts\timesi.ttf
+FONT	TimesNewRomanPS-BoldMT	212	false	Times New Roman	Bold	7.12	false	C:\Windows\Fonts\timesbd.ttf
+FONT	TimesNewRomanPS-BoldItalicMT	213	false	Times New Roman	Bold Italic	7.12	false	C:\Windows\Fonts\timesbi.ttf
+FONT	TrebuchetMS	214	false	Trebuchet MS	Regular	5.15	false	C:\Windows\Fonts\trebuc.ttf
+FONT	TrebuchetMS-Italic	215	false	Trebuchet MS	Italic	5.15	false	C:\Windows\Fonts\trebucit.ttf
+FONT	TrebuchetMS-Bold	216	false	Trebuchet MS	Bold	5.15	false	C:\Windows\Fonts\trebucbd.ttf
+FONT	Trebuchet-BoldItalic	217	false	Trebuchet MS	Bold Italic	5.15	false	C:\Windows\Fonts\trebucbi.ttf
+FONT	Verdana	218	false	Verdana	Regular	5.33	false	C:\Windows\Fonts\verdana.ttf
+FONT	Verdana-Italic	219	false	Verdana	Italic	5.33	false	C:\Windows\Fonts\verdanai.ttf
+FONT	Verdana-Bold	220	false	Verdana	Bold	5.33	false	C:\Windows\Fonts\verdanab.ttf
+FONT	Verdana-BoldItalic	221	false	Verdana	Bold Italic	5.33	false	C:\Windows\Fonts\verdanaz.ttf
+FONT	Webdings	222	false	Webdings	Regular	5.01	false	C:\Windows\Fonts\webdings.ttf
+FONT	Wingdings-Regular	223	false	Wingdings	Regular	5.01	false	C:\Windows\Fonts\wingding.ttf
+FONT	Wingdings2	224	false	Wingdings 2	Regular	1.55	false	C:\Windows\Fonts\WINGDNG2.TTF
+FONT	Wingdings3	225	false	Wingdings 3	Regular	1.55	false	C:\Windows\Fonts\WINGDNG3.TTF
+FONT	BIZ-UDGothic	229	false	BIZ UDGothic	Regular	2.02	true	C:\Windows\Fonts\BIZ-UDGothicR.ttc
+FONT	BIZ-UDGothic-Bold	230	false	BIZ UDGothic	Bold	2.02	true	C:\Windows\Fonts\BIZ-UDGothicB.ttc
+FONT	BIZ-UDMincho-Medium	231	false	BIZ UDMincho	Medium	2.03	true	C:\Windows\Fonts\BIZ-UDMinchoM.ttc
+FONT	BIZ-UDPGothic	226	false	BIZ UDPGothic	Regular	2.02	true	C:\Windows\Fonts\BIZ-UDGothicR.ttc
+FONT	BIZ-UDPGothic-Bold	227	false	BIZ UDPGothic	Bold	2.02	true	C:\Windows\Fonts\BIZ-UDGothicB.ttc
+FONT	BIZ-UDPMincho-Medium	228	false	BIZ UDPMincho	Medium	2.03	true	C:\Windows\Fonts\BIZ-UDMinchoM.ttc
+FONT	Meiryo	266	false	Meiryo	Regular	6.51	true	C:\Windows\Fonts\meiryo.ttc
+FONT	Meiryo-Italic	267	false	Meiryo	Italic	6.51	true	C:\Windows\Fonts\meiryo.ttc
+FONT	Meiryo-Bold	268	false	Meiryo	Bold	6.51	true	C:\Windows\Fonts\meiryob.ttc
+FONT	Meiryo-BoldItalic	269	false	Meiryo	Bold Italic	6.51	true	C:\Windows\Fonts\meiryob.ttc
+FONT	MeiryoUI	232	false	Meiryo UI	Regular	6.51	true	C:\Windows\Fonts\meiryo.ttc
+FONT	MeiryoUI-Italic	233	false	Meiryo UI	Italic	6.51	true	C:\Windows\Fonts\meiryo.ttc
+FONT	MeiryoUI-Bold	234	false	Meiryo UI	Bold	6.51	true	C:\Windows\Fonts\meiryob.ttc
+FONT	MeiryoUI-BoldItalic	235	false	Meiryo UI	Bold Italic	6.51	true	C:\Windows\Fonts\meiryob.ttc
+FONT	MS-Gothic	239	false	MS Gothic	Regular	5.32	true	C:\Windows\Fonts\msgothic.ttc
+FONT	MS-Mincho	240	false	MS Mincho	Regular	5.32	true	C:\Windows\Fonts\msmincho.ttc
+FONT	MS-PGothic	236	false	MS PGothic	Regular	5.32	true	C:\Windows\Fonts\msgothic.ttc
+FONT	MS-PMincho	237	false	MS PMincho	Regular	5.32	true	C:\Windows\Fonts\msmincho.ttc
+FONT	MS-UIGothic	238	false	MS UI Gothic	Regular	5.32	true	C:\Windows\Fonts\msgothic.ttc
+FONT	NotoSansJP-Thin	241	false	Noto Sans JP	Thin	2.04	true	C:\Windows\Fonts\NotoSansJP-VF.ttf
+FONT	NotoSansJP-Light	242	false	Noto Sans JP	Light	2.04	true	C:\Windows\Fonts\NotoSansJP-VF.ttf
+FONT	NotoSansJP-DemiLight	243	false	Noto Sans JP	DemiLight	2.04	true	C:\Windows\Fonts\NotoSansJP-VF.ttf
+FONT	NotoSansJP-Regular	244	false	Noto Sans JP	Regular	2.04	true	C:\Windows\Fonts\NotoSansJP-VF.ttf
+FONT	NotoSansJP-Medium	245	false	Noto Sans JP	Medium	2.04	true	C:\Windows\Fonts\NotoSansJP-VF.ttf
+FONT	NotoSansJP-Bold	246	false	Noto Sans JP	Bold	2.04	true	C:\Windows\Fonts\NotoSansJP-VF.ttf
+FONT	NotoSansJP-Black	247	false	Noto Sans JP	Black	2.04	true	C:\Windows\Fonts\NotoSansJP-VF.ttf
+FONT	NotoSerifJP-ExtraLight	248	false	Noto Serif JP	ExtraLight	2.02	true	C:\Windows\Fonts\NotoSerifJP-VF.ttf
+FONT	NotoSerifJP-Light	249	false	Noto Serif JP	Light	2.02	true	C:\Windows\Fonts\NotoSerifJP-VF.ttf
+FONT	NotoSerifJP-Regular	250	false	Noto Serif JP	Regular	2.02	true	C:\Windows\Fonts\NotoSerifJP-VF.ttf
+FONT	NotoSerifJP-Medium	251	false	Noto Serif JP	Medium	2.02	true	C:\Windows\Fonts\NotoSerifJP-VF.ttf
+FONT	NotoSerifJP-SemiBold	252	false	Noto Serif JP	SemiBold	2.02	true	C:\Windows\Fonts\NotoSerifJP-VF.ttf
+FONT	NotoSerifJP-Bold	253	false	Noto Serif JP	Bold	2.02	true	C:\Windows\Fonts\NotoSerifJP-VF.ttf
+FONT	NotoSerifJP-Black	254	false	Noto Serif JP	Black	2.02	true	C:\Windows\Fonts\NotoSerifJP-VF.ttf
+FONT	UDDigiKyokashoN	255	false	UD Digi Kyokasho N	Regular	2.03	true	C:\Windows\Fonts\UDDigiKyokashoN-R.ttc
+FONT	UDDigiKyokashoN-Bold	256	false	UD Digi Kyokasho N	Bold	2.03	true	C:\Windows\Fonts\UDDigiKyokashoN-B.ttc
+FONT	UDDigiKyokashoNK	257	false	UD Digi Kyokasho NK	Regular	2.03	true	C:\Windows\Fonts\UDDigiKyokashoN-R.ttc
+FONT	UDDigiKyokashoNK-Bold	258	false	UD Digi Kyokasho NK	Bold	2.03	true	C:\Windows\Fonts\UDDigiKyokashoN-B.ttc
+FONT	UDDigiKyokashoNP	259	false	UD Digi Kyokasho NP	Regular	2.03	true	C:\Windows\Fonts\UDDigiKyokashoN-R.ttc
+FONT	UDDigiKyokashoNP-Bold	260	false	UD Digi Kyokasho NP	Bold	2.03	true	C:\Windows\Fonts\UDDigiKyokashoN-B.ttc
+FONT	YuGothic-Light	270	false	Yu Gothic	Light	1.95	true	C:\Windows\Fonts\YuGothL.ttc
+FONT	YuGothic-Regular	271	false	Yu Gothic	Regular	1.95	true	C:\Windows\Fonts\YuGothR.ttc
+FONT	YuGothic-Medium	272	false	Yu Gothic	Medium	1.95	true	C:\Windows\Fonts\YuGothM.ttc
+FONT	YuGothic-Bold	273	false	Yu Gothic	Bold	1.95	true	C:\Windows\Fonts\YuGothB.ttc
+FONT	YuGothicUI-Light	261	false	Yu Gothic UI	Light	1.95	true	C:\Windows\Fonts\YuGothL.ttc
+FONT	YuGothicUI-Semilight	262	false	Yu Gothic UI	Semilight	1.95	true	C:\Windows\Fonts\YuGothR.ttc
+FONT	YuGothicUI-Regular	263	false	Yu Gothic UI	Regular	1.95	true	C:\Windows\Fonts\YuGothM.ttc
+FONT	YuGothicUI-Semibold	264	false	Yu Gothic UI	Semibold	1.95	true	C:\Windows\Fonts\YuGothB.ttc
+FONT	YuGothicUI-Bold	265	false	Yu Gothic UI	Bold	1.95	true	C:\Windows\Fonts\YuGothB.ttc
+FONT	YuMincho-Light	274	false	Yu Mincho	Light	1.92	true	C:\Windows\Fonts\yuminl.ttf
+FONT	YuMincho-Regular	275	false	Yu Mincho	Regular	1.92	true	
+FONT	YuMincho-Demibold	276	false	Yu Mincho	Demibold	1.92	true	C:\Windows\Fonts\yumindb.ttf
+FONT	MicrosoftJhengHeiLight	283	false	Microsoft JhengHei	Light	6.15	true	C:\Windows\Fonts\msjhl.ttc
+FONT	MicrosoftJhengHeiRegular	284	false	Microsoft JhengHei	Regular	6.15	true	C:\Windows\Fonts\msjh.ttc
+FONT	MicrosoftJhengHeiBold	285	false	Microsoft JhengHei	Bold	6.15	true	C:\Windows\Fonts\msjhbd.ttc
+FONT	MicrosoftJhengHeiUILight	277	false	Microsoft JhengHei UI	Light	6.15	true	C:\Windows\Fonts\msjhl.ttc
+FONT	MicrosoftJhengHeiUIRegular	278	false	Microsoft JhengHei UI	Regular	6.15	true	C:\Windows\Fonts\msjh.ttc
+FONT	MicrosoftJhengHeiUIBold	279	false	Microsoft JhengHei UI	Bold	6.15	true	C:\Windows\Fonts\msjhbd.ttc
+FONT	MingLiU-ExtB	282	false	MingLiU-ExtB	Regular	7.10	false	C:\Windows\Fonts\mingliub.ttc
+FONT	Ming-Lt-HKSCS-ExtB	280	false	MingLiU_HKSCS-ExtB	Regular	7.10	false	C:\Windows\Fonts\mingliub.ttc
+FONT	Ming-Lt-MSCS-ExtB	281	false	MingLiU_MSCS-ExtB	Regular	8.10	false	
+FONT	PMingLiU-ExtB	286	false	PMingLiU-ExtB	Regular	7.10	false	C:\Windows\Fonts\mingliub.ttc
+FONT	MalgunGothic-Semilight	297	false	Malgun Gothic	Semilight	6.69	false	C:\Windows\Fonts\malgunsl.ttf
+FONT	MalgunGothic	298	false	Malgun Gothic	Regular	6.69	true	C:\Windows\Fonts\malgun.ttf
+FONT	MalgunGothicBold	299	false	Malgun Gothic	Bold	6.69	true	C:\Windows\Fonts\malgunbd.ttf
+FONT	Dubai-Light	300	false	Dubai	Light	1.10	false	C:\Windows\Fonts\DUBAI-LIGHT.TTF
+FONT	Dubai-Regular	301	false	Dubai	Regular	1.10	false	C:\Windows\Fonts\DUBAI-REGULAR.TTF
+FONT	Dubai-Medium	302	false	Dubai	Medium	1.10	false	C:\Windows\Fonts\DUBAI-MEDIUM.TTF
+FONT	Dubai-Bold	303	false	Dubai	Bold	1.10	false	C:\Windows\Fonts\DUBAI-BOLD.TTF
+FONT	MicrosoftUighur	304	false	Microsoft Uighur	Regular	5.93	false	C:\Windows\Fonts\MSUIGHUR.TTF
+FONT	MicrosoftUighur-Bold	305	false	Microsoft Uighur	Bold	6.00	false	C:\Windows\Fonts\MSUIGHUB.TTF
+FONT	NirmalaText-Semilight	306	false	Nirmala Text	Semilight	1.00	false	C:\Windows\Fonts\Nirmala.ttc
+FONT	NirmalaText	307	false	Nirmala Text	Regular	1.00	false	C:\Windows\Fonts\Nirmala.ttc
+FONT	NirmalaText-Bold	308	false	Nirmala Text	Bold	1.00	false	C:\Windows\Fonts\Nirmala.ttc
+FONT	NirmalaUI-Semilight	309	false	Nirmala UI	Semilight	1.46	false	C:\Windows\Fonts\Nirmala.ttc
+FONT	NirmalaUI	310	false	Nirmala UI	Regular	1.46	false	C:\Windows\Fonts\Nirmala.ttc
+FONT	NirmalaUI-Bold	311	false	Nirmala UI	Bold	1.46	false	C:\Windows\Fonts\Nirmala.ttc
+FONT	MyanmarText	312	false	Myanmar Text	Regular	1.23	false	C:\Windows\Fonts\mmrtext.ttf
+FONT	MyanmarText-Bold	313	false	Myanmar Text	Bold	1.23	false	C:\Windows\Fonts\mmrtextb.ttf
+FONT	Leelawadee	314	false	Leelawadee	Regular	5.05	false	C:\Windows\Fonts\LEELAWAD.TTF
+FONT	Leelawadee-Bold	315	false	Leelawadee	Bold	5.05	false	C:\Windows\Fonts\LEELAWDB.TTF
+FONT	LeelawadeeUI-Semilight	316	false	Leelawadee UI	Semilight	6.00	false	C:\Windows\Fonts\leeluisl.ttf
+FONT	LeelawadeeUI	317	false	Leelawadee UI	Regular	6.00	false	C:\Windows\Fonts\leelawui.ttf
+FONT	LeelawadeeUI-Bold	318	false	Leelawadee UI	Bold	6.00	false	C:\Windows\Fonts\leelauib.ttf
+FONT	MicrosoftYaHeiLight	293	false	Microsoft YaHei	Light	6.25	true	C:\Windows\Fonts\msyhl.ttc
+FONT	MicrosoftYaHei	294	false	Microsoft YaHei	Regular	6.31	true	C:\Windows\Fonts\msyh.ttc
+FONT	MicrosoftYaHei-Bold	295	false	Microsoft YaHei	Bold	6.31	true	C:\Windows\Fonts\msyhbd.ttc
+FONT	MicrosoftYaHeiUILight	287	false	Microsoft YaHei UI	Light	6.25	true	C:\Windows\Fonts\msyhl.ttc
+FONT	MicrosoftYaHeiUI	288	false	Microsoft YaHei UI	Regular	6.31	true	C:\Windows\Fonts\msyh.ttc
+FONT	MicrosoftYaHeiUI-Bold	289	false	Microsoft YaHei UI	Bold	6.31	true	C:\Windows\Fonts\msyhbd.ttc
+FONT	NSimSun	296	false	NSimSun	Regular	5.24	true	C:\Windows\Fonts\simsun.ttc
+FONT	SimSun	292	false	SimSun	Regular	5.24	true	C:\Windows\Fonts\simsun.ttc
+FONT	SimSun-ExtB	290	false	SimSun-ExtB	Regular	5.08	false	C:\Windows\Fonts\simsunb.ttf
+FONT	SimSun-ExtG	291	false	SimSun-ExtG	Regular	1.02	false	C:\Windows\Fonts\SimsunExtG.ttf
+FONT	SegoeUIEmoji	319	false	Segoe UI Emoji	Regular	1.70	false	C:\Windows\Fonts\seguiemj.ttf

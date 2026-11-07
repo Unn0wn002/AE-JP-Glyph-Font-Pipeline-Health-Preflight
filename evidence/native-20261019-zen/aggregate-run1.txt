@@ -1,0 +1,140 @@
+JP FONT AND GLYPH PREFLIGHT — STATIC-TEXT BETA REPORT
+Report schema	JPFP-BETA-REPORT-2
+Generated (host local time)	2026-10-19T16:56:17
+Scan elapsed milliseconds	13
+
+HOST / 実行環境
+AE version	26.5x89
+AE build name	26.5x89
+AE build number	89
+AE locale	en_US
+OS	Windows/64 10.0  
+Project revision before	1463
+Project revision after	1463
+Project revision unchanged	true
+Revision before read	OK
+Revision after read	OK
+
+SCOPE AND COVERAGE / 検査範囲
+Active composition only	true
+Composition ID	1
+Composition	JPFP_BETA_FIXTURES__DISPOSABLE
+Composition time sampled	0
+Total layers	12
+Text layers	11
+Static text layers checked	9
+Expression text layers NOT CHECKED	1
+Animated text layers NOT CHECKED	1
+Unreadable/unclassified layers NOT CHECKED	0
+Empty text layers	1
+Non-text layers (not applicable)	1
+Characters examined	52
+Characters coverage verified	51
+Characters coverage verified present	51
+Characters coverage verified absent	0
+Characters coverage skipped	1
+Characters coverage failed	0
+Mixed-font layers observed	2
+Mixed-font classification incomplete layers	0
+TextDocument.characterRange observed	true
+FontObject.hasGlyphsFor observed	true
+Problems	6
+Review needed	5
+Not checked findings	4
+
+FINDINGS / 検出結果
+severity	code	compId	comp	layerId	layerIndex	layerName	start	end	codePoint	character	font	detail
+REVIEW_NEEDED	MIXED_FONT_RUNS	1	JPFP_BETA_FIXTURES__DISPOSABLE	138	1	[F03] VERIFIED_FIXTURE_CANDIDATE						Multiple applied font identities observed; intentional mixed fonts are a review item, not an error.
+NOT_CHECKED	SOURCE_TEXT_EXPRESSION	1	JPFP_BETA_FIXTURES__DISPOSABLE	22	3	[F11] VERIFIED_FIXTURE_CANDIDATE						Source Text expression is enabled; all expression states are outside beta scope.
+NOT_CHECKED	SOURCE_TEXT_ANIMATED	1	JPFP_BETA_FIXTURES__DISPOSABLE	21	4	[F10] VERIFIED_FIXTURE_CANDIDATE						Source Text has keyframes; animated states are outside beta scope.
+REVIEW_NEEDED	UNICODE_SEQUENCE_EDGE_CASE	1	JPFP_BETA_FIXTURES__DISPOSABLE	20	5	[F09] VERIFIED_FIXTURE_CANDIDATE	1	3	U+E0100	\uDB40\uDD00		Supplementary/combining/selector/joiner text requires native visual review; code-point coverage does not establish shaping correctness.
+NOT_CHECKED	NON_GLYPH_CODEPOINT	1	JPFP_BETA_FIXTURES__DISPOSABLE	20	5	[F09] VERIFIED_FIXTURE_CANDIDATE	1	3	U+E0100	\uDB40\uDD00	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	Control, formatting, joiner, or variation-selector code point: standalone glyph coverage NOT_CHECKED
+REVIEW_NEEDED	UNICODE_SEQUENCE_EDGE_CASE	1	JPFP_BETA_FIXTURES__DISPOSABLE	19	6	[F08] VERIFIED_FIXTURE_CANDIDATE	1	2	U+3099	゙		Supplementary/combining/selector/joiner text requires native visual review; code-point coverage does not establish shaping correctness.
+REVIEW_NEEDED	UNICODE_SEQUENCE_EDGE_CASE	1	JPFP_BETA_FIXTURES__DISPOSABLE	18	7	[F07] VERIFIED_FIXTURE_CANDIDATE	0	2	U+2000B	\uD840\uDC0B		Supplementary/combining/selector/joiner text requires native visual review; code-point coverage does not establish shaping correctness.
+NOT_CHECKED	EMPTY_TEXT	1	JPFP_BETA_FIXTURES__DISPOSABLE	17	8	[F06] VERIFIED_FIXTURE_CANDIDATE						Empty static Source Text: no character font or glyph query applicable; mixed fonts NOT_CHECKED.
+REVIEW_NEEDED	MIXED_FONT_RUNS	1	JPFP_BETA_FIXTURES__DISPOSABLE	16	9	[F05] VERIFIED_FIXTURE_CANDIDATE						Multiple applied font identities observed; intentional mixed fonts are a review item, not an error.
+PROBLEM_FOUND	SUBSTITUTE_FONT_REFERENCE	1	JPFP_BETA_FIXTURES__DISPOSABLE	14	11	[F02] VERIFIED_FIXTURE_CANDIDATE	0	1	U+6B20	欠	PS=ZenKakuGothicNew-Regular; family=ZenKakuGothicNew; style=Regular; id=320; substitute=true; location=C:\\Windows\\Fonts\\meiryo.ttc	AE reports a substitute font reference; this does not identify the rendered fallback font.
+PROBLEM_FOUND	SUBSTITUTE_FONT_REFERENCE	1	JPFP_BETA_FIXTURES__DISPOSABLE	14	11	[F02] VERIFIED_FIXTURE_CANDIDATE	1	2	U+843D	落	PS=ZenKakuGothicNew-Regular; family=ZenKakuGothicNew; style=Regular; id=320; substitute=true; location=C:\\Windows\\Fonts\\meiryo.ttc	AE reports a substitute font reference; this does not identify the rendered fallback font.
+PROBLEM_FOUND	SUBSTITUTE_FONT_REFERENCE	1	JPFP_BETA_FIXTURES__DISPOSABLE	14	11	[F02] VERIFIED_FIXTURE_CANDIDATE	2	3	U+30D5	フ	PS=ZenKakuGothicNew-Regular; family=ZenKakuGothicNew; style=Regular; id=320; substitute=true; location=C:\\Windows\\Fonts\\meiryo.ttc	AE reports a substitute font reference; this does not identify the rendered fallback font.
+PROBLEM_FOUND	SUBSTITUTE_FONT_REFERENCE	1	JPFP_BETA_FIXTURES__DISPOSABLE	14	11	[F02] VERIFIED_FIXTURE_CANDIDATE	3	4	U+30A9	ォ	PS=ZenKakuGothicNew-Regular; family=ZenKakuGothicNew; style=Regular; id=320; substitute=true; location=C:\\Windows\\Fonts\\meiryo.ttc	AE reports a substitute font reference; this does not identify the rendered fallback font.
+PROBLEM_FOUND	SUBSTITUTE_FONT_REFERENCE	1	JPFP_BETA_FIXTURES__DISPOSABLE	14	11	[F02] VERIFIED_FIXTURE_CANDIDATE	4	5	U+30F3	ン	PS=ZenKakuGothicNew-Regular; family=ZenKakuGothicNew; style=Regular; id=320; substitute=true; location=C:\\Windows\\Fonts\\meiryo.ttc	AE reports a substitute font reference; this does not identify the rendered fallback font.
+PROBLEM_FOUND	SUBSTITUTE_FONT_REFERENCE	1	JPFP_BETA_FIXTURES__DISPOSABLE	14	11	[F02] VERIFIED_FIXTURE_CANDIDATE	5	6	U+30C8	ト	PS=ZenKakuGothicNew-Regular; family=ZenKakuGothicNew; style=Regular; id=320; substitute=true; location=C:\\Windows\\Fonts\\meiryo.ttc	AE reports a substitute font reference; this does not identify the rendered fallback font.
+
+LAYER OBSERVATIONS / レイヤー観測
+type	compId	comp	layerId	layerIndex	layerName	sourceText	mixedFonts	detail
+LAYER	1	JPFP_BETA_FIXTURES__DISPOSABLE	138	1	[F03] VERIFIED_FIXTURE_CANDIDATE	STATIC_TEXT	MIXED	UTF-16 length=7; unknown character fonts=0
+LAYER	1	JPFP_BETA_FIXTURES__DISPOSABLE	25	2	[F12] NON_TEXT_LAYER	NON_TEXT	NOT_APPLICABLE	No text property group (non-text layer)
+LAYER	1	JPFP_BETA_FIXTURES__DISPOSABLE	22	3	[F11] VERIFIED_FIXTURE_CANDIDATE	NOT_CHECKED	UNKNOWN	Expression Source Text
+LAYER	1	JPFP_BETA_FIXTURES__DISPOSABLE	21	4	[F10] VERIFIED_FIXTURE_CANDIDATE	NOT_CHECKED	UNKNOWN	Animated Source Text
+LAYER	1	JPFP_BETA_FIXTURES__DISPOSABLE	20	5	[F09] VERIFIED_FIXTURE_CANDIDATE	STATIC_TEXT	SINGLE_FONT	UTF-16 length=3; unknown character fonts=0
+LAYER	1	JPFP_BETA_FIXTURES__DISPOSABLE	19	6	[F08] VERIFIED_FIXTURE_CANDIDATE	STATIC_TEXT	SINGLE_FONT	UTF-16 length=2; unknown character fonts=0
+LAYER	1	JPFP_BETA_FIXTURES__DISPOSABLE	18	7	[F07] VERIFIED_FIXTURE_CANDIDATE	STATIC_TEXT	SINGLE_FONT	UTF-16 length=2; unknown character fonts=0
+LAYER	1	JPFP_BETA_FIXTURES__DISPOSABLE	17	8	[F06] VERIFIED_FIXTURE_CANDIDATE	EMPTY_TEXT	NOT_CHECKED	No character coverage applicable
+LAYER	1	JPFP_BETA_FIXTURES__DISPOSABLE	16	9	[F05] VERIFIED_FIXTURE_CANDIDATE	STATIC_TEXT	MIXED	UTF-16 length=3; unknown character fonts=0
+LAYER	1	JPFP_BETA_FIXTURES__DISPOSABLE	15	10	[F04] VERIFIED_FIXTURE_CANDIDATE	STATIC_TEXT	SINGLE_FONT	UTF-16 length=15; unknown character fonts=0
+LAYER	1	JPFP_BETA_FIXTURES__DISPOSABLE	14	11	[F02] VERIFIED_FIXTURE_CANDIDATE	STATIC_TEXT	SINGLE_FONT	UTF-16 length=6; unknown character fonts=0
+LAYER	1	JPFP_BETA_FIXTURES__DISPOSABLE	13	12	[F01] VERIFIED_FIXTURE_CANDIDATE	STATIC_TEXT	SINGLE_FONT	UTF-16 length=16; unknown character fonts=0
+
+CHARACTER FONT OBSERVATIONS / 文字フォント観測
+type	compId	comp	layerId	layerIndex	layerName	start	end	codePoint	character	fontIdentity	coverage	substitute	fontSummary	detail
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	138	1	[F03] VERIFIED_FIXTURE_CANDIDATE	0	1	U+65E5	日	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	138	1	[F03] VERIFIED_FIXTURE_CANDIDATE	1	2	U+672C	本	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	138	1	[F03] VERIFIED_FIXTURE_CANDIDATE	2	3	U+8A9E	語	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	138	1	[F03] VERIFIED_FIXTURE_CANDIDATE	3	4	U+0020	 	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	138	1	[F03] VERIFIED_FIXTURE_CANDIDATE	4	5	U+0041	A	VERIFIED	VERIFIED_PRESENT	FALSE	PS=ArialMT; family=Arial; style=Regular; id=6; substitute=false; location=C:\\Windows\\Fonts\\arial.ttf	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	138	1	[F03] VERIFIED_FIXTURE_CANDIDATE	5	6	U+0042	B	VERIFIED	VERIFIED_PRESENT	FALSE	PS=ArialMT; family=Arial; style=Regular; id=6; substitute=false; location=C:\\Windows\\Fonts\\arial.ttf	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	138	1	[F03] VERIFIED_FIXTURE_CANDIDATE	6	7	U+0043	C	VERIFIED	VERIFIED_PRESENT	FALSE	PS=ArialMT; family=Arial; style=Regular; id=6; substitute=false; location=C:\\Windows\\Fonts\\arial.ttf	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	20	5	[F09] VERIFIED_FIXTURE_CANDIDATE	0	1	U+845B	葛	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	20	5	[F09] VERIFIED_FIXTURE_CANDIDATE	1	3	U+E0100	\uDB40\uDD00	VERIFIED	NOT_CHECKED	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	Control, formatting, joiner, or variation-selector code point: standalone glyph coverage NOT_CHECKED
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	19	6	[F08] VERIFIED_FIXTURE_CANDIDATE	0	1	U+306F	は	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	19	6	[F08] VERIFIED_FIXTURE_CANDIDATE	1	2	U+3099	゙	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	18	7	[F07] VERIFIED_FIXTURE_CANDIDATE	0	2	U+2000B	\uD840\uDC0B	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	16	9	[F05] VERIFIED_FIXTURE_CANDIDATE	0	1	U+0041	A	VERIFIED	VERIFIED_PRESENT	FALSE	PS=ArialMT; family=Arial; style=Regular; id=6; substitute=false; location=C:\\Windows\\Fonts\\arial.ttf	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	16	9	[F05] VERIFIED_FIXTURE_CANDIDATE	1	2	U+6F22	漢	VERIFIED	VERIFIED_PRESENT	FALSE	PS=Meiryo; family=Meiryo; style=Regular; id=266; substitute=false; location=C:\\Windows\\Fonts\\meiryo.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	16	9	[F05] VERIFIED_FIXTURE_CANDIDATE	2	3	U+0042	B	VERIFIED	VERIFIED_PRESENT	FALSE	PS=ArialMT; family=Arial; style=Regular; id=6; substitute=false; location=C:\\Windows\\Fonts\\arial.ttf	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	15	10	[F04] VERIFIED_FIXTURE_CANDIDATE	0	1	U+300C	「	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	15	10	[F04] VERIFIED_FIXTURE_CANDIDATE	1	2	U+65E5	日	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	15	10	[F04] VERIFIED_FIXTURE_CANDIDATE	2	3	U+672C	本	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	15	10	[F04] VERIFIED_FIXTURE_CANDIDATE	3	4	U+8A9E	語	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	15	10	[F04] VERIFIED_FIXTURE_CANDIDATE	4	5	U+300D	」	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	15	10	[F04] VERIFIED_FIXTURE_CANDIDATE	5	6	U+2014	—	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	15	10	[F04] VERIFIED_FIXTURE_CANDIDATE	6	7	U+0041	A	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	15	10	[F04] VERIFIED_FIXTURE_CANDIDATE	7	8	U+0042	B	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	15	10	[F04] VERIFIED_FIXTURE_CANDIDATE	8	9	U+0043	C	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	15	10	[F04] VERIFIED_FIXTURE_CANDIDATE	9	10	U+30FB	・	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	15	10	[F04] VERIFIED_FIXTURE_CANDIDATE	10	11	U+0031	1	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	15	10	[F04] VERIFIED_FIXTURE_CANDIDATE	11	12	U+0032	2	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	15	10	[F04] VERIFIED_FIXTURE_CANDIDATE	12	13	U+0033	3	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	15	10	[F04] VERIFIED_FIXTURE_CANDIDATE	13	14	U+FF01	！	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	15	10	[F04] VERIFIED_FIXTURE_CANDIDATE	14	15	U+FF1F	？	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	14	11	[F02] VERIFIED_FIXTURE_CANDIDATE	0	1	U+6B20	欠	VERIFIED	VERIFIED_PRESENT	TRUE	PS=ZenKakuGothicNew-Regular; family=ZenKakuGothicNew; style=Regular; id=320; substitute=true; location=C:\\Windows\\Fonts\\meiryo.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	14	11	[F02] VERIFIED_FIXTURE_CANDIDATE	1	2	U+843D	落	VERIFIED	VERIFIED_PRESENT	TRUE	PS=ZenKakuGothicNew-Regular; family=ZenKakuGothicNew; style=Regular; id=320; substitute=true; location=C:\\Windows\\Fonts\\meiryo.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	14	11	[F02] VERIFIED_FIXTURE_CANDIDATE	2	3	U+30D5	フ	VERIFIED	VERIFIED_PRESENT	TRUE	PS=ZenKakuGothicNew-Regular; family=ZenKakuGothicNew; style=Regular; id=320; substitute=true; location=C:\\Windows\\Fonts\\meiryo.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	14	11	[F02] VERIFIED_FIXTURE_CANDIDATE	3	4	U+30A9	ォ	VERIFIED	VERIFIED_PRESENT	TRUE	PS=ZenKakuGothicNew-Regular; family=ZenKakuGothicNew; style=Regular; id=320; substitute=true; location=C:\\Windows\\Fonts\\meiryo.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	14	11	[F02] VERIFIED_FIXTURE_CANDIDATE	4	5	U+30F3	ン	VERIFIED	VERIFIED_PRESENT	TRUE	PS=ZenKakuGothicNew-Regular; family=ZenKakuGothicNew; style=Regular; id=320; substitute=true; location=C:\\Windows\\Fonts\\meiryo.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	14	11	[F02] VERIFIED_FIXTURE_CANDIDATE	5	6	U+30C8	ト	VERIFIED	VERIFIED_PRESENT	TRUE	PS=ZenKakuGothicNew-Regular; family=ZenKakuGothicNew; style=Regular; id=320; substitute=true; location=C:\\Windows\\Fonts\\meiryo.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	13	12	[F01] VERIFIED_FIXTURE_CANDIDATE	0	1	U+65E5	日	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	13	12	[F01] VERIFIED_FIXTURE_CANDIDATE	1	2	U+672C	本	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	13	12	[F01] VERIFIED_FIXTURE_CANDIDATE	2	3	U+8A9E	語	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	13	12	[F01] VERIFIED_FIXTURE_CANDIDATE	3	4	U+306E	の	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	13	12	[F01] VERIFIED_FIXTURE_CANDIDATE	4	5	U+5B57	字	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	13	12	[F01] VERIFIED_FIXTURE_CANDIDATE	5	6	U+5E55	幕	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	13	12	[F01] VERIFIED_FIXTURE_CANDIDATE	6	7	U+3067	で	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	13	12	[F01] VERIFIED_FIXTURE_CANDIDATE	7	8	U+3059	す	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	13	12	[F01] VERIFIED_FIXTURE_CANDIDATE	8	9	U+3002	。	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	13	12	[F01] VERIFIED_FIXTURE_CANDIDATE	9	10	U+0041	A	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	13	12	[F01] VERIFIED_FIXTURE_CANDIDATE	10	11	U+0042	B	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	13	12	[F01] VERIFIED_FIXTURE_CANDIDATE	11	12	U+0043	C	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	13	12	[F01] VERIFIED_FIXTURE_CANDIDATE	12	13	U+0020	 	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	13	12	[F01] VERIFIED_FIXTURE_CANDIDATE	13	14	U+0031	1	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	13	12	[F01] VERIFIED_FIXTURE_CANDIDATE	14	15	U+0032	2	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+CHAR	1	JPFP_BETA_FIXTURES__DISPOSABLE	13	12	[F01] VERIFIED_FIXTURE_CANDIDATE	15	16	U+0033	3	VERIFIED	VERIFIED_PRESENT	FALSE	PS=MS-Gothic; family=MS Gothic; style=Regular; id=239; substitute=false; location=C:\\Windows\\Fonts\\msgothic.ttc	
+
+INTERPRETATION / 解釈
+Character offsets are zero-based UTF-16 [start,end); supplementary pairs remain one observation. These are not grapheme boundaries.
+fontIdentity VERIFIED requires direct CharacterRange.fontObject plus a readable fontID or PostScript name. Base TextDocument font is never substituted for an unreadable character font.
+VERIFIED_PRESENT/VERIFIED_ABSENT mean hasGlyphsFor returned a boolean for that applied font and code point. They do not prove rendered fallback or shaping correctness.
+NOT_CHECKED means no reliable query was made; FAILED means the glyph API getter/query failed or returned an invalid value. Neither is PASS.
+UNKNOWN records unavailable or failed reads. Complete mixed-font classification needs unique font IDs for every character; intentional mixing is REVIEW_NEEDED.
+Animated/expression Source Text, whole-project scanning, font installation/replacement, rendered-fallback identification, and full shaping validation are outside beta scope.
+Project revision equality is one observation, not proof of all project/UI state invariance; UNKNOWN never means unchanged/PASS.

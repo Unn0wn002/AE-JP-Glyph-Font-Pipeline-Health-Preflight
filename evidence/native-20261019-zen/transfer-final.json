@@ -1,0 +1,46 @@
+{
+  "receivedAt": "2026-10-19T12:29:04.176Z",
+  "source": "Sandbox Desktop/F02ZEN and F02RUN selected in Explorer",
+  "originalSHA256": "af3b1bd641a0955f63230f44b7e53987cddccd7099bffb832718f1ea7aa21306",
+  "workSHA256": "af3b1bd641a0955f63230f44b7e53987cddccd7099bffb832718f1ea7aa21306",
+  "fontExcluded": true,
+  "sourceFiles": [
+    {
+      "path": "src/JPFP_Session1_Probe.jsx",
+      "main": "f93d221898e6dc75985e2fa5b7ffbde2850c2ebc39da889b21592c5f58d8156e",
+      "returned": "f93d221898e6dc75985e2fa5b7ffbde2850c2ebc39da889b21592c5f58d8156e"
+    },
+    {
+      "path": "diagnostics/beta/JPFP_Beta_Scan_With_State.jsx",
+      "main": "e3d794cb8e4a079237bea754220569672f0dc6a04b3d0d648e1b3215567adf21",
+      "returned": "e3d794cb8e4a079237bea754220569672f0dc6a04b3d0d648e1b3215567adf21"
+    }
+  ],
+  "reports": [
+    {
+      "sandboxFile": "Desktop/F02RUN/a.txt",
+      "retainedFile": "aggregate-run1.txt",
+      "returnedSHA256": "4a35c89f224aac1ff182b49beda8c40b504751b97015ff2639a4ba8d055d76a2",
+      "retainedSHA256": "4a35c89f224aac1ff182b49beda8c40b504751b97015ff2639a4ba8d055d76a2"
+    },
+    {
+      "sandboxFile": "Desktop/F02RUN/b.txt",
+      "retainedFile": "aggregate-run2.txt",
+      "returnedSHA256": "1e06f95fd97cc5e3ab344e8ca6ff0c352652f725cf20ee35eaaa88e7f71053c0",
+      "retainedSHA256": "1e06f95fd97cc5e3ab344e8ca6ff0c352652f725cf20ee35eaaa88e7f71053c0"
+    },
+    {
+      "sandboxFile": "Desktop/F02RUN/c.txt",
+      "retainedFile": "large-run1.txt",
+      "returnedSHA256": "64e1cc2f1a903cb8d6699164566862f5faaeaed2a9d5f91d7cdcaabd3cc13221",
+      "retainedSHA256": "64e1cc2f1a903cb8d6699164566862f5faaeaed2a9d5f91d7cdcaabd3cc13221"
+    },
+    {
+      "sandboxFile": "Desktop/F02RUN/d.txt",
+      "retainedFile": "large-run2.txt",
+      "returnedSHA256": "522c59365234b92a8c7e9491f058766801433a053de6bd6a7066e0804f91ed81",
+      "retainedSHA256": "522c59365234b92a8c7e9491f058766801433a053de6bd6a7066e0804f91ed81"
+    }
+  ],
+  "note": "SHA-256 computed on received main bytes. Original and work AEP match authoring and earlier receipt. Sandbox-origin SHA-256 of generated reports/state was not independently completed; raw parses, wrapper comparisons and received-copy hashes are retained."
+}

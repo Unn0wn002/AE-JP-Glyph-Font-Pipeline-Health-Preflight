@@ -1,0 +1,4 @@
+aeVersion=26.5x89
+jpFont=BIZ-UDGothic
+E_font_on_nonempty	threw=no	endSuppress=ok	layerAlive=true	text=[日本語]
+F_font_on_empty	threw=no	endSuppress=ok	layerAlive=true	text=[]

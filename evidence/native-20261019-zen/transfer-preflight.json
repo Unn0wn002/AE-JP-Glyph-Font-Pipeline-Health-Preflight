@@ -1,0 +1,36 @@
+{
+  "method": "Sandbox received original and unsaved disposable returned to main; SHA-256 computed on returned bytes",
+  "receivedOriginalSHA256": "af3b1bd641a0955f63230f44b7e53987cddccd7099bffb832718f1ea7aa21306",
+  "receivedWorkSHA256": "af3b1bd641a0955f63230f44b7e53987cddccd7099bffb832718f1ea7aa21306",
+  "receivedOriginalMainPath": "C:/Users/unn0w/Downloads/Management Project/AE JP Glyph & Font-Pipeline Health Preflight/repository/artifacts/native/F02ZEN-return-preflight/F02ZEN/genuine-F02.aep",
+  "receivedWorkMainPath": "C:/Users/unn0w/Downloads/Management Project/AE JP Glyph & Font-Pipeline Health Preflight/repository/artifacts/native/F02ZEN-return-preflight/F02ZEN/sandbox-work.aep",
+  "files": [
+    {
+      "path": "genuine-F02.aep",
+      "senderSHA256": "af3b1bd641a0955f63230f44b7e53987cddccd7099bffb832718f1ea7aa21306",
+      "returnedSHA256": "af3b1bd641a0955f63230f44b7e53987cddccd7099bffb832718f1ea7aa21306"
+    },
+    {
+      "path": "fixture-provenance.txt",
+      "senderSHA256": "c7c7d12a3cac3e1c852adc2dbf460765ce2ea8ba7b6e756d952cd4aff302d7a1",
+      "returnedSHA256": "c7c7d12a3cac3e1c852adc2dbf460765ce2ea8ba7b6e756d952cd4aff302d7a1"
+    },
+    {
+      "path": "src/JPFP_Session1_Probe.jsx",
+      "senderSHA256": "f93d221898e6dc75985e2fa5b7ffbde2850c2ebc39da889b21592c5f58d8156e",
+      "returnedSHA256": "f93d221898e6dc75985e2fa5b7ffbde2850c2ebc39da889b21592c5f58d8156e"
+    },
+    {
+      "path": "diagnostics/beta/JPFP_Beta_Scan_With_State.jsx",
+      "senderSHA256": "e3d794cb8e4a079237bea754220569672f0dc6a04b3d0d648e1b3215567adf21",
+      "returnedSHA256": "e3d794cb8e4a079237bea754220569672f0dc6a04b3d0d648e1b3215567adf21"
+    },
+    {
+      "path": "sandbox-preflight.jsx",
+      "senderSHA256": "44c0e7d89bd5d132d65adfe242ced2d345610a57d8153a2845aa59a3b4b05e47",
+      "returnedSHA256": "44c0e7d89bd5d132d65adfe242ced2d345610a57d8153a2845aa59a3b4b05e47"
+    }
+  ],
+  "sourceFilesMatchReturned": true,
+  "originalAndWorkMatchProvenance": true
+}

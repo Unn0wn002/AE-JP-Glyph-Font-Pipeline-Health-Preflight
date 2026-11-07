@@ -1,0 +1,10 @@
+aeVersion=26.5x89 build=26.5x89 89
+$.global.alert typeofBefore=function
+$.global.alert sticks=false
+$.global.alert restored=true
+File.saveDialog typeofBefore=function
+File.saveDialog sticks=true
+File.saveDialog restored=true
+globalIsThis=true
+bareAlertSameAsGlobal=true
+typeof JSON=undefined

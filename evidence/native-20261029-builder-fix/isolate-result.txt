@@ -1,0 +1,5 @@
+aeVersion=26.5x89
+A_addText_empty	layers=1	threw=no	text=[]
+B_addText_noarg	layers=1	threw=no	text=[]
+C_space_then_clear	layers=1	threw=no	text=[]
+D_addText_plain	layers=1	threw=no	text=[x]

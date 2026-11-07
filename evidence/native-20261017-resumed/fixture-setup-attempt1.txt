@@ -1,0 +1,122 @@
+JPFP-BETA-FIXTURE-SETUP-1
+Sat Oct 17 2026 20:51:13 GMT+0700	HOST	AE=26.5x89	build=89	buildName=26.5x89	locale=en_US	OS=Windows/64 10.0  
+Sat Oct 17 2026 20:51:13 GMT+0700	BEFORE_STATE	project.file=null	numItems=0	revision=1	activeItem=UNKNOWN
+Sat Oct 17 2026 20:51:13 GMT+0700	POLICY	No scanner invocation; no openInViewer; .font strings only; F03 range mutation LAST. If any native BIB UI appears STOP and preserve log/project.
+Sat Oct 17 2026 20:51:13 GMT+0700	CANDIDATES	enumerated=345	eligible=345	JP=MS-Gothic#265	Latin=ArialMT#7	Gap=ArialMT#7
+Sat Oct 17 2026 20:51:13 GMT+0700	GAP_CANDIDATE_API	ArialMT	ABC=true	漢=false
+Sat Oct 17 2026 20:51:13 GMT+0700	CASE_BEGIN	F01	Static JP; direct applied-font coverage true for every character; no substitute
+Sat Oct 17 2026 20:51:13 GMT+0700	BEFORE_MUTATION	Aggregate F01-F12 addComp
+Sat Oct 17 2026 20:51:13 GMT+0700	AFTER_MUTATION	Aggregate F01-F12 addComp
+Sat Oct 17 2026 20:51:13 GMT+0700	BEFORE_MUTATION	F01 addText
+Sat Oct 17 2026 20:51:13 GMT+0700	AFTER_MUTATION	F01 addText
+Sat Oct 17 2026 20:51:13 GMT+0700	BEFORE_MUTATION	F01 layer.name
+Sat Oct 17 2026 20:51:13 GMT+0700	AFTER_MUTATION	F01 layer.name
+Sat Oct 17 2026 20:51:13 GMT+0700	BEFORE_MUTATION	F01 layer position
+Sat Oct 17 2026 20:51:13 GMT+0700	AFTER_MUTATION	F01 layer position
+Sat Oct 17 2026 20:51:13 GMT+0700	BEFORE_MUTATION	F01 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:51:13 GMT+0700	AFTER_MUTATION	F01 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:51:13 GMT+0700	LOCAL_FONT_READBACK	F01	MS-Gothic	265
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F01 Source Text setValue
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F01 Source Text setValue
+Sat Oct 17 2026 20:51:14 GMT+0700	FRESH_STATIC_READBACK	F01	compId=1	layerId=13	text=日本語の字幕です。ABC 123	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+306E/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+5B57/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+5E55/id=265/PS=MS-Gothic/sub=false/glyph=true | 6:7/U+3067/id=265/PS=MS-Gothic/sub=false/glyph=true | 7:8/U+3059/id=265/PS=MS-Gothic/sub=false/glyph=true | 8:9/U+3002/id=265/PS=MS-Gothic/sub=false/glyph=true | 9:10/U+41/id=265/PS=MS-Gothic/sub=false/glyph=true | 10:11/U+42/id=265/PS=MS-Gothic/sub=false/glyph=true | 11:12/U+43/id=265/PS=MS-Gothic/sub=false/glyph=true | 12:13/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 13:14/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true | 14:15/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true | 15:16/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:51:14 GMT+0700	CASE_RESULT	F01	SETUP_VERIFIED	elapsed_ms=107	Not a scanner/native acceptance PASS
+Sat Oct 17 2026 20:51:14 GMT+0700	CASE_BEGIN	F02	Deliberately missing PS; fresh per-character isSubstitute true
+Sat Oct 17 2026 20:51:14 GMT+0700	MISSING_REFERENCE_PRECONDITION	JPFP_Session1_MissingFont_PS__DO_NOT_INSTALL	matching_fonts=0
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F02 addText
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F02 addText
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F02 layer.name
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F02 layer.name
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F02 layer position
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F02 layer position
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F02 local TextDocument.font missing PS
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F02 local TextDocument.font missing PS
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F02 Source Text setValue
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F02 Source Text setValue
+Sat Oct 17 2026 20:51:14 GMT+0700	FRESH_STATIC_READBACK	F02	compId=1	layerId=14	text=欠落フォント	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+6B20/id=292/PS=Meiryo/sub=false/glyph=true | 1:2/U+843D/id=292/PS=Meiryo/sub=false/glyph=true | 2:3/U+30D5/id=292/PS=Meiryo/sub=false/glyph=true | 3:4/U+30A9/id=292/PS=Meiryo/sub=false/glyph=true | 4:5/U+30F3/id=292/PS=Meiryo/sub=false/glyph=true | 5:6/U+30C8/id=292/PS=Meiryo/sub=false/glyph=true
+Sat Oct 17 2026 20:51:14 GMT+0700	CASE_RESULT	F02	SETUP_FAILED	elapsed_ms=79	Error: SETUP_NOT_VERIFIED: Missing-reference substitute not exposed at 0	stop=false
+Sat Oct 17 2026 20:51:14 GMT+0700	CASE_BEGIN	F04	Static JP/Latin punctuation; full direct applied-font coverage
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F04 addText
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F04 addText
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F04 layer.name
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F04 layer.name
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F04 layer position
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F04 layer position
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F04 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F04 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:51:14 GMT+0700	LOCAL_FONT_READBACK	F04	MS-Gothic	265
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F04 Source Text setValue
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F04 Source Text setValue
+Sat Oct 17 2026 20:51:14 GMT+0700	FRESH_STATIC_READBACK	F04	compId=1	layerId=15	text=「日本語」—ABC・123！？	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+300C/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+300D/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+2014/id=265/PS=MS-Gothic/sub=false/glyph=true | 6:7/U+41/id=265/PS=MS-Gothic/sub=false/glyph=true | 7:8/U+42/id=265/PS=MS-Gothic/sub=false/glyph=true | 8:9/U+43/id=265/PS=MS-Gothic/sub=false/glyph=true | 9:10/U+30FB/id=265/PS=MS-Gothic/sub=false/glyph=true | 10:11/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true | 11:12/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true | 12:13/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true | 13:14/U+FF01/id=265/PS=MS-Gothic/sub=false/glyph=true | 14:15/U+FF1F/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:51:14 GMT+0700	CASE_RESULT	F04	SETUP_VERIFIED	elapsed_ms=82	Not a scanner/native acceptance PASS
+Sat Oct 17 2026 20:51:14 GMT+0700	CASE_BEGIN	F05	A漢B retains actual API-false candidate for 漢; auto reassignment blocks condition
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F05 addText
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F05 addText
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F05 layer.name
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F05 layer.name
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F05 layer position
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F05 layer position
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F05 local TextDocument.font=ArialMT
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F05 local TextDocument.font=ArialMT
+Sat Oct 17 2026 20:51:14 GMT+0700	LOCAL_FONT_READBACK	F05	ArialMT	7
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F05 Source Text setValue
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F05 Source Text setValue
+Sat Oct 17 2026 20:51:14 GMT+0700	FRESH_STATIC_READBACK	F05	compId=1	layerId=16	text=A漢B	expressionEnabled=false	numKeys=0	fontIDs=2	0:1/U+41/id=7/PS=ArialMT/sub=false/glyph=true | 1:2/U+6F22/id=292/PS=Meiryo/sub=false/glyph=true | 2:3/U+42/id=7/PS=ArialMT/sub=false/glyph=true
+Sat Oct 17 2026 20:51:14 GMT+0700	CASE_RESULT	F05	SETUP_BLOCKED	elapsed_ms=106	Error: SETUP_BLOCKED: Fresh middle character did not retain verified gap candidate; actual=Meiryo#292, 漢=true	stop=false
+Sat Oct 17 2026 20:51:14 GMT+0700	CASE_BEGIN	F06	Fresh static Source Text empty; no invented character coverage
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F06 addText
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F06 addText
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F06 layer.name
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F06 layer.name
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F06 layer position
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F06 layer position
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F06 local TextDocument.text empty
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F06 local TextDocument.text empty
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F06 Source Text setValue empty
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F06 Source Text setValue empty
+Sat Oct 17 2026 20:51:14 GMT+0700	FRESH_STATIC_READBACK	F06	compId=1	layerId=17	text=	expressionEnabled=false	numKeys=0	fontIDs=0	
+Sat Oct 17 2026 20:51:14 GMT+0700	CASE_RESULT	F06	SETUP_VERIFIED	elapsed_ms=74	Not a scanner/native acceptance PASS
+Sat Oct 17 2026 20:51:14 GMT+0700	CASE_BEGIN	F07	Exact static Unicode sequence; fresh font observations; shaping/fallback unproven
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F07 addText
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F07 addText
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F07 layer.name
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F07 layer.name
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F07 layer position
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F07 layer position
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F07 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F07 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:51:14 GMT+0700	LOCAL_FONT_READBACK	F07	MS-Gothic	265
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F07 Source Text setValue
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F07 Source Text setValue
+Sat Oct 17 2026 20:51:14 GMT+0700	FRESH_STATIC_READBACK	F07	compId=1	layerId=18	text=𠀋	expressionEnabled=false	numKeys=0	fontIDs=1	0:2/U+2000B/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:51:14 GMT+0700	CASE_RESULT	F07	SETUP_VERIFIED	elapsed_ms=78	Not a scanner/native acceptance PASS
+Sat Oct 17 2026 20:51:14 GMT+0700	CASE_BEGIN	F08	Exact static Unicode sequence; fresh font observations; shaping/fallback unproven
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F08 addText
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F08 addText
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F08 layer.name
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F08 layer.name
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F08 layer position
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F08 layer position
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F08 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F08 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:51:14 GMT+0700	LOCAL_FONT_READBACK	F08	MS-Gothic	265
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F08 Source Text setValue
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F08 Source Text setValue
+Sat Oct 17 2026 20:51:14 GMT+0700	FRESH_STATIC_READBACK	F08	compId=1	layerId=19	text=ば	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+306F/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+3099/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:51:14 GMT+0700	CASE_RESULT	F08	SETUP_VERIFIED	elapsed_ms=81	Not a scanner/native acceptance PASS
+Sat Oct 17 2026 20:51:14 GMT+0700	CASE_BEGIN	F09	Exact static Unicode sequence; fresh font observations; shaping/fallback unproven
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F09 addText
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F09 addText
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F09 layer.name
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F09 layer.name
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F09 layer position
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F09 layer position
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F09 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F09 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:51:14 GMT+0700	LOCAL_FONT_READBACK	F09	MS-Gothic	265
+Sat Oct 17 2026 20:51:14 GMT+0700	BEFORE_MUTATION	F09 Source Text setValue
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_MUTATION	F09 Source Text setValue
+Sat Oct 17 2026 20:51:14 GMT+0700	CASE_RESULT	F09	SETUP_FAILED	elapsed_ms=79	Error: FATAL_LOG_FAILURE: Error: write failed: Character conversion error	stop=true
+Sat Oct 17 2026 20:51:14 GMT+0700	AGGREGATE_SETUP	SETUP_INCOMPLETE	composition=JPFP_BETA_FIXTURES__DISPOSABLE	compId=1	numLayers=8	COMPLETE requires all F01-F12 individually SETUP_VERIFIED and exactly12 layers; setup status is not native acceptance PASS
+Sat Oct 17 2026 20:51:14 GMT+0700	R01_SETUP	Scan aggregate JPFP_BETA_FIXTURES__DISPOSABLE twice without edits in separate scanner executions; no repeated scan ran in this builder
+Sat Oct 17 2026 20:51:14 GMT+0700	AFTER_STATE	numItems=1	revision=113	activeItem=UNKNOWN	openInViewer_requested=NO	stop=true
+Sat Oct 17 2026 20:51:14 GMT+0700	SETUP_SUMMARY	F01 SETUP_VERIFIED; F02 SETUP_FAILED; F04 SETUP_VERIFIED; F05 SETUP_BLOCKED; F06 SETUP_VERIFIED; F07 SETUP_VERIFIED; F08 SETUP_VERIFIED; F09 SETUP_FAILED	Scanner/native acceptance has NOT RUN

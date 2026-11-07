@@ -1,0 +1,1198 @@
+JPFP-BETA-FIXTURE-SETUP-1
+Sat Oct 17 2026 20:56:09 GMT+0700	HOST	AE=26.5x89	build=89	buildName=26.5x89	locale=en_US	OS=Windows/64 10.0  
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_STATE	project.file=null	numItems=0	revision=1	activeItem=UNKNOWN
+Sat Oct 17 2026 20:56:09 GMT+0700	POLICY	No scanner invocation; no openInViewer; .font strings only; F03 range mutation LAST. If any native BIB UI appears STOP and preserve log/project.
+Sat Oct 17 2026 20:56:09 GMT+0700	CANDIDATES	enumerated=345	eligible=345	JP=MS-Gothic#265	Latin=ArialMT#7	Gap=ArialMT#7
+Sat Oct 17 2026 20:56:09 GMT+0700	GAP_CANDIDATE_API	ArialMT	ABC=true	漢=false
+Sat Oct 17 2026 20:56:09 GMT+0700	CASE_BEGIN	F01	Static JP; direct applied-font coverage true for every character; no substitute
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	Aggregate F01-F12 addComp
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	Aggregate F01-F12 addComp
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F01 addText
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F01 addText
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F01 layer.name
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F01 layer.name
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F01 layer position
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F01 layer position
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F01 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F01 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:09 GMT+0700	LOCAL_FONT_READBACK	F01	MS-Gothic	265
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F01 Source Text setValue
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F01 Source Text setValue
+Sat Oct 17 2026 20:56:09 GMT+0700	FRESH_STATIC_READBACK	F01	compId=1	layerId=13	text=日本語の字幕です。ABC 123	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+306E/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+5B57/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+5E55/id=265/PS=MS-Gothic/sub=false/glyph=true | 6:7/U+3067/id=265/PS=MS-Gothic/sub=false/glyph=true | 7:8/U+3059/id=265/PS=MS-Gothic/sub=false/glyph=true | 8:9/U+3002/id=265/PS=MS-Gothic/sub=false/glyph=true | 9:10/U+41/id=265/PS=MS-Gothic/sub=false/glyph=true | 10:11/U+42/id=265/PS=MS-Gothic/sub=false/glyph=true | 11:12/U+43/id=265/PS=MS-Gothic/sub=false/glyph=true | 12:13/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 13:14/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true | 14:15/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true | 15:16/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:09 GMT+0700	CASE_RESULT	F01	SETUP_VERIFIED	elapsed_ms=90	Not a scanner/native acceptance PASS
+Sat Oct 17 2026 20:56:09 GMT+0700	CASE_BEGIN	F02	Deliberately missing PS; fresh per-character isSubstitute true
+Sat Oct 17 2026 20:56:09 GMT+0700	MISSING_REFERENCE_PRECONDITION	JPFP_Session1_MissingFont_PS__DO_NOT_INSTALL	matching_fonts=0
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F02 addText
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F02 addText
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F02 layer.name
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F02 layer.name
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F02 layer position
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F02 layer position
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F02 local TextDocument.font missing PS
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F02 local TextDocument.font missing PS
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F02 Source Text setValue
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F02 Source Text setValue
+Sat Oct 17 2026 20:56:09 GMT+0700	FRESH_STATIC_READBACK	F02	compId=1	layerId=14	text=欠落フォント	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+6B20/id=292/PS=Meiryo/sub=false/glyph=true | 1:2/U+843D/id=292/PS=Meiryo/sub=false/glyph=true | 2:3/U+30D5/id=292/PS=Meiryo/sub=false/glyph=true | 3:4/U+30A9/id=292/PS=Meiryo/sub=false/glyph=true | 4:5/U+30F3/id=292/PS=Meiryo/sub=false/glyph=true | 5:6/U+30C8/id=292/PS=Meiryo/sub=false/glyph=true
+Sat Oct 17 2026 20:56:09 GMT+0700	FRESH_MISSING_REFERENCE_READBACK	F02	start=0	end=1	requestedPS=JPFP_Session1_MissingFont_PS__DO_NOT_INSTALL	actualPS=Meiryo	fontID=292	isSubstitute=false	freshDocument.font=Meiryo
+Sat Oct 17 2026 20:56:09 GMT+0700	CASE_RESULT	F02	SETUP_FAILED	elapsed_ms=83	Error: SETUP_NOT_VERIFIED: Missing-reference substitute not exposed at 0	stop=false
+Sat Oct 17 2026 20:56:09 GMT+0700	CASE_BEGIN	F04	Static JP/Latin punctuation; full direct applied-font coverage
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F04 addText
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F04 addText
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F04 layer.name
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F04 layer.name
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F04 layer position
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F04 layer position
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F04 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F04 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:09 GMT+0700	LOCAL_FONT_READBACK	F04	MS-Gothic	265
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F04 Source Text setValue
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F04 Source Text setValue
+Sat Oct 17 2026 20:56:09 GMT+0700	FRESH_STATIC_READBACK	F04	compId=1	layerId=15	text=「日本語」—ABC・123！？	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+300C/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+300D/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+2014/id=265/PS=MS-Gothic/sub=false/glyph=true | 6:7/U+41/id=265/PS=MS-Gothic/sub=false/glyph=true | 7:8/U+42/id=265/PS=MS-Gothic/sub=false/glyph=true | 8:9/U+43/id=265/PS=MS-Gothic/sub=false/glyph=true | 9:10/U+30FB/id=265/PS=MS-Gothic/sub=false/glyph=true | 10:11/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true | 11:12/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true | 12:13/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true | 13:14/U+FF01/id=265/PS=MS-Gothic/sub=false/glyph=true | 14:15/U+FF1F/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:09 GMT+0700	CASE_RESULT	F04	SETUP_VERIFIED	elapsed_ms=81	Not a scanner/native acceptance PASS
+Sat Oct 17 2026 20:56:09 GMT+0700	CASE_BEGIN	F05	A漢B; API-false candidate retained or verified fresh middle-character reassignment observed
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F05 addText
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F05 addText
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F05 layer.name
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F05 layer.name
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F05 layer position
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F05 layer position
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F05 local TextDocument.font=ArialMT
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F05 local TextDocument.font=ArialMT
+Sat Oct 17 2026 20:56:09 GMT+0700	LOCAL_FONT_READBACK	F05	ArialMT	7
+Sat Oct 17 2026 20:56:09 GMT+0700	BEFORE_MUTATION	F05 Source Text setValue
+Sat Oct 17 2026 20:56:09 GMT+0700	AFTER_MUTATION	F05 Source Text setValue
+Sat Oct 17 2026 20:56:10 GMT+0700	FRESH_STATIC_READBACK	F05	compId=1	layerId=16	text=A漢B	expressionEnabled=false	numKeys=0	fontIDs=2	0:1/U+41/id=7/PS=ArialMT/sub=false/glyph=true | 1:2/U+6F22/id=292/PS=Meiryo/sub=false/glyph=true | 2:3/U+42/id=7/PS=ArialMT/sub=false/glyph=true
+Sat Oct 17 2026 20:56:10 GMT+0700	FRESH_GAP_EXPERIMENT	F05	candidate=ArialMT#7	candidateABC=true	candidate漢=false	A=ArialMT#7	漢=Meiryo#292	B=ArialMT#7	middleGlyph=true	sideCandidateRetained=true
+Sat Oct 17 2026 20:56:10 GMT+0700	OBSERVED_REASSIGNMENT	F05	Fresh applied FontObject changed for middle character; rendered fallback identity/shaping not established
+Sat Oct 17 2026 20:56:10 GMT+0700	CASE_RESULT	F05	SETUP_OBSERVED_REASSIGNMENT	elapsed_ms=92	Not a scanner/native acceptance PASS
+Sat Oct 17 2026 20:56:10 GMT+0700	CASE_BEGIN	F06	Fresh static Source Text empty; no invented character coverage
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F06 addText
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F06 addText
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F06 layer.name
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F06 layer.name
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F06 layer position
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F06 layer position
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F06 local TextDocument.text empty
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F06 local TextDocument.text empty
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F06 Source Text setValue empty
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F06 Source Text setValue empty
+Sat Oct 17 2026 20:56:10 GMT+0700	FRESH_STATIC_READBACK	F06	compId=1	layerId=17	text=	expressionEnabled=false	numKeys=0	fontIDs=0	
+Sat Oct 17 2026 20:56:10 GMT+0700	CASE_RESULT	F06	SETUP_VERIFIED	elapsed_ms=72	Not a scanner/native acceptance PASS
+Sat Oct 17 2026 20:56:10 GMT+0700	CASE_BEGIN	F07	Exact static Unicode sequence; fresh font observations; shaping/fallback unproven
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F07 addText
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F07 addText
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F07 layer.name
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F07 layer.name
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F07 layer position
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F07 layer position
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F07 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F07 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:10 GMT+0700	LOCAL_FONT_READBACK	F07	MS-Gothic	265
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F07 Source Text setValue
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F07 Source Text setValue
+Sat Oct 17 2026 20:56:10 GMT+0700	FRESH_STATIC_READBACK	F07	compId=1	layerId=18	text=\uD840\uDC0B	expressionEnabled=false	numKeys=0	fontIDs=1	0:2/U+2000B/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:10 GMT+0700	CASE_RESULT	F07	SETUP_VERIFIED	elapsed_ms=77	Not a scanner/native acceptance PASS
+Sat Oct 17 2026 20:56:10 GMT+0700	CASE_BEGIN	F08	Exact static Unicode sequence; fresh font observations; shaping/fallback unproven
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F08 addText
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F08 addText
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F08 layer.name
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F08 layer.name
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F08 layer position
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F08 layer position
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F08 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F08 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:10 GMT+0700	LOCAL_FONT_READBACK	F08	MS-Gothic	265
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F08 Source Text setValue
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F08 Source Text setValue
+Sat Oct 17 2026 20:56:10 GMT+0700	FRESH_STATIC_READBACK	F08	compId=1	layerId=19	text=ば	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+306F/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+3099/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:10 GMT+0700	CASE_RESULT	F08	SETUP_VERIFIED	elapsed_ms=76	Not a scanner/native acceptance PASS
+Sat Oct 17 2026 20:56:10 GMT+0700	CASE_BEGIN	F09	Exact static Unicode sequence; fresh font observations; shaping/fallback unproven
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F09 addText
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F09 addText
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F09 layer.name
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F09 layer.name
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F09 layer position
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F09 layer position
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F09 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F09 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:10 GMT+0700	LOCAL_FONT_READBACK	F09	MS-Gothic	265
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F09 Source Text setValue
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F09 Source Text setValue
+Sat Oct 17 2026 20:56:10 GMT+0700	FRESH_STATIC_READBACK	F09	compId=1	layerId=20	text=葛\uDB40\uDD00	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+845B/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:3/U+E0100/id=265/PS=MS-Gothic/sub=false/glyph=false
+Sat Oct 17 2026 20:56:10 GMT+0700	CASE_RESULT	F09	SETUP_VERIFIED	elapsed_ms=84	Not a scanner/native acceptance PASS
+Sat Oct 17 2026 20:56:10 GMT+0700	CASE_BEGIN	F10	Fresh Source Text has exactly two keys: 静的 at0, 動的 at1
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F10 addText
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F10 addText
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F10 layer.name
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F10 layer.name
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F10 layer position
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F10 layer position
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F10 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F10 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:10 GMT+0700	LOCAL_FONT_READBACK	F10	MS-Gothic	265
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F10 Source Text setValue
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F10 Source Text setValue
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F10 setValueAtTime 0
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F10 setValueAtTime 0
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F10 local text dynamic
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F10 local text dynamic
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F10 local font string
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F10 local font string
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F10 setValueAtTime 1
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F10 setValueAtTime 1
+Sat Oct 17 2026 20:56:10 GMT+0700	FRESH_ANIMATION_READBACK	F10	numKeys=2	expressionEnabled=false	key1=0:静的	key2=1:動的
+Sat Oct 17 2026 20:56:10 GMT+0700	CASE_RESULT	F10	SETUP_VERIFIED	elapsed_ms=134	Not a scanner/native acceptance PASS
+Sat Oct 17 2026 20:56:10 GMT+0700	CASE_BEGIN	F11	Fresh Source Text expression enabled and returns 式で生成
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F11 addText
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F11 addText
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F11 layer.name
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F11 layer.name
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F11 layer position
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F11 layer position
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F11 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F11 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:10 GMT+0700	LOCAL_FONT_READBACK	F11	MS-Gothic	265
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F11 Source Text setValue
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F11 Source Text setValue
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F11 expression assignment
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F11 expression assignment
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F11 expressionEnabled
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F11 expressionEnabled
+Sat Oct 17 2026 20:56:10 GMT+0700	FRESH_EXPRESSION_READBACK	F11	expressionEnabled=true	numKeys=0	expressionError=	text=式で生成
+Sat Oct 17 2026 20:56:10 GMT+0700	CASE_RESULT	F11	SETUP_VERIFIED	elapsed_ms=179	Not a scanner/native acceptance PASS
+Sat Oct 17 2026 20:56:10 GMT+0700	CASE_BEGIN	F12	One native non-text solid; null text property group
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F12 addSolid
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F12 addSolid
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	F12 layer position
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	F12 layer position
+Sat Oct 17 2026 20:56:10 GMT+0700	FRESH_NONTEXT_READBACK	F12	compId=1	layerId=25	numLayers=11	textGroup=null
+Sat Oct 17 2026 20:56:10 GMT+0700	CASE_RESULT	F12	SETUP_VERIFIED	elapsed_ms=30	Not a scanner/native acceptance PASS
+Sat Oct 17 2026 20:56:10 GMT+0700	CASE_BEGIN	L01	100 independently verified static JP text layers; timing belongs to separate scanner run
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	L01 addComp
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	L01 addComp
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	L01/1 addText
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	L01/1 addText
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	L01/1 layer.name
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	L01/1 layer.name
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	L01/1 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	L01/1 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:10 GMT+0700	LOCAL_FONT_READBACK	L01/1	MS-Gothic	265
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	L01/1 Source Text setValue
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	L01/1 Source Text setValue
+Sat Oct 17 2026 20:56:10 GMT+0700	FRESH_STATIC_READBACK	L01/1	compId=26	layerId=38	text=日本語 1	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	L01/2 addText
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	L01/2 addText
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	L01/2 layer.name
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	L01/2 layer.name
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	L01/2 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	L01/2 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:10 GMT+0700	LOCAL_FONT_READBACK	L01/2	MS-Gothic	265
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	L01/2 Source Text setValue
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	L01/2 Source Text setValue
+Sat Oct 17 2026 20:56:10 GMT+0700	FRESH_STATIC_READBACK	L01/2	compId=26	layerId=39	text=日本語 2	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	L01/3 addText
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	L01/3 addText
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	L01/3 layer.name
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	L01/3 layer.name
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	L01/3 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	L01/3 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:10 GMT+0700	LOCAL_FONT_READBACK	L01/3	MS-Gothic	265
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	L01/3 Source Text setValue
+Sat Oct 17 2026 20:56:10 GMT+0700	AFTER_MUTATION	L01/3 Source Text setValue
+Sat Oct 17 2026 20:56:10 GMT+0700	FRESH_STATIC_READBACK	L01/3	compId=26	layerId=40	text=日本語 3	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:10 GMT+0700	BEFORE_MUTATION	L01/4 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/4 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/4 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/4 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/4 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/4 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	LOCAL_FONT_READBACK	L01/4	MS-Gothic	265
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/4 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/4 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	FRESH_STATIC_READBACK	L01/4	compId=26	layerId=41	text=日本語 4	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/5 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/5 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/5 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/5 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/5 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/5 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	LOCAL_FONT_READBACK	L01/5	MS-Gothic	265
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/5 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/5 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	FRESH_STATIC_READBACK	L01/5	compId=26	layerId=42	text=日本語 5	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/6 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/6 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/6 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/6 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/6 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/6 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	LOCAL_FONT_READBACK	L01/6	MS-Gothic	265
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/6 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/6 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	FRESH_STATIC_READBACK	L01/6	compId=26	layerId=43	text=日本語 6	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/7 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/7 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/7 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/7 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/7 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/7 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	LOCAL_FONT_READBACK	L01/7	MS-Gothic	265
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/7 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/7 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	FRESH_STATIC_READBACK	L01/7	compId=26	layerId=44	text=日本語 7	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/8 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/8 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/8 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/8 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/8 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/8 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	LOCAL_FONT_READBACK	L01/8	MS-Gothic	265
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/8 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/8 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	FRESH_STATIC_READBACK	L01/8	compId=26	layerId=45	text=日本語 8	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/9 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/9 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/9 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/9 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/9 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/9 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	LOCAL_FONT_READBACK	L01/9	MS-Gothic	265
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/9 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/9 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	FRESH_STATIC_READBACK	L01/9	compId=26	layerId=46	text=日本語 9	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/10 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/10 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/10 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/10 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/10 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/10 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	LOCAL_FONT_READBACK	L01/10	MS-Gothic	265
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/10 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/10 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	FRESH_STATIC_READBACK	L01/10	compId=26	layerId=47	text=日本語 10	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+30/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/11 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/11 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/11 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/11 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/11 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/11 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	LOCAL_FONT_READBACK	L01/11	MS-Gothic	265
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/11 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/11 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	FRESH_STATIC_READBACK	L01/11	compId=26	layerId=48	text=日本語 11	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/12 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/12 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/12 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/12 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/12 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/12 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	LOCAL_FONT_READBACK	L01/12	MS-Gothic	265
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/12 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/12 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	FRESH_STATIC_READBACK	L01/12	compId=26	layerId=49	text=日本語 12	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/13 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/13 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/13 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/13 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/13 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/13 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	LOCAL_FONT_READBACK	L01/13	MS-Gothic	265
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/13 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/13 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	FRESH_STATIC_READBACK	L01/13	compId=26	layerId=50	text=日本語 13	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/14 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/14 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/14 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/14 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/14 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/14 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	LOCAL_FONT_READBACK	L01/14	MS-Gothic	265
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/14 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/14 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	FRESH_STATIC_READBACK	L01/14	compId=26	layerId=51	text=日本語 14	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/15 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/15 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/15 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/15 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/15 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/15 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	LOCAL_FONT_READBACK	L01/15	MS-Gothic	265
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/15 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/15 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	FRESH_STATIC_READBACK	L01/15	compId=26	layerId=52	text=日本語 15	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/16 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/16 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/16 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/16 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/16 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/16 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	LOCAL_FONT_READBACK	L01/16	MS-Gothic	265
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/16 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/16 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	FRESH_STATIC_READBACK	L01/16	compId=26	layerId=53	text=日本語 16	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/17 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/17 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/17 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/17 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/17 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/17 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	LOCAL_FONT_READBACK	L01/17	MS-Gothic	265
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/17 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/17 Source Text setValue
+Sat Oct 17 2026 20:56:11 GMT+0700	FRESH_STATIC_READBACK	L01/17	compId=26	layerId=54	text=日本語 17	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/18 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/18 addText
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/18 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/18 layer.name
+Sat Oct 17 2026 20:56:11 GMT+0700	BEFORE_MUTATION	L01/18 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	AFTER_MUTATION	L01/18 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:11 GMT+0700	LOCAL_FONT_READBACK	L01/18	MS-Gothic	265
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/18 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/18 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	FRESH_STATIC_READBACK	L01/18	compId=26	layerId=55	text=日本語 18	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/19 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/19 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/19 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/19 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/19 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/19 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	LOCAL_FONT_READBACK	L01/19	MS-Gothic	265
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/19 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/19 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	FRESH_STATIC_READBACK	L01/19	compId=26	layerId=56	text=日本語 19	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/20 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/20 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/20 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/20 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/20 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/20 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	LOCAL_FONT_READBACK	L01/20	MS-Gothic	265
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/20 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/20 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	FRESH_STATIC_READBACK	L01/20	compId=26	layerId=57	text=日本語 20	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+30/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/21 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/21 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/21 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/21 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/21 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/21 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	LOCAL_FONT_READBACK	L01/21	MS-Gothic	265
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/21 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/21 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	FRESH_STATIC_READBACK	L01/21	compId=26	layerId=58	text=日本語 21	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/22 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/22 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/22 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/22 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/22 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/22 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	LOCAL_FONT_READBACK	L01/22	MS-Gothic	265
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/22 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/22 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	FRESH_STATIC_READBACK	L01/22	compId=26	layerId=59	text=日本語 22	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/23 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/23 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/23 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/23 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/23 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/23 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	LOCAL_FONT_READBACK	L01/23	MS-Gothic	265
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/23 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/23 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	FRESH_STATIC_READBACK	L01/23	compId=26	layerId=60	text=日本語 23	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/24 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/24 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/24 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/24 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/24 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/24 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	LOCAL_FONT_READBACK	L01/24	MS-Gothic	265
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/24 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/24 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	FRESH_STATIC_READBACK	L01/24	compId=26	layerId=61	text=日本語 24	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/25 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/25 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/25 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/25 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/25 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/25 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	LOCAL_FONT_READBACK	L01/25	MS-Gothic	265
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/25 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/25 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	FRESH_STATIC_READBACK	L01/25	compId=26	layerId=62	text=日本語 25	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/26 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/26 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/26 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/26 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/26 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/26 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	LOCAL_FONT_READBACK	L01/26	MS-Gothic	265
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/26 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/26 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	FRESH_STATIC_READBACK	L01/26	compId=26	layerId=63	text=日本語 26	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/27 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/27 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/27 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/27 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/27 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/27 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	LOCAL_FONT_READBACK	L01/27	MS-Gothic	265
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/27 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/27 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	FRESH_STATIC_READBACK	L01/27	compId=26	layerId=64	text=日本語 27	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/28 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/28 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/28 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/28 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/28 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/28 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	LOCAL_FONT_READBACK	L01/28	MS-Gothic	265
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/28 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/28 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	FRESH_STATIC_READBACK	L01/28	compId=26	layerId=65	text=日本語 28	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/29 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/29 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/29 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/29 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/29 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/29 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	LOCAL_FONT_READBACK	L01/29	MS-Gothic	265
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/29 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/29 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	FRESH_STATIC_READBACK	L01/29	compId=26	layerId=66	text=日本語 29	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/30 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/30 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/30 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/30 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/30 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/30 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	LOCAL_FONT_READBACK	L01/30	MS-Gothic	265
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/30 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/30 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	FRESH_STATIC_READBACK	L01/30	compId=26	layerId=67	text=日本語 30	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+30/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/31 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/31 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/31 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/31 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/31 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/31 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	LOCAL_FONT_READBACK	L01/31	MS-Gothic	265
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/31 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/31 Source Text setValue
+Sat Oct 17 2026 20:56:12 GMT+0700	FRESH_STATIC_READBACK	L01/31	compId=26	layerId=68	text=日本語 31	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/32 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/32 addText
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/32 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/32 layer.name
+Sat Oct 17 2026 20:56:12 GMT+0700	BEFORE_MUTATION	L01/32 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	AFTER_MUTATION	L01/32 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:12 GMT+0700	LOCAL_FONT_READBACK	L01/32	MS-Gothic	265
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/32 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/32 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	FRESH_STATIC_READBACK	L01/32	compId=26	layerId=69	text=日本語 32	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/33 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/33 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/33 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/33 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/33 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/33 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	LOCAL_FONT_READBACK	L01/33	MS-Gothic	265
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/33 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/33 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	FRESH_STATIC_READBACK	L01/33	compId=26	layerId=70	text=日本語 33	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/34 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/34 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/34 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/34 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/34 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/34 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	LOCAL_FONT_READBACK	L01/34	MS-Gothic	265
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/34 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/34 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	FRESH_STATIC_READBACK	L01/34	compId=26	layerId=71	text=日本語 34	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/35 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/35 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/35 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/35 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/35 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/35 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	LOCAL_FONT_READBACK	L01/35	MS-Gothic	265
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/35 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/35 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	FRESH_STATIC_READBACK	L01/35	compId=26	layerId=72	text=日本語 35	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/36 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/36 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/36 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/36 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/36 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/36 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	LOCAL_FONT_READBACK	L01/36	MS-Gothic	265
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/36 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/36 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	FRESH_STATIC_READBACK	L01/36	compId=26	layerId=73	text=日本語 36	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/37 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/37 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/37 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/37 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/37 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/37 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	LOCAL_FONT_READBACK	L01/37	MS-Gothic	265
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/37 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/37 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	FRESH_STATIC_READBACK	L01/37	compId=26	layerId=74	text=日本語 37	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/38 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/38 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/38 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/38 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/38 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/38 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	LOCAL_FONT_READBACK	L01/38	MS-Gothic	265
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/38 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/38 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	FRESH_STATIC_READBACK	L01/38	compId=26	layerId=75	text=日本語 38	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/39 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/39 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/39 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/39 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/39 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/39 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	LOCAL_FONT_READBACK	L01/39	MS-Gothic	265
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/39 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/39 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	FRESH_STATIC_READBACK	L01/39	compId=26	layerId=76	text=日本語 39	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/40 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/40 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/40 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/40 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/40 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/40 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	LOCAL_FONT_READBACK	L01/40	MS-Gothic	265
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/40 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/40 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	FRESH_STATIC_READBACK	L01/40	compId=26	layerId=77	text=日本語 40	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+30/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/41 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/41 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/41 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/41 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/41 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/41 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	LOCAL_FONT_READBACK	L01/41	MS-Gothic	265
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/41 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/41 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	FRESH_STATIC_READBACK	L01/41	compId=26	layerId=78	text=日本語 41	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/42 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/42 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/42 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/42 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/42 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/42 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	LOCAL_FONT_READBACK	L01/42	MS-Gothic	265
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/42 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/42 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	FRESH_STATIC_READBACK	L01/42	compId=26	layerId=79	text=日本語 42	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/43 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/43 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/43 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/43 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/43 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/43 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	LOCAL_FONT_READBACK	L01/43	MS-Gothic	265
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/43 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/43 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	FRESH_STATIC_READBACK	L01/43	compId=26	layerId=80	text=日本語 43	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/44 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/44 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/44 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/44 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/44 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/44 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	LOCAL_FONT_READBACK	L01/44	MS-Gothic	265
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/44 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/44 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	FRESH_STATIC_READBACK	L01/44	compId=26	layerId=81	text=日本語 44	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/45 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/45 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/45 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/45 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/45 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/45 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	LOCAL_FONT_READBACK	L01/45	MS-Gothic	265
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/45 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/45 Source Text setValue
+Sat Oct 17 2026 20:56:13 GMT+0700	FRESH_STATIC_READBACK	L01/45	compId=26	layerId=82	text=日本語 45	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/46 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/46 addText
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/46 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/46 layer.name
+Sat Oct 17 2026 20:56:13 GMT+0700	BEFORE_MUTATION	L01/46 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	AFTER_MUTATION	L01/46 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:13 GMT+0700	LOCAL_FONT_READBACK	L01/46	MS-Gothic	265
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/46 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/46 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	FRESH_STATIC_READBACK	L01/46	compId=26	layerId=83	text=日本語 46	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/47 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/47 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/47 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/47 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/47 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/47 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	LOCAL_FONT_READBACK	L01/47	MS-Gothic	265
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/47 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/47 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	FRESH_STATIC_READBACK	L01/47	compId=26	layerId=84	text=日本語 47	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/48 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/48 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/48 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/48 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/48 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/48 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	LOCAL_FONT_READBACK	L01/48	MS-Gothic	265
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/48 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/48 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	FRESH_STATIC_READBACK	L01/48	compId=26	layerId=85	text=日本語 48	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/49 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/49 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/49 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/49 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/49 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/49 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	LOCAL_FONT_READBACK	L01/49	MS-Gothic	265
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/49 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/49 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	FRESH_STATIC_READBACK	L01/49	compId=26	layerId=86	text=日本語 49	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/50 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/50 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/50 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/50 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/50 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/50 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	LOCAL_FONT_READBACK	L01/50	MS-Gothic	265
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/50 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/50 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	FRESH_STATIC_READBACK	L01/50	compId=26	layerId=87	text=日本語 50	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+30/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/51 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/51 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/51 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/51 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/51 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/51 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	LOCAL_FONT_READBACK	L01/51	MS-Gothic	265
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/51 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/51 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	FRESH_STATIC_READBACK	L01/51	compId=26	layerId=88	text=日本語 51	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/52 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/52 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/52 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/52 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/52 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/52 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	LOCAL_FONT_READBACK	L01/52	MS-Gothic	265
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/52 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/52 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	FRESH_STATIC_READBACK	L01/52	compId=26	layerId=89	text=日本語 52	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/53 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/53 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/53 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/53 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/53 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/53 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	LOCAL_FONT_READBACK	L01/53	MS-Gothic	265
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/53 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/53 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	FRESH_STATIC_READBACK	L01/53	compId=26	layerId=90	text=日本語 53	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/54 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/54 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/54 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/54 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/54 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/54 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	LOCAL_FONT_READBACK	L01/54	MS-Gothic	265
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/54 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/54 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	FRESH_STATIC_READBACK	L01/54	compId=26	layerId=91	text=日本語 54	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/55 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/55 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/55 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/55 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/55 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/55 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	LOCAL_FONT_READBACK	L01/55	MS-Gothic	265
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/55 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/55 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	FRESH_STATIC_READBACK	L01/55	compId=26	layerId=92	text=日本語 55	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/56 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/56 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/56 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/56 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/56 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/56 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	LOCAL_FONT_READBACK	L01/56	MS-Gothic	265
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/56 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/56 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	FRESH_STATIC_READBACK	L01/56	compId=26	layerId=93	text=日本語 56	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/57 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/57 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/57 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/57 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/57 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/57 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	LOCAL_FONT_READBACK	L01/57	MS-Gothic	265
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/57 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/57 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	FRESH_STATIC_READBACK	L01/57	compId=26	layerId=94	text=日本語 57	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/58 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/58 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/58 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/58 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/58 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/58 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	LOCAL_FONT_READBACK	L01/58	MS-Gothic	265
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/58 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/58 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	FRESH_STATIC_READBACK	L01/58	compId=26	layerId=95	text=日本語 58	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/59 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/59 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/59 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/59 layer.name
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/59 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/59 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:14 GMT+0700	LOCAL_FONT_READBACK	L01/59	MS-Gothic	265
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/59 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/59 Source Text setValue
+Sat Oct 17 2026 20:56:14 GMT+0700	FRESH_STATIC_READBACK	L01/59	compId=26	layerId=96	text=日本語 59	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/60 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	AFTER_MUTATION	L01/60 addText
+Sat Oct 17 2026 20:56:14 GMT+0700	BEFORE_MUTATION	L01/60 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/60 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/60 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/60 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	LOCAL_FONT_READBACK	L01/60	MS-Gothic	265
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/60 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/60 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	FRESH_STATIC_READBACK	L01/60	compId=26	layerId=97	text=日本語 60	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+30/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/61 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/61 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/61 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/61 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/61 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/61 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	LOCAL_FONT_READBACK	L01/61	MS-Gothic	265
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/61 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/61 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	FRESH_STATIC_READBACK	L01/61	compId=26	layerId=98	text=日本語 61	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/62 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/62 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/62 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/62 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/62 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/62 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	LOCAL_FONT_READBACK	L01/62	MS-Gothic	265
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/62 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/62 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	FRESH_STATIC_READBACK	L01/62	compId=26	layerId=99	text=日本語 62	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/63 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/63 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/63 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/63 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/63 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/63 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	LOCAL_FONT_READBACK	L01/63	MS-Gothic	265
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/63 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/63 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	FRESH_STATIC_READBACK	L01/63	compId=26	layerId=100	text=日本語 63	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/64 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/64 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/64 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/64 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/64 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/64 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	LOCAL_FONT_READBACK	L01/64	MS-Gothic	265
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/64 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/64 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	FRESH_STATIC_READBACK	L01/64	compId=26	layerId=101	text=日本語 64	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/65 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/65 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/65 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/65 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/65 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/65 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	LOCAL_FONT_READBACK	L01/65	MS-Gothic	265
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/65 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/65 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	FRESH_STATIC_READBACK	L01/65	compId=26	layerId=102	text=日本語 65	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/66 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/66 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/66 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/66 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/66 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/66 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	LOCAL_FONT_READBACK	L01/66	MS-Gothic	265
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/66 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/66 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	FRESH_STATIC_READBACK	L01/66	compId=26	layerId=103	text=日本語 66	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/67 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/67 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/67 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/67 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/67 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/67 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	LOCAL_FONT_READBACK	L01/67	MS-Gothic	265
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/67 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/67 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	FRESH_STATIC_READBACK	L01/67	compId=26	layerId=104	text=日本語 67	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/68 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/68 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/68 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/68 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/68 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/68 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	LOCAL_FONT_READBACK	L01/68	MS-Gothic	265
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/68 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/68 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	FRESH_STATIC_READBACK	L01/68	compId=26	layerId=105	text=日本語 68	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/69 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/69 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/69 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/69 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/69 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/69 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	LOCAL_FONT_READBACK	L01/69	MS-Gothic	265
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/69 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/69 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	FRESH_STATIC_READBACK	L01/69	compId=26	layerId=106	text=日本語 69	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/70 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/70 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/70 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/70 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/70 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/70 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	LOCAL_FONT_READBACK	L01/70	MS-Gothic	265
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/70 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/70 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	FRESH_STATIC_READBACK	L01/70	compId=26	layerId=107	text=日本語 70	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+30/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/71 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/71 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/71 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/71 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/71 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/71 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	LOCAL_FONT_READBACK	L01/71	MS-Gothic	265
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/71 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/71 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	FRESH_STATIC_READBACK	L01/71	compId=26	layerId=108	text=日本語 71	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/72 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/72 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/72 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/72 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/72 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/72 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	LOCAL_FONT_READBACK	L01/72	MS-Gothic	265
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/72 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/72 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	FRESH_STATIC_READBACK	L01/72	compId=26	layerId=109	text=日本語 72	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/73 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/73 addText
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/73 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/73 layer.name
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/73 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/73 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:15 GMT+0700	LOCAL_FONT_READBACK	L01/73	MS-Gothic	265
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/73 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	AFTER_MUTATION	L01/73 Source Text setValue
+Sat Oct 17 2026 20:56:15 GMT+0700	FRESH_STATIC_READBACK	L01/73	compId=26	layerId=110	text=日本語 73	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:15 GMT+0700	BEFORE_MUTATION	L01/74 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/74 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/74 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/74 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/74 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/74 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	LOCAL_FONT_READBACK	L01/74	MS-Gothic	265
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/74 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/74 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	FRESH_STATIC_READBACK	L01/74	compId=26	layerId=111	text=日本語 74	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/75 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/75 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/75 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/75 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/75 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/75 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	LOCAL_FONT_READBACK	L01/75	MS-Gothic	265
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/75 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/75 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	FRESH_STATIC_READBACK	L01/75	compId=26	layerId=112	text=日本語 75	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/76 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/76 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/76 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/76 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/76 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/76 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	LOCAL_FONT_READBACK	L01/76	MS-Gothic	265
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/76 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/76 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	FRESH_STATIC_READBACK	L01/76	compId=26	layerId=113	text=日本語 76	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/77 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/77 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/77 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/77 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/77 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/77 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	LOCAL_FONT_READBACK	L01/77	MS-Gothic	265
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/77 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/77 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	FRESH_STATIC_READBACK	L01/77	compId=26	layerId=114	text=日本語 77	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/78 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/78 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/78 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/78 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/78 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/78 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	LOCAL_FONT_READBACK	L01/78	MS-Gothic	265
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/78 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/78 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	FRESH_STATIC_READBACK	L01/78	compId=26	layerId=115	text=日本語 78	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/79 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/79 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/79 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/79 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/79 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/79 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	LOCAL_FONT_READBACK	L01/79	MS-Gothic	265
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/79 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/79 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	FRESH_STATIC_READBACK	L01/79	compId=26	layerId=116	text=日本語 79	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/80 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/80 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/80 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/80 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/80 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/80 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	LOCAL_FONT_READBACK	L01/80	MS-Gothic	265
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/80 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/80 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	FRESH_STATIC_READBACK	L01/80	compId=26	layerId=117	text=日本語 80	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+30/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/81 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/81 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/81 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/81 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/81 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/81 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	LOCAL_FONT_READBACK	L01/81	MS-Gothic	265
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/81 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/81 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	FRESH_STATIC_READBACK	L01/81	compId=26	layerId=118	text=日本語 81	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/82 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/82 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/82 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/82 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/82 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/82 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	LOCAL_FONT_READBACK	L01/82	MS-Gothic	265
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/82 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/82 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	FRESH_STATIC_READBACK	L01/82	compId=26	layerId=119	text=日本語 82	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/83 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/83 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/83 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/83 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/83 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/83 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	LOCAL_FONT_READBACK	L01/83	MS-Gothic	265
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/83 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/83 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	FRESH_STATIC_READBACK	L01/83	compId=26	layerId=120	text=日本語 83	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/84 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/84 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/84 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/84 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/84 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/84 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	LOCAL_FONT_READBACK	L01/84	MS-Gothic	265
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/84 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/84 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	FRESH_STATIC_READBACK	L01/84	compId=26	layerId=121	text=日本語 84	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/85 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/85 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/85 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/85 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/85 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/85 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	LOCAL_FONT_READBACK	L01/85	MS-Gothic	265
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/85 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/85 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	FRESH_STATIC_READBACK	L01/85	compId=26	layerId=122	text=日本語 85	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/86 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/86 addText
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/86 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/86 layer.name
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/86 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/86 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:16 GMT+0700	LOCAL_FONT_READBACK	L01/86	MS-Gothic	265
+Sat Oct 17 2026 20:56:16 GMT+0700	BEFORE_MUTATION	L01/86 Source Text setValue
+Sat Oct 17 2026 20:56:16 GMT+0700	AFTER_MUTATION	L01/86 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	FRESH_STATIC_READBACK	L01/86	compId=26	layerId=123	text=日本語 86	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/87 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/87 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/87 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/87 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/87 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/87 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	LOCAL_FONT_READBACK	L01/87	MS-Gothic	265
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/87 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/87 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	FRESH_STATIC_READBACK	L01/87	compId=26	layerId=124	text=日本語 87	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/88 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/88 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/88 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/88 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/88 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/88 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	LOCAL_FONT_READBACK	L01/88	MS-Gothic	265
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/88 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/88 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	FRESH_STATIC_READBACK	L01/88	compId=26	layerId=125	text=日本語 88	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/89 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/89 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/89 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/89 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/89 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/89 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	LOCAL_FONT_READBACK	L01/89	MS-Gothic	265
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/89 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/89 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	FRESH_STATIC_READBACK	L01/89	compId=26	layerId=126	text=日本語 89	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/90 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/90 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/90 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/90 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/90 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/90 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	LOCAL_FONT_READBACK	L01/90	MS-Gothic	265
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/90 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/90 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	FRESH_STATIC_READBACK	L01/90	compId=26	layerId=127	text=日本語 90	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+30/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/91 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/91 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/91 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/91 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/91 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/91 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	LOCAL_FONT_READBACK	L01/91	MS-Gothic	265
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/91 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/91 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	FRESH_STATIC_READBACK	L01/91	compId=26	layerId=128	text=日本語 91	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/92 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/92 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/92 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/92 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/92 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/92 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	LOCAL_FONT_READBACK	L01/92	MS-Gothic	265
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/92 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/92 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	FRESH_STATIC_READBACK	L01/92	compId=26	layerId=129	text=日本語 92	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+32/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/93 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/93 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/93 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/93 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/93 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/93 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	LOCAL_FONT_READBACK	L01/93	MS-Gothic	265
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/93 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/93 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	FRESH_STATIC_READBACK	L01/93	compId=26	layerId=130	text=日本語 93	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+33/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/94 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/94 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/94 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/94 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/94 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/94 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	LOCAL_FONT_READBACK	L01/94	MS-Gothic	265
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/94 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/94 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	FRESH_STATIC_READBACK	L01/94	compId=26	layerId=131	text=日本語 94	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+34/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/95 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/95 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/95 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/95 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/95 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/95 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	LOCAL_FONT_READBACK	L01/95	MS-Gothic	265
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/95 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/95 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	FRESH_STATIC_READBACK	L01/95	compId=26	layerId=132	text=日本語 95	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+35/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/96 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/96 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/96 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/96 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/96 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/96 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	LOCAL_FONT_READBACK	L01/96	MS-Gothic	265
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/96 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/96 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	FRESH_STATIC_READBACK	L01/96	compId=26	layerId=133	text=日本語 96	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+36/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/97 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/97 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/97 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/97 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/97 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/97 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	LOCAL_FONT_READBACK	L01/97	MS-Gothic	265
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/97 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/97 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	FRESH_STATIC_READBACK	L01/97	compId=26	layerId=134	text=日本語 97	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+37/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/98 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/98 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/98 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/98 layer.name
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/98 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/98 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:17 GMT+0700	LOCAL_FONT_READBACK	L01/98	MS-Gothic	265
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/98 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/98 Source Text setValue
+Sat Oct 17 2026 20:56:17 GMT+0700	FRESH_STATIC_READBACK	L01/98	compId=26	layerId=135	text=日本語 98	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+38/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/99 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	AFTER_MUTATION	L01/99 addText
+Sat Oct 17 2026 20:56:17 GMT+0700	BEFORE_MUTATION	L01/99 layer.name
+Sat Oct 17 2026 20:56:18 GMT+0700	AFTER_MUTATION	L01/99 layer.name
+Sat Oct 17 2026 20:56:18 GMT+0700	BEFORE_MUTATION	L01/99 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:18 GMT+0700	AFTER_MUTATION	L01/99 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:18 GMT+0700	LOCAL_FONT_READBACK	L01/99	MS-Gothic	265
+Sat Oct 17 2026 20:56:18 GMT+0700	BEFORE_MUTATION	L01/99 Source Text setValue
+Sat Oct 17 2026 20:56:18 GMT+0700	AFTER_MUTATION	L01/99 Source Text setValue
+Sat Oct 17 2026 20:56:18 GMT+0700	FRESH_STATIC_READBACK	L01/99	compId=26	layerId=136	text=日本語 99	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+39/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:18 GMT+0700	BEFORE_MUTATION	L01/100 addText
+Sat Oct 17 2026 20:56:18 GMT+0700	AFTER_MUTATION	L01/100 addText
+Sat Oct 17 2026 20:56:18 GMT+0700	BEFORE_MUTATION	L01/100 layer.name
+Sat Oct 17 2026 20:56:18 GMT+0700	AFTER_MUTATION	L01/100 layer.name
+Sat Oct 17 2026 20:56:18 GMT+0700	BEFORE_MUTATION	L01/100 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:18 GMT+0700	AFTER_MUTATION	L01/100 local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:18 GMT+0700	LOCAL_FONT_READBACK	L01/100	MS-Gothic	265
+Sat Oct 17 2026 20:56:18 GMT+0700	BEFORE_MUTATION	L01/100 Source Text setValue
+Sat Oct 17 2026 20:56:18 GMT+0700	AFTER_MUTATION	L01/100 Source Text setValue
+Sat Oct 17 2026 20:56:18 GMT+0700	FRESH_STATIC_READBACK	L01/100	compId=26	layerId=137	text=日本語 100	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+31/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+30/id=265/PS=MS-Gothic/sub=false/glyph=true | 6:7/U+30/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:18 GMT+0700	FRESH_LARGE_READBACK	L01	compId=26	numLayers=100
+Sat Oct 17 2026 20:56:18 GMT+0700	CASE_RESULT	L01	SETUP_VERIFIED	elapsed_ms=7345	Not a scanner/native acceptance PASS
+Sat Oct 17 2026 20:56:18 GMT+0700	CASE_BEGIN	F03	日本語 ABC with two retained non-substitute fontIDs; intentional mixed review only
+Sat Oct 17 2026 20:56:18 GMT+0700	BEFORE_MUTATION	F03 addText
+Sat Oct 17 2026 20:56:18 GMT+0700	AFTER_MUTATION	F03 addText
+Sat Oct 17 2026 20:56:18 GMT+0700	BEFORE_MUTATION	F03 layer.name
+Sat Oct 17 2026 20:56:18 GMT+0700	AFTER_MUTATION	F03 layer.name
+Sat Oct 17 2026 20:56:18 GMT+0700	BEFORE_MUTATION	F03 layer position
+Sat Oct 17 2026 20:56:18 GMT+0700	AFTER_MUTATION	F03 layer position
+Sat Oct 17 2026 20:56:18 GMT+0700	BEFORE_MUTATION	F03 baseline local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:18 GMT+0700	AFTER_MUTATION	F03 baseline local TextDocument.font=MS-Gothic
+Sat Oct 17 2026 20:56:18 GMT+0700	LOCAL_FONT_READBACK	F03 baseline	MS-Gothic	265
+Sat Oct 17 2026 20:56:18 GMT+0700	BEFORE_MUTATION	F03 baseline Source Text setValue
+Sat Oct 17 2026 20:56:18 GMT+0700	AFTER_MUTATION	F03 baseline Source Text setValue
+Sat Oct 17 2026 20:56:18 GMT+0700	FRESH_STATIC_READBACK	F03 baseline	compId=1	layerId=138	text=日本語 ABC	expressionEnabled=false	numKeys=0	fontIDs=1	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+41/id=265/PS=MS-Gothic/sub=false/glyph=true | 5:6/U+42/id=265/PS=MS-Gothic/sub=false/glyph=true | 6:7/U+43/id=265/PS=MS-Gothic/sub=false/glyph=true
+Sat Oct 17 2026 20:56:18 GMT+0700	BEFORE_MUTATION	F03 local CharacterRange[4,7).font=ArialMT
+Sat Oct 17 2026 20:56:18 GMT+0700	AFTER_MUTATION	F03 local CharacterRange[4,7).font=ArialMT
+Sat Oct 17 2026 20:56:18 GMT+0700	LOCAL_MIXED_READBACK	F03	0:4=MS-Gothic	4:7=ArialMT
+Sat Oct 17 2026 20:56:18 GMT+0700	BEFORE_MUTATION	F03 Source Text setValue mixed
+Sat Oct 17 2026 20:56:18 GMT+0700	AFTER_MUTATION	F03 Source Text setValue mixed
+Sat Oct 17 2026 20:56:18 GMT+0700	FRESH_STATIC_READBACK	F03	compId=1	layerId=138	text=日本語 ABC	expressionEnabled=false	numKeys=0	fontIDs=2	0:1/U+65E5/id=265/PS=MS-Gothic/sub=false/glyph=true | 1:2/U+672C/id=265/PS=MS-Gothic/sub=false/glyph=true | 2:3/U+8A9E/id=265/PS=MS-Gothic/sub=false/glyph=true | 3:4/U+20/id=265/PS=MS-Gothic/sub=false/glyph=true | 4:5/U+41/id=7/PS=ArialMT/sub=false/glyph=true | 5:6/U+42/id=7/PS=ArialMT/sub=false/glyph=true | 6:7/U+43/id=7/PS=ArialMT/sub=false/glyph=true
+Sat Oct 17 2026 20:56:18 GMT+0700	CASE_RESULT	F03	SETUP_VERIFIED	elapsed_ms=127	Not a scanner/native acceptance PASS
+Sat Oct 17 2026 20:56:18 GMT+0700	AGGREGATE_SETUP	SETUP_INCOMPLETE	composition=JPFP_BETA_FIXTURES__DISPOSABLE	compId=1	numLayers=12	COMPLETE requires exactly12 layers and all F01-F12 verified, allowing F05 SETUP_OBSERVED_REASSIGNMENT; setup status is not native acceptance PASS
+Sat Oct 17 2026 20:56:18 GMT+0700	R01_SETUP	Scan aggregate JPFP_BETA_FIXTURES__DISPOSABLE twice without edits in separate scanner executions; no repeated scan ran in this builder
+Sat Oct 17 2026 20:56:18 GMT+0700	AFTER_STATE	numItems=4	revision=1186	activeItem=UNKNOWN	openInViewer_requested=NO	stop=false
+Sat Oct 17 2026 20:56:18 GMT+0700	SETUP_SUMMARY	F01 SETUP_VERIFIED; F02 SETUP_FAILED; F04 SETUP_VERIFIED; F05 SETUP_OBSERVED_REASSIGNMENT; F06 SETUP_VERIFIED; F07 SETUP_VERIFIED; F08 SETUP_VERIFIED; F09 SETUP_VERIFIED; F10 SETUP_VERIFIED; F11 SETUP_VERIFIED; F12 SETUP_VERIFIED; L01 SETUP_VERIFIED; F03 SETUP_VERIFIED	Scanner/native acceptance has NOT RUN

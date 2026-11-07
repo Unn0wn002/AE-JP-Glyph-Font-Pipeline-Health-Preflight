@@ -1,0 +1,171 @@
+{
+  "schema": "JPFP-ZEN-GENUINE-ACCEPTANCE-1",
+  "startingCommit": "987ccf6bdc7cad2f312f464010f9483653076f3a",
+  "branch": "beta/static-preflight-20261017",
+  "authorization": "AUTHORIZATION.txt; one pinned Regular face on AYAKUMI_NOZOMI only",
+  "authoringHost": {
+    "computer": "AYAKUMI_NOZOMI",
+    "os": "Windows/64 10.0  ",
+    "version": "26.5x89",
+    "buildName": "26.5x89",
+    "buildNumber": 89,
+    "locale": "en_US",
+    "osExact": "Windows 11 Pro 10.0.26300 x64; OS/UI en-US"
+  },
+  "validationHost": {
+    "computer": "3E6B83F9-7F9C-4",
+    "version": "26.5x89",
+    "buildName": "26.5x89",
+    "buildNumber": 89,
+    "locale": "en_US",
+    "os": "Windows/64 10.0  ",
+    "osExact": "Windows 11 Enterprise 24H2/build26100.9711 x64; English (United States) display; UTC+07:00; unchanged existing Sandbox observed previously in same session"
+  },
+  "installation": "installation.json",
+  "fixture": {
+    "path": "artifacts/native/F02-operator/genuine-F02.aep",
+    "sha256": "af3b1bd641a0955f63230f44b7e53987cddccd7099bffb832718f1ea7aa21306",
+    "provenance": "fixture-provenance.txt",
+    "fontPS": "ZenKakuGothicNew-Regular",
+    "fontVersion": "1.002",
+    "mainFontID": 346,
+    "sandboxSubstituteID": 320,
+    "compositionID": 1,
+    "layerID": 14,
+    "largeCompositionID": 26
+  },
+  "nativePrerequisite": "prerequisite-condition-review.json",
+  "binding": "fixture-binding.json",
+  "evaluation": "evaluation.json",
+  "nativeRows": {
+    "F01": "PASS",
+    "F02": "PASS",
+    "F03": "PASS",
+    "F04": "PASS",
+    "F05": "PASS",
+    "F06": "PASS",
+    "F07": "PASS",
+    "F08": "PASS",
+    "F09": "PASS",
+    "F10": "PASS",
+    "F11": "PASS",
+    "F12": "PASS",
+    "L01": "PASS",
+    "R01": "PASS"
+  },
+  "gate": "NATIVE_MATRIX_PASS_PENDING_REVIEW; package remains BLOCKED_NATIVE_VALIDATION until human review",
+  "scannerSHA256": "f93d221898e6dc75985e2fa5b7ffbde2850c2ebc39da889b21592c5f58d8156e",
+  "wrapperSHA256": "e3d794cb8e4a079237bea754220569672f0dc6a04b3d0d648e1b3215567adf21",
+  "scannerAndBuilderFrozen": true,
+  "wrapperUnchanged": true,
+  "runs": [
+    "20261019-165617-631",
+    "20261019-165707-356",
+    "20261019-165808-609",
+    "20261019-192441-845"
+  ],
+  "repeatability": {
+    "fixture": {
+      "substantive_report_equality": true,
+      "excluded_volatile_fields": [
+        "Generated (host local time)",
+        "Scan elapsed milliseconds"
+      ],
+      "before_state_equality_across_runs": true,
+      "after_state_equality_across_runs": true,
+      "before_after_state_equality": [
+        true,
+        true
+      ],
+      "scanner_elapsed_ms": [
+        13,
+        12
+      ],
+      "scanner_wall_ms_including_dialogs": [
+        49520,
+        60856
+      ],
+      "same_host": true,
+      "interpretation": "Observed repeatability only; does not override missing fixture conditions or the separately evaluated full R01 status."
+    },
+    "large": {
+      "substantive_report_equality": true,
+      "excluded_volatile_fields": [
+        "Generated (host local time)",
+        "Scan elapsed milliseconds"
+      ],
+      "before_state_equality_across_runs": true,
+      "after_state_equality_across_runs": true,
+      "before_after_state_equality": [
+        true,
+        true
+      ],
+      "scanner_elapsed_ms": [
+        279,
+        163
+      ],
+      "scanner_wall_ms_including_dialogs": [
+        8790914,
+        69860
+      ],
+      "same_host": true,
+      "interpretation": "Observed repeatability only; does not override missing fixture conditions or the separately evaluated full R01 status."
+    }
+  },
+  "transfer": {
+    "preflight": "transfer-preflight.json",
+    "final": "transfer-final.json",
+    "fontNeverTransferred": true,
+    "receivedAndWorkAEPHashMatch": true,
+    "rawOriginSHA256": "PASS26/26 independent Sandbox-origin hashes and byte counts match returned main bytes; origin-hash-verification.json",
+    "originManifest": "sandbox-origin-sha256.json"
+  },
+  "sandbox": {
+    "keptOpen": true,
+    "noFontInstallOrActivation": true,
+    "freezeSyncSubstitutedFonts": true,
+    "securitySettingsChangedByAgent": false
+  },
+  "warnings": {
+    "observed": "No BIB/AE warning or JavaScript exception observed during successful authoring, native prerequisite, scan export and completion captures. Interrupted wait was not continuously monitored.",
+    "canceledDiagnostic": "Slow hash calculation canceled; AE Execution halted at line211 retained separately. Not a scanner run or font setup failure.",
+    "diagnosticLabels": "F11 derived ANIMATED and F12 NON_TEXT labels retained; raw expression/key/SolidSource/TextLayer/null-group checks authoritative."
+  },
+  "limitations": [
+    "Human evidence review remains required; keep PR draft and package gate blocked.",
+    "F05 PASS is covered applied-font reassignment only. Native retained applied-gap branch, exact rendered-fallback identity and shaping remain UNVALIDATED.",
+    "Substitute FontObject reports version6.51/location meiryo.ttc; this does not prove exact rendered fallback.",
+    "First L01 wall time includes interrupted human wait; raw wall duration retained and not interpreted as scanner performance.",
+    "No claim of continuous warning monitoring during unattended wait."
+  ],
+  "budget": {
+    "limitSeconds": 7200,
+    "previousUsedSeconds": 3861,
+    "previousRemainingSeconds": 3339,
+    "chargeThisContinuationSeconds": 2640,
+    "segments": [
+      {
+        "startUTC": "2026-10-19T09:30:21Z",
+        "lastActiveObservation": "approximately 16:58 WIB; interrupted at L01 export",
+        "chargedSeconds": 1800,
+        "note": "Conservative 30m covers activity through 17:00 WIB"
+      },
+      {
+        "startUTC": "2026-10-19T12:23:58Z",
+        "stopUTC": "2026-10-19T12:29:24Z",
+        "chargedSeconds": 360,
+        "note": "Conservative 6m includes remaining native exports, transfer and first full evaluation"
+      },
+      {
+        "startUTC": "2026-10-19T12:35:11.092Z",
+        "stopUTC": "2026-10-19T12:42:39Z",
+        "chargedSeconds": 480,
+        "note": "Conservative8m for independent Sandbox-origin export/state hashes and return transfer"
+      }
+    ],
+    "excluded": "Human interruption after conservative first segment through19:23:58 WIB; later repository documentation/checks/packaging",
+    "cumulativeUsedSeconds": 6501,
+    "remainingSeconds": 699,
+    "remaining": "11m39s"
+  }
+}

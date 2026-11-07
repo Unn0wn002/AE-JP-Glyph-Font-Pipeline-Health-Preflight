@@ -1,0 +1,13 @@
+# Keep the tested scanner and diagnostic hashes stable across host checkouts.
+src/JPFP_Session1_Probe.jsx text eol=lf
+diagnostics/beta/*.jsx text eol=lf
+# Preserve raw native report/log bytes, including intentional empty TSV cells.
+evidence/native-20261017-resumed/** -text whitespace=-blank-at-eol
+evidence/native-20261017/ascii-smoke.txt -text whitespace=-blank-at-eol
+evidence/native-20261019-dual-host/** -text whitespace=-blank-at-eol,-blank-at-eof
+evidence/native-20261019-resumed/** -text whitespace=-blank-at-eol,-blank-at-eof
+evidence/native-20261019-zen/** -text whitespace=-blank-at-eol,-blank-at-eof
+evidence/native-20261030-panel-sandbox/** -text whitespace=-blank-at-eol,-blank-at-eof
+evidence/native-20261102-honest-status/** -whitespace
+evidence/native-20261102-zero-checked/** -whitespace
+evidence/native-20261102-compact-view/** -whitespace

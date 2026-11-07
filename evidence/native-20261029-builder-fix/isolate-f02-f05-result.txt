@@ -1,0 +1,6 @@
+aeVersion=26.5x89
+jpFont=BIZ-UDGothic	latinNoKanji=AniMeVisionMB_EN
+F05_addText	START
+F05_addText	threw=no
+F05_set_latinNoKanji	START
+F05_set_latinNoKanji	threw=no

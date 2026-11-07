@@ -1,0 +1,39 @@
+name: Beta validation
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  static-behavioral-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Static checks
+        run: python tests/session1_static_checks.py
+      - name: Production scanner behavioral regressions (mock AE)
+        run: node tests/behavioral_regressions.cjs
+      - name: Panel wrapper controlled tests (ScriptUI/File test doubles)
+        run: node --test tests/panel_wrapper.test.cjs
+      - name: Fixture builder confirmation guards (test doubles)
+        run: node --test tests/fixture_confirmation.test.js
+      - name: Package regressions
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Build reviewable beta archive
+        run: python scripts/package_beta.py --output-dir dist
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ae-jp-glyph-font-preflight-beta
+          path: dist/
+          if-no-files-found: error
+          retention-days: 14

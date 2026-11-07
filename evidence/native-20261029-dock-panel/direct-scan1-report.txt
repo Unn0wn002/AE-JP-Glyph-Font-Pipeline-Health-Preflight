@@ -1,0 +1,71 @@
+JP FONT AND GLYPH PREFLIGHT — STATIC-TEXT BETA REPORT
+Report schema	JPFP-BETA-REPORT-2
+Generated (host local time)	2026-10-29T17:50:50
+Scan elapsed milliseconds	8
+
+HOST / 実行環境
+AE version	26.5x89
+AE build name	26.5x89
+AE build number	89
+AE locale	en_US
+OS	Windows/64 10.0  
+Project revision before	82
+Project revision after	82
+Project revision unchanged	true
+Revision before read	OK
+Revision after read	OK
+
+SCOPE AND COVERAGE / 検査範囲
+Active composition only	true
+Composition ID	1
+Composition	JPFP_S1_FIXTURES__DISPOSABLE
+Composition time sampled	0
+Total layers	5
+Text layers	5
+Static text layers checked	0
+Expression text layers NOT CHECKED	0
+Animated text layers NOT CHECKED	0
+Unreadable/unclassified layers NOT CHECKED	5
+Empty text layers	0
+Non-text layers (not applicable)	0
+Characters examined	0
+Characters coverage verified	0
+Characters coverage verified present	0
+Characters coverage verified absent	0
+Characters coverage skipped	0
+Characters coverage failed	0
+Mixed-font layers observed	0
+Mixed-font classification incomplete layers	0
+TextDocument.characterRange observed	false
+FontObject.hasGlyphsFor observed	false
+Problems	0
+Review needed	0
+Not checked findings	5
+
+FINDINGS / 検出結果
+severity	code	compId	comp	layerId	layerIndex	layerName	start	end	codePoint	character	font	detail
+NOT_CHECKED	TEXTDOCUMENT_READ_FAILED	1	JPFP_S1_FIXTURES__DISPOSABLE	17	1	[F05] GLYPH_GAP_EXPERIMENT__CANDIDATE=AniMeVisionMB_EN						UNAVAILABLE: Property/API unavailable
+NOT_CHECKED	TEXTDOCUMENT_READ_FAILED	1	JPFP_S1_FIXTURES__DISPOSABLE	16	2	[F04] JP_LATIN_PUNCT						UNAVAILABLE: Property/API unavailable
+NOT_CHECKED	TEXTDOCUMENT_READ_FAILED	1	JPFP_S1_FIXTURES__DISPOSABLE	15	3	[F03] MIXED_FONTS						UNAVAILABLE: Property/API unavailable
+NOT_CHECKED	TEXTDOCUMENT_READ_FAILED	1	JPFP_S1_FIXTURES__DISPOSABLE	14	4	[F02] MISSING_FONT_REFERENCE						UNAVAILABLE: Property/API unavailable
+NOT_CHECKED	TEXTDOCUMENT_READ_FAILED	1	JPFP_S1_FIXTURES__DISPOSABLE	13	5	[F01] GOOD_JP						UNAVAILABLE: Property/API unavailable
+
+LAYER OBSERVATIONS / レイヤー観測
+type	compId	comp	layerId	layerIndex	layerName	sourceText	mixedFonts	detail
+LAYER	1	JPFP_S1_FIXTURES__DISPOSABLE	17	1	[F05] GLYPH_GAP_EXPERIMENT__CANDIDATE=AniMeVisionMB_EN	NOT_CHECKED	UNKNOWN	Text unreadable
+LAYER	1	JPFP_S1_FIXTURES__DISPOSABLE	16	2	[F04] JP_LATIN_PUNCT	NOT_CHECKED	UNKNOWN	Text unreadable
+LAYER	1	JPFP_S1_FIXTURES__DISPOSABLE	15	3	[F03] MIXED_FONTS	NOT_CHECKED	UNKNOWN	Text unreadable
+LAYER	1	JPFP_S1_FIXTURES__DISPOSABLE	14	4	[F02] MISSING_FONT_REFERENCE	NOT_CHECKED	UNKNOWN	Text unreadable
+LAYER	1	JPFP_S1_FIXTURES__DISPOSABLE	13	5	[F01] GOOD_JP	NOT_CHECKED	UNKNOWN	Text unreadable
+
+CHARACTER FONT OBSERVATIONS / 文字フォント観測
+type	compId	comp	layerId	layerIndex	layerName	start	end	codePoint	character	fontIdentity	coverage	substitute	fontSummary	detail
+
+INTERPRETATION / 解釈
+Character offsets are zero-based UTF-16 [start,end); supplementary pairs remain one observation. These are not grapheme boundaries.
+fontIdentity VERIFIED requires direct CharacterRange.fontObject plus a readable fontID or PostScript name. Base TextDocument font is never substituted for an unreadable character font.
+VERIFIED_PRESENT/VERIFIED_ABSENT mean hasGlyphsFor returned a boolean for that applied font and code point. They do not prove rendered fallback or shaping correctness.
+NOT_CHECKED means no reliable query was made; FAILED means the glyph API getter/query failed or returned an invalid value. Neither is PASS.
+UNKNOWN records unavailable or failed reads. Complete mixed-font classification needs unique font IDs for every character; intentional mixing is REVIEW_NEEDED.
+Animated/expression Source Text, whole-project scanning, font installation/replacement, rendered-fallback identification, and full shaping validation are outside beta scope.
+Project revision equality is one observation, not proof of all project/UI state invariance; UNKNOWN never means unchanged/PASS.

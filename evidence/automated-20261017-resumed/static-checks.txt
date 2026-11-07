@@ -1,0 +1,7 @@
+SESSION1_STATIC_CHECKS: PASS
+Node parse check: PASS (probe + fixture builder, after removing #target directive)
+Beta diagnostic parse checks: PASS (5 scripts; not native execution)
+Native evidence evaluator compile check: PASS (not native acceptance)
+Read-only mutation-token scan: PASS
+Required API reference scan: PASS
+Fixture matrix rows: 14

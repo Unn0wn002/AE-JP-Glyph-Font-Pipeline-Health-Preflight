@@ -1,0 +1,281 @@
+{
+  "schema": "JPFP-NATIVE-EVALUATION-1",
+  "gate": "NATIVE_MATRIX_PASS_PENDING_REVIEW",
+  "rows": [
+    {
+      "id": "F01",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 19 ms scanner; 83338 ms including dialogs",
+        "run2: 17 ms scanner; 40676 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F02",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 19 ms scanner; 83338 ms including dialogs",
+        "run2: 17 ms scanner; 40676 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F03",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 19 ms scanner; 83338 ms including dialogs",
+        "run2: 17 ms scanner; 40676 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F04",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 19 ms scanner; 83338 ms including dialogs",
+        "run2: 17 ms scanner; 40676 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F05",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 19 ms scanner; 83338 ms including dialogs",
+        "run2: 17 ms scanner; 40676 ms including dialogs"
+      ],
+      "observations": [
+        "run1: OBSERVED_APPLIED_FONT_REASSIGNMENT: Preserved saved reassignment with fresh candidate API and A/B/middle readback. Native retained applied-gap, exact rendered-fallback identity and shaping remain UNVALIDATED.",
+        "run2: OBSERVED_APPLIED_FONT_REASSIGNMENT: Preserved saved reassignment with fresh candidate API and A/B/middle readback. Native retained applied-gap, exact rendered-fallback identity and shaping remain UNVALIDATED."
+      ]
+    },
+    {
+      "id": "F06",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 19 ms scanner; 83338 ms including dialogs",
+        "run2: 17 ms scanner; 40676 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F07",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 19 ms scanner; 83338 ms including dialogs",
+        "run2: 17 ms scanner; 40676 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F08",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 19 ms scanner; 83338 ms including dialogs",
+        "run2: 17 ms scanner; 40676 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F09",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 19 ms scanner; 83338 ms including dialogs",
+        "run2: 17 ms scanner; 40676 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F10",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 19 ms scanner; 83338 ms including dialogs",
+        "run2: 17 ms scanner; 40676 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F11",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 19 ms scanner; 83338 ms including dialogs",
+        "run2: 17 ms scanner; 40676 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "F12",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 19 ms scanner; 83338 ms including dialogs",
+        "run2: 17 ms scanner; 40676 ms including dialogs"
+      ],
+      "observations": [
+        "run1: Wrapper derived kind label is NON_TEXT; authoritative raw SolidSource=true, TextLayer=false and null text group plus matching setup readback establish the solid condition. This diagnostic label discrepancy is not a product scanner failure.",
+        "run2: Wrapper derived kind label is NON_TEXT; authoritative raw SolidSource=true, TextLayer=false and null text group plus matching setup readback establish the solid condition. This diagnostic label discrepancy is not a product scanner failure."
+      ]
+    },
+    {
+      "id": "L01",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [
+        "run1: 222 ms scanner; 40980 ms including dialogs",
+        "run2: 268 ms scanner; 40167 ms including dialogs"
+      ],
+      "observations": []
+    },
+    {
+      "id": "R01",
+      "status": "PASS",
+      "fixture_condition": "VERIFIED",
+      "blockers": [],
+      "mismatches": [],
+      "timing": [],
+      "observations": []
+    }
+  ],
+  "genuine_binding_sha256": "9427d46300b5e62f063e22d2157d562cf1c9918a8a8f52b74986661ff377d832",
+  "repeatability_observations": {
+    "fixture": {
+      "substantive_report_equality": true,
+      "excluded_volatile_fields": [
+        "Generated (host local time)",
+        "Scan elapsed milliseconds"
+      ],
+      "before_state_equality_across_runs": true,
+      "after_state_equality_across_runs": true,
+      "before_after_state_equality": [
+        true,
+        true
+      ],
+      "scanner_elapsed_ms": [
+        19,
+        17
+      ],
+      "scanner_wall_ms_including_dialogs": [
+        83338,
+        40676
+      ],
+      "same_host": true,
+      "interpretation": "Observed repeatability only; does not override missing fixture conditions or the separately evaluated full R01 status."
+    },
+    "large": {
+      "substantive_report_equality": true,
+      "excluded_volatile_fields": [
+        "Generated (host local time)",
+        "Scan elapsed milliseconds"
+      ],
+      "before_state_equality_across_runs": true,
+      "after_state_equality_across_runs": true,
+      "before_after_state_equality": [
+        true,
+        true
+      ],
+      "scanner_elapsed_ms": [
+        222,
+        268
+      ],
+      "scanner_wall_ms_including_dialogs": [
+        40980,
+        40167
+      ],
+      "same_host": true,
+      "interpretation": "Observed repeatability only; does not override missing fixture conditions or the separately evaluated full R01 status."
+    }
+  },
+  "evidence": {
+    "fixture1": {
+      "state_directory": "C:\\Users\\unn0w\\AppData\\Local\\Temp\\claude\\C--Users-unn0w-Downloads-02-Projects\\5f9c708c-4a15-4583-8787-525a3921182c\\scratchpad\\beta-eval\\evidence\\native-20261030-panel-sandbox\\fixture-state1-20261030-031013-556",
+      "report": "C:\\Users\\unn0w\\AppData\\Local\\Temp\\claude\\C--Users-unn0w-Downloads-02-Projects\\5f9c708c-4a15-4583-8787-525a3921182c\\scratchpad\\beta-eval\\evidence\\native-20261030-panel-sandbox\\aggregate-run1.txt",
+      "report_sha256": "2940eda100eae005f752f976dd614dacd94ee3452138dcd8b7260ae83305b8f6",
+      "host": {
+        "version": "26.5x89",
+        "buildName": "26.5x89",
+        "buildNumber": 89,
+        "locale": "en_US",
+        "os": "Windows/64 10.0  "
+      }
+    },
+    "fixture2": {
+      "state_directory": "C:\\Users\\unn0w\\AppData\\Local\\Temp\\claude\\C--Users-unn0w-Downloads-02-Projects\\5f9c708c-4a15-4583-8787-525a3921182c\\scratchpad\\beta-eval\\evidence\\native-20261030-panel-sandbox\\fixture-state2-20261030-031216-614",
+      "report": "C:\\Users\\unn0w\\AppData\\Local\\Temp\\claude\\C--Users-unn0w-Downloads-02-Projects\\5f9c708c-4a15-4583-8787-525a3921182c\\scratchpad\\beta-eval\\evidence\\native-20261030-panel-sandbox\\aggregate-run2.txt",
+      "report_sha256": "62138900bfd9ea0d8ee1d94a8a933721607e3671015d7c3468d9b9400e3a0913",
+      "host": {
+        "version": "26.5x89",
+        "buildName": "26.5x89",
+        "buildNumber": 89,
+        "locale": "en_US",
+        "os": "Windows/64 10.0  "
+      }
+    },
+    "large1": {
+      "state_directory": "C:\\Users\\unn0w\\AppData\\Local\\Temp\\claude\\C--Users-unn0w-Downloads-02-Projects\\5f9c708c-4a15-4583-8787-525a3921182c\\scratchpad\\beta-eval\\evidence\\native-20261030-panel-sandbox\\large-state1-20261030-031324-878",
+      "report": "C:\\Users\\unn0w\\AppData\\Local\\Temp\\claude\\C--Users-unn0w-Downloads-02-Projects\\5f9c708c-4a15-4583-8787-525a3921182c\\scratchpad\\beta-eval\\evidence\\native-20261030-panel-sandbox\\large-run1.txt",
+      "report_sha256": "924d761463aa0b4f7e5ef55e89376229a134225091e98352e22560ec3dff745c",
+      "host": {
+        "version": "26.5x89",
+        "buildName": "26.5x89",
+        "buildNumber": 89,
+        "locale": "en_US",
+        "os": "Windows/64 10.0  "
+      }
+    },
+    "large2": {
+      "state_directory": "C:\\Users\\unn0w\\AppData\\Local\\Temp\\claude\\C--Users-unn0w-Downloads-02-Projects\\5f9c708c-4a15-4583-8787-525a3921182c\\scratchpad\\beta-eval\\evidence\\native-20261030-panel-sandbox\\large-state2-20261030-031440-897",
+      "report": "C:\\Users\\unn0w\\AppData\\Local\\Temp\\claude\\C--Users-unn0w-Downloads-02-Projects\\5f9c708c-4a15-4583-8787-525a3921182c\\scratchpad\\beta-eval\\evidence\\native-20261030-panel-sandbox\\large-run2.txt",
+      "report_sha256": "2dd40f168b7dc290748d3cfcc64ca6c83e559417ca628c19e22c2f2a5a6865e7",
+      "host": {
+        "version": "26.5x89",
+        "buildName": "26.5x89",
+        "buildNumber": 89,
+        "locale": "en_US",
+        "os": "Windows/64 10.0  "
+      }
+    }
+  },
+  "limitations": [
+    "Offline evidence evaluation; human review of setup provenance, warnings, responsiveness and source hashes remains required.",
+    "Native coverage does not establish rendered fallback or shaping correctness.",
+    "If wrapper project.file is UNKNOWN/UNAVAILABLE, the saved path is unobserved; equality does not prove all unobserved state invariance."
+  ]
+}

@@ -1,0 +1,3 @@
+Observed native accessibility transcript (AE 26.5x89 build89)
+Scanner SHA256: 6cd8267587286cb7754a8e60f0707d2b008c349826f7c641f2a6f81929029b06
+6071 text JP Font and Glyph Preflight — Static-text Beta Composition / コンポ: JPFP_BETA_ASCII_SMOKE__DISPOSABLE Static text layers checked: 1 Problems: 0; review needed: 0; not checked: 0 Coverage verified/skipped/failed: 7/0/0 Project revision unchanged: true Export: FAILED ReferenceError: Permission denied (is Preferences > Scripting Expressions > Allow Scripts to Write Files and Access Network enabled?). The selected file may be incomplete. Coverage is not rendered fallback or shaping correctness. UNKNOWN/NOT_CHECKED/FAILED never means PASS. ID: 65535

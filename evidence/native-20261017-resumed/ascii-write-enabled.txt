@@ -1,0 +1,70 @@
+JP FONT AND GLYPH PREFLIGHT — STATIC-TEXT BETA REPORT
+Report schema	JPFP-BETA-REPORT-2
+Generated (host local time)	2026-10-17T15:55:02
+Scan elapsed milliseconds	2
+
+HOST / 実行環境
+AE version	26.5x89
+AE build name	26.5x89
+AE build number	89
+AE locale	en_US
+OS	Windows/64 10.0  
+Project revision before	32
+Project revision after	32
+Project revision unchanged	true
+Revision before read	OK
+Revision after read	OK
+
+SCOPE AND COVERAGE / 検査範囲
+Active composition only	true
+Composition ID	1
+Composition	JPFP_BETA_ASCII_SMOKE__DISPOSABLE
+Composition time sampled	0
+Total layers	1
+Text layers	1
+Static text layers checked	1
+Expression text layers NOT CHECKED	0
+Animated text layers NOT CHECKED	0
+Unreadable/unclassified layers NOT CHECKED	0
+Empty text layers	0
+Non-text layers (not applicable)	0
+Characters examined	7
+Characters coverage verified	7
+Characters coverage verified present	7
+Characters coverage verified absent	0
+Characters coverage skipped	0
+Characters coverage failed	0
+Mixed-font layers observed	0
+Mixed-font classification incomplete layers	0
+TextDocument.characterRange observed	true
+FontObject.hasGlyphsFor observed	true
+Problems	0
+Review needed	0
+Not checked findings	0
+
+FINDINGS / 検出結果
+severity	code	compId	comp	layerId	layerIndex	layerName	start	end	codePoint	character	font	detail
+NO_FINDINGS_IN_CHECKED_SCOPE	No finding produced. Coverage counters define which checks ran; this is not a native validation PASS.
+
+LAYER OBSERVATIONS / レイヤー観測
+type	compId	comp	layerId	layerIndex	layerName	sourceText	mixedFonts	detail
+LAYER	1	JPFP_BETA_ASCII_SMOKE__DISPOSABLE	13	1	ABC 123	STATIC_TEXT	SINGLE_FONT	UTF-16 length=7; unknown character fonts=0
+
+CHARACTER FONT OBSERVATIONS / 文字フォント観測
+type	compId	comp	layerId	layerIndex	layerName	start	end	codePoint	character	fontIdentity	coverage	substitute	fontSummary	detail
+CHAR	1	JPFP_BETA_ASCII_SMOKE__DISPOSABLE	13	1	ABC 123	0	1	U+0041	A	VERIFIED	VERIFIED_PRESENT	FALSE	PS=TimesNewRomanPSMT; family=Times New Roman; style=Regular; id=236; substitute=false; location=C:\\Windows\\Fonts\\times.ttf	
+CHAR	1	JPFP_BETA_ASCII_SMOKE__DISPOSABLE	13	1	ABC 123	1	2	U+0042	B	VERIFIED	VERIFIED_PRESENT	FALSE	PS=TimesNewRomanPSMT; family=Times New Roman; style=Regular; id=236; substitute=false; location=C:\\Windows\\Fonts\\times.ttf	
+CHAR	1	JPFP_BETA_ASCII_SMOKE__DISPOSABLE	13	1	ABC 123	2	3	U+0043	C	VERIFIED	VERIFIED_PRESENT	FALSE	PS=TimesNewRomanPSMT; family=Times New Roman; style=Regular; id=236; substitute=false; location=C:\\Windows\\Fonts\\times.ttf	
+CHAR	1	JPFP_BETA_ASCII_SMOKE__DISPOSABLE	13	1	ABC 123	3	4	U+0020	 	VERIFIED	VERIFIED_PRESENT	FALSE	PS=TimesNewRomanPSMT; family=Times New Roman; style=Regular; id=236; substitute=false; location=C:\\Windows\\Fonts\\times.ttf	
+CHAR	1	JPFP_BETA_ASCII_SMOKE__DISPOSABLE	13	1	ABC 123	4	5	U+0031	1	VERIFIED	VERIFIED_PRESENT	FALSE	PS=TimesNewRomanPSMT; family=Times New Roman; style=Regular; id=236; substitute=false; location=C:\\Windows\\Fonts\\times.ttf	
+CHAR	1	JPFP_BETA_ASCII_SMOKE__DISPOSABLE	13	1	ABC 123	5	6	U+0032	2	VERIFIED	VERIFIED_PRESENT	FALSE	PS=TimesNewRomanPSMT; family=Times New Roman; style=Regular; id=236; substitute=false; location=C:\\Windows\\Fonts\\times.ttf	
+CHAR	1	JPFP_BETA_ASCII_SMOKE__DISPOSABLE	13	1	ABC 123	6	7	U+0033	3	VERIFIED	VERIFIED_PRESENT	FALSE	PS=TimesNewRomanPSMT; family=Times New Roman; style=Regular; id=236; substitute=false; location=C:\\Windows\\Fonts\\times.ttf	
+
+INTERPRETATION / 解釈
+Character offsets are zero-based UTF-16 [start,end); supplementary pairs remain one observation. These are not grapheme boundaries.
+fontIdentity VERIFIED requires direct CharacterRange.fontObject plus a readable fontID or PostScript name. Base TextDocument font is never substituted for an unreadable character font.
+VERIFIED_PRESENT/VERIFIED_ABSENT mean hasGlyphsFor returned a boolean for that applied font and code point. They do not prove rendered fallback or shaping correctness.
+NOT_CHECKED means no reliable query was made; FAILED means the glyph API getter/query failed or returned an invalid value. Neither is PASS.
+UNKNOWN records unavailable or failed reads. Complete mixed-font classification needs unique font IDs for every character; intentional mixing is REVIEW_NEEDED.
+Animated/expression Source Text, whole-project scanning, font installation/replacement, rendered-fallback identification, and full shaping validation are outside beta scope.
+Project revision equality is one observation, not proof of all project/UI state invariance; UNKNOWN never means unchanged/PASS.
