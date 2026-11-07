@@ -75,12 +75,12 @@ function setup(options = {}) {
     return { context, log, disk, settings, File, Panel, Window, host, realAlert, realSaveDialog, built };
 }
 
-// Main view: [scan + language row, status, counts, details toggle, details (description + scanner text), export].
+// Main view: [scan + language row, status, counts, details toggle, details (description + scanner text), export, export line].
 function ui(host) {
-    const [topRow, status, chips, detailsToggle, details, exportButton] = host.children;
+    const [topRow, status, chips, detailsToggle, details, exportButton, exportLine] = host.children;
     const [scan, langButton] = topRow.children;
     const [description, results] = details.children;
-    return { topRow, scan, langButton, status, chips, detailsToggle, details, description, results, exportButton };
+    return { topRow, scan, langButton, status, exportLine, chips, detailsToggle, details, description, results, exportButton };
 }
 
 const AMBER = [1, 0.78, 0.30, 1], GREEN = [0.40, 0.85, 0.50, 1], RED = [1, 0.42, 0.42, 1], GREY = [0.85, 0.85, 0.85, 1];
@@ -98,7 +98,7 @@ const lines = (...parts) => parts.join(NL);
 test("docks as a Panel and does not create a floating window", () => {
     const s = setup();
     assert.equal(s.log.windowsShown, 0);
-    assert.equal(s.host.children.length, 6);
+    assert.equal(s.host.children.length, 7);
     const r = ui(s.host);
     assert.equal(typeof r.scan.onClick, "function");
     assert.equal(r.exportButton.enabled, false);
@@ -220,7 +220,7 @@ test("export is user-initiated, writes the report once, and cancel writes nothin
     ui(cancelled.host).scan.onClick();
     ui(cancelled.host).exportButton.onClick();
     assert.equal(cancelled.log.writes.filter((w) => !w.path.startsWith("C:/Temp")).length, 0);
-    assert.match(ui(cancelled.host).status.text, /cancelled/i);
+    assert.match(ui(cancelled.host).exportLine.text, /cancelled/i);
 });
 
 test("outside a docked host the wrapper falls back to a floating palette", () => {
@@ -316,21 +316,35 @@ test("counters and notes are cleared when the next scan starts", () => {
     assert.equal(r.exportButton.enabled, false);
 });
 
-test("an export result is a short status and the path or error goes into the details", () => {
+test("an export result is a short line under the scan verdict (the verdict stays) and the path or error goes into the details", () => {
     const body = (env) => { env.alert(lines("Static text layers checked: 3", "Problems: 0; review needed: 0; not checked: 0")); reportBody(env); };
     const ok = setup({ probe: body });
     const r = ui(ok.host);
     r.scan.onClick();
     r.exportButton.onClick();
-    assert.equal(r.status.text, "Report exported.");
+    assert.match(r.status.text, /Scan complete/, "the scan verdict is still shown after Export");
+    assert.equal(r.exportLine.text, "Report exported.");
     assert.match(r.results.text, /Saved: C:\/Users\/me\/export\.txt/);
-    assert.deepEqual(colour(r.status), GREEN);
+    assert.deepEqual(colour(r.exportLine), GREEN);
     const cancelled = setup({ probe: body, exportCancel: true });
     const c = ui(cancelled.host);
     c.scan.onClick();
     c.exportButton.onClick();
-    assert.match(c.status.text, /Export cancelled/);
-    assert.deepEqual(colour(c.status), AMBER);
+    assert.match(c.status.text, /Scan complete/);
+    assert.match(c.exportLine.text, /Export cancelled/);
+    assert.deepEqual(colour(c.exportLine), AMBER);
+});
+
+test("the export line stays blank until an export happens and a new scan clears it", () => {
+    const body = (env) => { env.alert(lines("Static text layers checked: 3", "Problems: 0; review needed: 0; not checked: 0")); reportBody(env); };
+    const r = ui(setup({ probe: body }).host);
+    assert.equal(r.exportLine.text.trim(), "");
+    r.scan.onClick();
+    assert.equal(r.exportLine.text.trim(), "", "still blank after a scan, before an export");
+    r.exportButton.onClick();
+    assert.equal(r.exportLine.text, "Report exported.");
+    r.scan.onClick();
+    assert.equal(r.exportLine.text.trim(), "", "a new scan clears the export line");
 });
 
 // ---- compact main view, details toggle and one language at a time ----
@@ -413,7 +427,8 @@ test("Japanese texts: nothing-checked, no-composition note, export and errors ar
     const e = ui(exported.host);
     e.scan.onClick();
     e.exportButton.onClick();
-    assert.equal(e.status.text, "レポートを出力しました。");
+    assert.equal(e.exportLine.text, "レポートを出力しました。");
+    assert.ok(e.status.text.length > 0 && e.status.text !== "レポートを出力しました。");
     assert.match(e.results.text, /保存しました: C:\/Users\/me\/export\.txt/);
 });
 
